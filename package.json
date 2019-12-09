@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "tailwindcss": "^1.1.3"
+  },
+  "name": "dogsbody",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "tailwind build static/style/styles.css -o static/style/output.css",
+    "test": "python blog.py",
+    "build": "python blog.py build"
+  },
+  "license": "MIT"
+}

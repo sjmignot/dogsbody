@@ -1,0 +1,51 @@
+<head>
+  <title>{% block title %}{% endblock %} dogsbody </title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style/output.css') }}">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body class="bg-gray-100">
+  <div class="mr-auto w-9/12 min-h-full">
+    <!-- navbar -->
+    <nav class="sticky top-0 w-2/3 ml-auto mb-6 pt-4 bg-gray-100">
+      <img class="w-full" src="{{ url_for('static', filename='img/dogsbody.svg') }}" alt="Dogsbody logo" />
+      <ul class="font-display flex flex-row -mt-10 mb-5">
+        <li class="mx-6">
+          <a class="text-black text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl hover:text-green" href="#">blog</a>
+        </li>
+        <li class="mx-6">
+          <a class="text-black text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl hover:text-green" href="#">unblogged</a>
+        </li>
+        <li class="mx-6">
+          <a class="text-black text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl hover:text-green" href="#">about</a>
+        </li>
+        <li class="mx-6">
+          <a class="text-black text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl cursor-not-allowed" href="#">subscribe</a>
+        </li>
+        <li class ="mr-2 ml-auto flex flex-row">
+          <a href="#"><img class="w-6 m-2" src="{{ url_for('static', filename='img/linkedin.svg') }}" alt="LinkedIn Logo" /></a>
+          <a href="#"><img class="w-6 m-2" src="{{ url_for('static', filename='img/github.svg') }}" alt="Github Logo" /></a>
+          <a href="#"><img class="w-6 m-2" src="{{ url_for('static', filename='img/twitter.svg') }}" alt="Twitter Logo" /></a>
+        </li>
+      </ul>
+    <hr class="border-black border-2 mb-4"/>
+    </nav>
+
+    <div class="flex flex-row min-h-full">
+
+      <!-- sidebar -->
+      <div class="fixed w-3/12 min-h-full mt-32">
+        <ul class="list-reset text-center text-gray-500">
+        </ul>
+      </div>
+
+      <!-- content -->
+      <div class="w-2/3 ml-auto">
+        <section class="content">
+          {% block content %}{% endblock %}
+        </section>
+      </div>
+    </div>
+  </div>
+</body>
