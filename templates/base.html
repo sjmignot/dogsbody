@@ -6,16 +6,16 @@
 </head>
 
 <body class="bg-gray-100">
-  <div class="mr-auto w-9/12 min-h-full">
+  <div class="m-auto w-10/12 min-h-full">
     <!-- navbar -->
-    <nav class="sticky top-0 w-2/3 ml-auto mb-6 pt-4 bg-gray-100">
+    <nav class="sticky top-0 w-full ml-auto mb-6 pt-4 bg-gray-100">
       <img class="w-full" src="{{ url_for('static', filename='img/dogsbody.svg') }}" alt="Dogsbody logo" />
       <ul class="font-display flex flex-row -mt-10 mb-5">
         <li class="mx-6">
           <a class="text-black text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl hover:text-green" href="#">blog</a>
         </li>
         <li class="mx-6">
-          <a class="text-black text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl hover:text-green" href="#">backblogged</a>
+          <a class="text-black text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl hover:text-green" href="#">backblog</a>
         </li>
         <li class="mx-6">
           <a class="text-black text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl hover:text-green" href="#">about</a>
@@ -32,20 +32,9 @@
     <hr class="border-black border-2 mb-4"/>
     </nav>
 
-    <div class="flex flex-row min-h-full">
-
-      <!-- sidebar -->
-      <div class="fixed w-3/12 min-h-full mt-32">
-        <ul class="list-reset text-center text-gray-500">
-        </ul>
-      </div>
-
-      <!-- content -->
-      <div class="w-2/3 ml-auto">
-        <section class="content">
-          {% block content %}{% endblock %}
-        </section>
-      </div>
-    </div>
+    <!-- content -->
+    <section class="content">
+      {% block content %}{% endblock %}
+    </section>
   </div>
 </body>

@@ -7,8 +7,8 @@
   "main": "index.js",
   "scripts": {
     "build:css": "tailwind build static/style/styles.css -o static/style/output.css",
-    "test": "python blog.py",
-    "build": "python blog.py build"
+    "test": "python3 blog.py",
+    "build": "pythone blog.py build"
   },
   "license": "MIT"
 }
