@@ -600,7 +600,6 @@ video {
 }
 
 h1 {
-  font-size: 1.5rem;
 }
 
 h2 {
@@ -3466,11 +3465,11 @@ h3 {
 }
 
 .font-display {
-  font-family: Avenir Next, sans-serif;
+  font-family: Work Sans, sans-serif;
 }
 
-.font-body {
-  font-family: Graphik, sans-serif;
+.font-post {
+  font-family: Josefin Slab, serif;
 }
 
 .font-hairline {
@@ -13640,11 +13639,11 @@ body {
   }
 
   .sm\:font-display {
-    font-family: Avenir Next, sans-serif;
+    font-family: Work Sans, sans-serif;
   }
 
-  .sm\:font-body {
-    font-family: Graphik, sans-serif;
+  .sm\:font-post {
+    font-family: Josefin Slab, serif;
   }
 
   .sm\:font-hairline {
@@ -23804,11 +23803,11 @@ body {
   }
 
   .md\:font-display {
-    font-family: Avenir Next, sans-serif;
+    font-family: Work Sans, sans-serif;
   }
 
-  .md\:font-body {
-    font-family: Graphik, sans-serif;
+  .md\:font-post {
+    font-family: Josefin Slab, serif;
   }
 
   .md\:font-hairline {
@@ -33968,11 +33967,11 @@ body {
   }
 
   .lg\:font-display {
-    font-family: Avenir Next, sans-serif;
+    font-family: Work Sans, sans-serif;
   }
 
-  .lg\:font-body {
-    font-family: Graphik, sans-serif;
+  .lg\:font-post {
+    font-family: Josefin Slab, serif;
   }
 
   .lg\:font-hairline {
@@ -44132,11 +44131,11 @@ body {
   }
 
   .xl\:font-display {
-    font-family: Avenir Next, sans-serif;
+    font-family: Work Sans, sans-serif;
   }
 
-  .xl\:font-body {
-    font-family: Graphik, sans-serif;
+  .xl\:font-post {
+    font-family: Josefin Slab, serif;
   }
 
   .xl\:font-hairline {

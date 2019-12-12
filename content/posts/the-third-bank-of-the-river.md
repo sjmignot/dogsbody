@@ -1,5 +1,5 @@
-title: João Rosa’s The Third Bank of the River: Consciousness, Anxiety, Control, and Family
-date: 2018-18-27
+title: João Rosa’s The Third Bank of the River--Consciousness, Anxiety, Control, and Family
+date: 2018-08-27
 tags: joao-rosa,book,short-story,consciousness,anxiety,family
 subject: the third bank of the river
 genre: book

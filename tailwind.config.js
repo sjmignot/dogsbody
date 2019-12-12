@@ -6,17 +6,20 @@ module.exports = {
       },
     },
     fontFamily: {
-      display: ['Avenir Next', 'sans-serif'],
-      body: ['Graphik', 'sans-serif'],
+      display: ['Work Sans', 'sans-serif'],
+      post: ['Josefin Slab', 'serif']
     },
   },
   variants: {},
   plugins: [
     function({ addBase, config }) {
       addBase({
-        'h1': { fontSize: config('theme.fontSize.2xl') },
+        'h1': { fontWeight: config('theme.fontWeight.light'),
+                fontSize: config('theme.fontSize.xxl'),
+        },
         'h2': { fontSize: config('theme.fontSize.xl') },
         'h3': { fontSize: config('theme.fontSize.lg') },
+        'blockquote': {}, 
       })
     }
   ]
