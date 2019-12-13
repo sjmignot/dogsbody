@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+blockquote {
+  @apply p-4 bg-green text-white border-l-4 border-gray-500;
+}
+
 html {
     min-height: 100%;
     display: flex;

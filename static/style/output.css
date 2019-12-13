@@ -10800,6 +10800,14 @@ h3 {
   z-index: auto;
 }
 
+blockquote {
+  padding: 1rem;
+  background-color: #0F493F;
+  color: #fff;
+  border-left-width: 4px;
+  border-color: #a0aec0;
+}
+
 html {
   min-height: 100%;
   display: -webkit-box;

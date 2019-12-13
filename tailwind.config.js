@@ -14,12 +14,11 @@ module.exports = {
   plugins: [
     function({ addBase, config }) {
       addBase({
-        'h1': { fontWeight: config('theme.fontWeight.light'),
+        'h1': { fontWeight: config('theme.fontWeight.'),
                 fontSize: config('theme.fontSize.xxl'),
         },
         'h2': { fontSize: config('theme.fontSize.xl') },
-        'h3': { fontSize: config('theme.fontSize.lg') },
-        'blockquote': {}, 
+        'h3': { fontSize: config('theme.fontSize.lg') }
       })
     }
   ]
