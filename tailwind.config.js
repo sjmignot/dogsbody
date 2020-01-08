@@ -6,6 +6,8 @@ module.exports = {
       },
     },
     fontFamily: {
+      header: ['Gotham', 'sans-serif'],
+      posttitle: ['Helvetica', 'sans-serif'],
       display: ['Work Sans', 'sans-serif'],
       post: ['Josefin Slab', 'serif']
     },

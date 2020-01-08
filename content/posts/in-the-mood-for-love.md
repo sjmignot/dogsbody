@@ -1,5 +1,5 @@
-title: In The Mood for Love and the Lovers II--silence, observaiotn, the life we live between places, and, of course, love
-date: 2017-08-27
+title: "In The Mood for Love and the Lovers II: silence, observation, the life we live between places, and, of course, love"
+date: 2019-08-27
 tags: wong-kar-wai,film,love,magritte
 subject: in the mood for love
 genre: film

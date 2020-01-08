@@ -3464,6 +3464,14 @@ h3 {
   clear: both;
 }
 
+.font-header {
+  font-family: Gotham, sans-serif;
+}
+
+.font-posttitle {
+  font-family: Helvetica, sans-serif;
+}
+
 .font-display {
   font-family: Work Sans, sans-serif;
 }
@@ -10819,6 +10827,11 @@ body {
           flex: 1;
 }
 
+.header {
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
 @media (min-width: 640px) {
   .sm\:sr-only {
     position: absolute;
@@ -13644,6 +13657,14 @@ body {
     content: "";
     display: table;
     clear: both;
+  }
+
+  .sm\:font-header {
+    font-family: Gotham, sans-serif;
+  }
+
+  .sm\:font-posttitle {
+    font-family: Helvetica, sans-serif;
   }
 
   .sm\:font-display {
@@ -23810,6 +23831,14 @@ body {
     clear: both;
   }
 
+  .md\:font-header {
+    font-family: Gotham, sans-serif;
+  }
+
+  .md\:font-posttitle {
+    font-family: Helvetica, sans-serif;
+  }
+
   .md\:font-display {
     font-family: Work Sans, sans-serif;
   }
@@ -33972,6 +34001,14 @@ body {
     content: "";
     display: table;
     clear: both;
+  }
+
+  .lg\:font-header {
+    font-family: Gotham, sans-serif;
+  }
+
+  .lg\:font-posttitle {
+    font-family: Helvetica, sans-serif;
   }
 
   .lg\:font-display {
@@ -44138,6 +44175,14 @@ body {
     clear: both;
   }
 
+  .xl\:font-header {
+    font-family: Gotham, sans-serif;
+  }
+
+  .xl\:font-posttitle {
+    font-family: Helvetica, sans-serif;
+  }
+
   .xl\:font-display {
     font-family: Work Sans, sans-serif;
   }
@@ -51474,3 +51519,4 @@ body {
     z-index: auto;
   }
 }
+

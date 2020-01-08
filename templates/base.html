@@ -7,30 +7,29 @@
 
 <body class="bg-gray-100">
   <div class="m-auto w-8/12 min-h-full">
-    <!-- navbar -->
-    <nav class="sticky top-0 w-full ml-auto mb-6 pt-4 bg-gray-100">
-      <img class="w-full" src="{{ url_for('static', filename='img/dogsbody.svg') }}" alt="Dogsbody logo" />
-      <ul class="font-display flex flex-row -mt-10 mb-5">
-        <li class="mx-6">
-          <a class="text-black text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl hover:text-green" href="#">blog</a>
-        </li>
-        <li class="mx-6">
-          <a class="text-black text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl hover:text-green" href="#">backblog</a>
-        </li>
-        <li class="mx-6">
-          <a class="text-black text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl hover:text-green" href="#">about</a>
-        </li>
-        <li class="mx-6">
-          <a class="text-black text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl cursor-not-allowed" href="#">subscribe</a>
-        </li>
-        <li class ="mr-2 ml-auto flex flex-row">
-          <a href="#"><img class="w-6 m-2" src="{{ url_for('static', filename='img/linkedin.svg') }}" alt="LinkedIn Logo" /></a>
-          <a href="#"><img class="w-6 m-2" src="{{ url_for('static', filename='img/github.svg') }}" alt="Github Logo" /></a>
-          <a href="#"><img class="w-6 m-2" src="{{ url_for('static', filename='img/twitter.svg') }}" alt="Twitter Logo" /></a>
-        </li>
+    <header class="header">
+      <!-- navbar -->
+      <nav class="top-0 w-full ml-auto pb-4 pt-4 bg-gray-100">
+        <ul class="font-header flex flex-row">
+          <li class="mx-6 my-auto">
+            <a class="text-black text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl hover:text-green font-bold" href="#">BLOG</a>
+          </li>
+          <li class="mx-6 my-auto">
+            <a class="text-black text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl hover:text-green font-bold" href="#">BACKBLOG</a>
+          </li>
+          <li class="mx-6 my-auto">
+            <img class="w-full" src="{{ url_for('static', filename='img/logo.svg') }}" alt="Dogsbody logo" />
+          </li>
+          <li class="mx-6 my-auto">
+            <a class="text-black text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl hover:text-green font-bold" href="#">ABOUT</a>
+          </li>
+          <li class="mx-6 my-auto">
+            <a class="text-black text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl hover:text-green font-bold" href="#">SUBSCRIBE</a>
+          </li>
       </ul>
-    <hr class="border-black border-2 mb-4"/>
-    </nav>
+      <hr class="border-black border-1 mb-4"/>
+      </nav>
+    </header>
 
     <!-- content -->
     <section class="content">
