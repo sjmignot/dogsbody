@@ -6,27 +6,24 @@
 </head>
 
 <body class="bg-gray-100">
-  <div class="m-auto w-8/12 min-h-full">
+  <div class="m-auto w-full md:w-202 lg:w-202 xl:w-202">
     <header class="header">
       <!-- navbar -->
       <nav class="top-0 w-full ml-auto pb-4 pt-4 bg-gray-100">
-        <ul class="font-header flex flex-row">
-          <li class="mx-6 my-auto">
-            <a class="text-black text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl hover:text-green font-bold" href="#">BLOG</a>
-          </li>
-          <li class="mx-6 my-auto">
-            <a class="text-black text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl hover:text-green font-bold" href="#">BACKBLOG</a>
-          </li>
-          <li class="mx-6 my-auto">
+        <div class="font-header flex flex-row">
+          <div class="pl-5 justify-between flex flex-col flex-1 my-auto md:flex-row lg:flex-row xl:flex-row md:pl-0 lg:pl-0 xl:pl-0">
+            <a class="text-xl hover:underline hover:text-green font-bold" href="#">BLOG</a>
+            <a class="text-xl hover:underline hover:text-green font-bold" href="#">BACKBLOG</a>
+          </div>
+          <div class="flex-none inline w-32 mx-2 my-auto">
             <img class="w-full" src="{{ url_for('static', filename='img/logo.svg') }}" alt="Dogsbody logo" />
-          </li>
-          <li class="mx-6 my-auto">
-            <a class="text-black text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl hover:text-green font-bold" href="#">ABOUT</a>
-          </li>
-          <li class="mx-6 my-auto">
-            <a class="text-black text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl hover:text-green font-bold" href="#">SUBSCRIBE</a>
-          </li>
-      </ul>
+          </div>
+
+          <div class="pr-5 flex flex-col flex-1 my-auto justify-between md:flex-row lg:flex-row xl:flex-row md:pr-0 lg:pr-0 xl:pr-0">
+              <a class="text-right text-xl hover:underline hover:text-green font-bold" href="#">ABOUT</a>
+              <a class="text-right text-xl hover:underline hover:text-green font-bold" href="#">SUBSCRIBE</a>
+          </div>
+      </div>
       <hr class="border-black border-1 mb-4"/>
       </nav>
     </header>
