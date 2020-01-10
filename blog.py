@@ -26,7 +26,8 @@ def posts():
 def post(name):
     path = '{}/{}'.format(POST_DIR, name)
     post = flatpages.get_or_404(path)
-    return render_template('post.html', post=post)
+    date = post['date'].strftime("%b. %d, %Y").lower()
+    return render_template('post.html', post=post, date=date)
 
 @app.route("/about/")
 def about():
