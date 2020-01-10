@@ -19,7 +19,7 @@ app.config.from_object(__name__)
 def posts():
     posts = [p for p in flatpages if p.path.startswith(POST_DIR)]
     posts.sort(key=lambda item:item['date'], reverse=True)
-    dates = [post['date'].strftime("%b. %d, %Y") for post in posts]
+    dates = [post['date'].strftime("%b. %d, %Y").lower() for post in posts]
     return render_template('posts.html', posts=zip(posts,dates))
 
 @app.route('/posts/<name>/')

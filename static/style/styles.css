@@ -2,10 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-blockquote {
-  @apply p-4 bg-green text-white border-l-4 border-gray-500;
-}
-
 html {
     min-height: 100%;
     display: flex;
@@ -15,7 +11,47 @@ body {
     flex: 1;
 }
 
-.header {
-  transition: 0.2s;
+@keyframes changeLetter {
+  0% { content: "⚁"; }
+  17% { content: "⚀"; }
+  34% { content: "⚅"; }
+  51% { content: "⚂"; }
+  68% { content: "⚄"; }
+  85% { content: "⚃"; }
+  100% { content: "⚁"; }
 }
 
+.dice {
+    animation: changeLetter 3s linear infinite alternate;
+    animation-play-state: paused;
+}
+
+.dice:hover{
+  animation-play-state: running;
+}
+
+.post-link {
+  position: relative;
+}
+
+.post-link:hover::before {
+  content:'→';
+  position: absolute;
+  left: -40px;
+}
+
+.post blockquote {
+  @apply p-4 bg-green text-white border-l-4 border-gray-500;
+}
+
+.post img {
+  
+}
+
+.post h2 {
+
+}
+
+.post h3 {
+
+}

@@ -10670,14 +10670,6 @@ h3 {
   z-index: auto;
 }
 
-blockquote {
-  padding: 1rem;
-  background-color: #0F493F;
-  color: #fff;
-  border-left-width: 4px;
-  border-color: #a0aec0;
-}
-
 html {
   min-height: 100%;
   display: -webkit-box;
@@ -10689,9 +10681,89 @@ body {
           flex: 1;
 }
 
-.header {
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
+@-webkit-keyframes changeLetter {
+  0% { content: "⚁";
+  }
+
+  17% { content: "⚀";
+  }
+
+  34% { content: "⚅";
+  }
+
+  51% { content: "⚂";
+  }
+
+  68% { content: "⚄";
+  }
+
+  85% { content: "⚃";
+  }
+
+  100% { content: "⚁";
+  }
+}
+
+@keyframes changeLetter {
+  0% { content: "⚁";
+  }
+
+  17% { content: "⚀";
+  }
+
+  34% { content: "⚅";
+  }
+
+  51% { content: "⚂";
+  }
+
+  68% { content: "⚄";
+  }
+
+  85% { content: "⚃";
+  }
+
+  100% { content: "⚁";
+  }
+}
+
+.dice {
+  -webkit-animation: changeLetter 3s linear infinite alternate;
+          animation: changeLetter 3s linear infinite alternate;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+
+.dice:hover{
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+
+.post-link {
+  position: relative;
+}
+
+.post-link:hover::before {
+  content:'→';
+  position: absolute;
+  left: -40px;
+}
+
+.post blockquote {
+  padding: 1rem;
+  background-color: #0F493F;
+  color: #fff;
+  border-left-width: 4px;
+  border-color: #a0aec0;
+}
+
+.post img {
+}
+
+.post h2 {
+}
+
+.post h3 {
 }
 
 @media (min-width: 640px) {
@@ -50829,4 +50901,3 @@ body {
     z-index: auto;
   }
 }
-

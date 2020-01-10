@@ -2,20 +2,26 @@
 
 {% block content %}
 <div class="px-6 md:px-0 lg:px-0 xl:px-0">
+  <div class="dice">⚁</div>
   {% for post, date in posts %}
     {% if loop.index == 1 %}
-      <div class="flex justify-between pb-8">
-        <div class="flex flex-col w-1/6 text-gray font-light text-sm">
-          <div class="flex-0"> {{date}} </div>
-          <div class="flex-0"> {{post.genre}} </div>
+      <div class="flex-col pb-8">
+       <a class="w-full font-posttitle text-2xl hover:text-green hover:underline post-link" href="{{ url_for('post', name=post.path.replace('posts/','')) }}"> {{ post.title }} </a>
+        <div class="flex font-post text-sm font-light">
+          <div class="flex-0">{{ date }}</div>
+          <div class="text-red flex-0 px-4"> · </div>
+          <div class="flex-0"> {{ post.genre }}</div>
         </div>
-        <a class="w-3/4 font-posttitle text-2xl hover:text-green" href="{{ url_for('post', name=post.path.replace('posts/','')) }}"> {{ post.title }} </a>
       </div>
 
     {% else  %}
-      <div class="flex justify-between pb-8">
-        <div class="w-1/4 font-light text-2xl">{{ date }}</div>
-        <a class="w-3/4 font-posttitle text-2xl hover:text-green" href="{{ url_for('post', name=post.path.replace('posts/','')) }}"> {{ post.title }} </a>
+      <div class="flex-col pb-8">
+        <a class="w-full font-posttitle text-2xl hover:text-green hover:underline post-link" href="{{ url_for('post', name=post.path.replace('posts/','')) }}"> {{ post.title }} </a>
+        <div class="flex font-post text-sm font-light">
+          <div class="flex-0">{{ date }}</div>
+          <div class="text-red flex-0 px-4"> · </div>
+          <div class="flex-0"> {{ post.genre }}</div>
+        </div>
       </div>
     {% endif %}
   {% endfor %}
