@@ -1,8 +1,8 @@
-title: "João Rosa’s The Third Bank of the River: Consciousness, Anxiety, Control, and Family"
+title: "The Third Bank of the River: consciousness, anxiety, and family"
 date: 2018-08-27
 tags: joao-rosa,book,short-story,consciousness,anxiety,family
-subject: the third bank of the river
-genre: book
+genre: literature
+resonances: A Death in the Family
 
 Maybe it’s just me. Though, saying this after a title that pretends to “know all, say all” seems a kind of literary escapism—brackets of reluctance. This is what I have to say, and I will tell you. Though to say it right requires a journalistic recap of my day: a kind of middle school diary entry. Bear with me (please).
 

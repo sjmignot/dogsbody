@@ -1,7 +1,6 @@
 title: "Scary not scary: ghost songs for the not quite dead"
 date: 2020-01-08
 tags: playlist,ghosts
-subject: ghost songs
 genre: music
 
 This is the first of a weekly playlist series.
