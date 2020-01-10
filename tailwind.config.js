@@ -3,6 +3,8 @@ module.exports = {
     extend: {
       colors: {
         green: '#0F493F',
+        red: '#C73E1D',
+        orange: '#F18F01'
       },
       spacing: {
         '72': '18rem',
@@ -20,9 +22,9 @@ module.exports = {
     },
     fontFamily: {
       header: ['Gotham', 'sans-serif'],
-      posttitle: ['Helvetica', 'sans-serif'],
+      posttitle: ['Josefin Slab', 'serif'],
       display: ['Work Sans', 'sans-serif'],
-      post: ['Josefin Slab', 'serif']
+      post: ['sans-serif']
     },
   },
   variants: {},

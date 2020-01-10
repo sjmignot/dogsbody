@@ -1,10 +1,18 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<article class="font-post leading-normal">
-<h1 class="font-post font-regular text-2xl">{{ post.title.upper() }}</h1>
-{{ post.date }}
-<hr/>
+<div class="px-6 font-light leading-normal md:px-0 lg:px-0 xl:px-0">
+  <div class=mb-4>
+    <h1 class="font-posttitle font-semibold text-2xl text-center">{{ post.title.upper() }}</h1>
+    <div class="flex font-post justify-center font-light">
+      <div class="flex-0">{{ post.date }}</div>
+      <div class="text-red flex-0 px-4"> · </div>
+      <div class="flex-0"> Samuel Mignot </div>
+      <div class="text-red flex-0 px-4"> · </div>
+      <div class="flex-0"> {{ post.genre }}</div>
+    </div>
+  </div
+<article class="font-post font-light">
 {{ post.html|safe }}
 <div class="px-6 py-4">
   {% for tag in post.tags.split(",") %}
@@ -12,4 +20,5 @@
   {% endfor %}
 </div>
 </article>
+</div>
 {% endblock %}
