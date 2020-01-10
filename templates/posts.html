@@ -6,12 +6,13 @@
     {% if loop.index == 1 %}
       <img href="#"></img>
       <div class="flex pb-8">
-        <small>{{ post.date }}</small>
+        <div>{{ post.date }}</div>
         <a class="font-post text-2xl hover:text-green" href="{{ url_for('post', name=post.path.replace('posts/','')) }}"> {{ post.title }} </a>
       </div>
+
     {% else  %}
       <div class="flex pb-8">
-        <small>{{ post.date }}</small>
+        <div>{{ post.date }}</div>
           <a class="font-post text-2xl hover:text-green" href="{{ url_for('post', name=post.path.replace('posts/','')) }}"> {{ post.title }} </a>
       </div>
     {% endif  %}
