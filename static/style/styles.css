@@ -11,25 +11,6 @@ body {
     flex: 1;
 }
 
-@keyframes changeLetter {
-  0% { content: "⚁"; }
-  17% { content: "⚀"; }
-  34% { content: "⚅"; }
-  51% { content: "⚂"; }
-  68% { content: "⚄"; }
-  85% { content: "⚃"; }
-  100% { content: "⚁"; }
-}
-
-.dice {
-    animation: changeLetter 3s linear infinite alternate;
-    animation-play-state: paused;
-}
-
-.dice:hover{
-  animation-play-state: running;
-}
-
 .post-link {
   position: relative;
 }
@@ -45,7 +26,7 @@ body {
 }
 
 .post img {
-  
+  margin-bottom: 1rem;
 }
 
 .post h2 {
