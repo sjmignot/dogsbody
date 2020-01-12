@@ -10692,11 +10692,24 @@ body {
 }
 
 .post blockquote {
-  padding: 1rem;
-  background-color: #0F493F;
-  color: #fff;
-  border-left-width: 4px;
-  border-color: #a0aec0;
+  position: relative;
+  font-size: 12px;
+  font-style: italic;
+  display: block;
+  border-left: 5px solid #21610B;
+  padding: 1.5em 1.5em 1.5em 3.5em;
+  border-right: 2px dashed #21610B;
+  margin: 0 0 1.5em;
+}
+
+.post blockquote::before {
+  position: absolute;
+  font-size: 62px;
+  font-weight: bold;
+  content: "\"";
+  line-height: 1;
+  top: 10px;
+  left: 10px;
 }
 
 .post img {
