@@ -15,6 +15,31 @@ body {
   position: relative;
 }
 
+.dice { /* HTML symbols */
+  font-size: 30px;
+  font-weight: 100;
+  width: 30px;
+}
+
+.dice::after {
+  content:'\2680';
+  animation: rolling 4s linear infinite;
+  animation-play-state: paused
+}
+
+.dice:hover:after {
+  animation-play-state: running;
+}
+
+@keyframes rolling {
+  0% {content:'\2680';}
+  20% {content:'\2683';}
+  40% {content:'\2682';}
+  60% {content:'\2685';}
+  80% {content:'\2684';}
+  100% {content:'\2683';}
+}
+
 .post-link:hover::before {
   content:'→';
   position: absolute;

@@ -1,8 +1,9 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, redirect, url_for
 from flask_flatpages import FlatPages, pygments_style_defs
 from flask_frozen import Freezer
 import sys
 import datetime
+import random
 
 DEBUG = True
 FLATPAGES_AUTO_RELOAD = DEBUG
@@ -28,6 +29,12 @@ def post(name):
     post = flatpages.get_or_404(path)
     date = post['date'].strftime("%b. %d, %Y").lower()
     return render_template('post.html', post=post, date=date)
+
+@app.route('/random/')
+def random_page():
+    ps = [p for p in flatpages if p.path.startswith(POST_DIR)]
+    p = ps[random.randint(0, len(ps)-1)]
+    return redirect(url_for('post', name=p.path.replace('posts/','')))
 
 @app.route("/about/")
 def about():
