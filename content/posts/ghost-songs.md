@@ -3,7 +3,9 @@ date: 2020-01-08
 tags: playlist,ghosts
 genre: music
 
+<div class="frame-wrap">
 <iframe src="https://open.spotify.com/embed/playlist/6ahal05QUid7ZpNTBfsG9g" width="100%" height="200" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+</div>
 
 This is the first of a weekly playlist series.
 

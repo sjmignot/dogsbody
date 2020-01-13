@@ -9,7 +9,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build:css": "postcss static/style/styles.css -o static/style/output.css",
+    "build:css": "postcss static/css/styles.css -o static/css/output.css",
     "test": "python3 blog.py",
     "build": "python3 blog.py build"
   },

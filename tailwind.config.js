@@ -24,7 +24,7 @@ module.exports = {
       header: ['Gotham', 'sans-serif'],
       posttitle: ['Josefin Slab', 'serif'],
       display: ['Work Sans', 'sans-serif'],
-      post: ['sans-serif']
+      post: ['Gotham', 'sans-serif']
     },
   },
   variants: {},
