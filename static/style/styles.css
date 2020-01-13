@@ -15,19 +15,19 @@ body {
   position: relative;
 }
 
-.dice { /* HTML symbols */
+#dice { /* HTML symbols */
   font-size: 30px;
   font-weight: 100;
   width: 30px;
 }
 
-.dice::after {
+#dice::after {
   content:'\2680';
   animation: rolling 4s linear infinite;
   animation-play-state: paused
 }
 
-.dice:hover:after {
+#dice:hover:after {
   animation-play-state: running;
 }
 

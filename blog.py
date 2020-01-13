@@ -4,6 +4,7 @@ from flask_frozen import Freezer
 import sys
 import datetime
 import random
+import json
 
 DEBUG = True
 FLATPAGES_AUTO_RELOAD = DEBUG
@@ -17,32 +18,31 @@ freezer = Freezer(app)
 app.config.from_object(__name__)
 
 @app.route("/posts/")
-def posts():
+def blog():
     posts = [p for p in flatpages if p.path.startswith(POST_DIR)]
     posts.sort(key=lambda item:item['date'], reverse=True)
     dates = [post['date'].strftime("%b. %d, %Y").lower() for post in posts]
-    return render_template('posts.html', posts=zip(posts,dates))
+    post_names = [p.path.replace('posts/','') for p in posts]
+    return render_template('posts.html', posts=zip(posts,dates), post_names=post_names)
 
-@app.route('/posts/<name>/')
-def post(name):
+@app.route('/post/<name>/')
+def blog_post(name):
     path = '{}/{}'.format(POST_DIR, name)
+    posts = [p for p in flatpages if p.path.startswith(POST_DIR)]
     post = flatpages.get_or_404(path)
     date = post['date'].strftime("%b. %d, %Y").lower()
-    return render_template('post.html', post=post, date=date)
-
-@app.route('/random/')
-def random_page():
-    ps = [p for p in flatpages if p.path.startswith(POST_DIR)]
-    p = ps[random.randint(0, len(ps)-1)]
-    return redirect(url_for('post', name=p.path.replace('posts/','')))
+    post_names = [p.path.replace('posts/', '') for p in posts]
+    return render_template('post.html', post=post, date=date, post_names=post_names)
 
 @app.route("/about/")
 def about():
-    return render_template('about.html')
+    posts = [p for p in flatpages if p.path.startswith(POST_DIR)]
+    post_names = json.dumps([p.path.replace('posts/','') for p in posts])
+    return render_template('about.html', post_names=post_names)
 
-@app.route("/backblog/")
-def backblog():
-    return render_template('backblog.html')
+# @app.route("/backblog/")
+# def backblog():
+#     return render_template('backblog.html')
 
 if __name__ == "__main__":
     if len(sys.argv) > 1 and sys.argv[1] == "build":
