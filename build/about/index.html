@@ -1,10 +1,11 @@
+<!DOCTYPE html>
+<html lang="en-US">
 <head>
   <title> dogsbody </title>
   <link rel="stylesheet" href="/static/style/output.css">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-
 <body class="bg-gray-100">
   <div class="m-auto w-full md:w-190 lg:w-190 xl:w-190">
     <header class="header">
@@ -31,8 +32,8 @@
       </div>
       <hr class="mx-6 border-black border-2 -mt-10 mb-6 md:mx-0"/>
       <div class="flex ml-auto justify-end -mt-4 pr-6 md:pr-0">
-        <a class="flex-0 px-1" href="/random">
-          <div class="dice -mt-3 -mr-3"></div>
+        <a class="flex-0 px-1" href="">
+          <div id="dice" class="-mt-3 -mr-3"></div>
         </a>
         <div class="px-1">/</div>
         <a target="_blank" rel="noopener" class="flex-0 px-1" href="https://github.com/sjmignot">
@@ -56,3 +57,12 @@
   <footer>
   </footer>
 </body>
+<script>
+  var post_names = ["ghost-songs", "andrei-rublev", "in-the-mood-for-love", "the-third-bank-of-the-river", "chungking-express"]
+  var post_name = post_names[Math.floor(Math.random()*post_names.length)];
+  console.log(post_name)
+  window.onload = function() {
+    document.getElementById("dice").parentElement.href=`/post/${post_name}`;
+  }
+</script>
+</html>
