@@ -1,2 +1,3 @@
- /build/
+/build/
 .envrc
+/node_modules
