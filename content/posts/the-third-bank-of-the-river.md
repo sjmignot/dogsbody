@@ -31,6 +31,8 @@ So, today I came to an understanding with João Rosa’s story. If you haven’t
 In the story the protagonist’s father commissions a boat and takes it out onto the wide river that snakes past his home; once on the river, he never returns to the shore.
 
 > Father headed his boat to the other side of the river and into the marshes, which he knew like the palm of his hand but in which other people quickly got lost. There in his private maze, which extended for miles, with heavy foliage overhead and rushes on all sides, he was safe
+>
+> -- <cite>The Third Bank of the River</cite>
 
 Though, after all my wordage, I’m not here to try and convince you that this story is about consciousness or anxiety; I don’t think it was meant to be about either.
 
@@ -39,6 +41,8 @@ What I can’t help but thinking and feeling when reading and rereading the stor
 When the son tries to take his father’s place on the river.
 
 > He heard me. He stood up. He maneuvered with oars and headed the boat toward me. He had accepted my offer. And suddenly I trembled, down deep. For he had raised his arm and waved—the first time in so many, so many years
+>
+> -- <cite>The Third Bank of the River</cite>
 
 When the father rows back towards the shore, I cannot help but think he is waking up from a dream: from his life that has been lived and spent on the river without him. A life finally remembered.
 
@@ -51,3 +55,5 @@ The story reads so much like a dream, too. Passing quickly, suddenly: a generati
 Anxiety is swimming against the current of the stream of consciousness, but what would life be if we stopped.
 
 > I must stay in the deserts and unmarked plains of my life, and I fear I shall shorten it. But when death comes I want them to take me and put me in a little boat in this perpetual water between the long shores: and I, down the river, lost in the river, inside the river…the river…
+>
+> -- <cite>The Third Bank of the River</cite>

@@ -53,8 +53,7 @@ body {
   left: -40px;
 }
 
-/* purgecss ignore */
-blockquote {
+.post blockquote {
   position: relative;
   font-size: 12px;
   font-style: italic;
@@ -63,20 +62,19 @@ blockquote {
   padding: 1.5em 1.5em 1.5em 3.5em;
   border-right: 2px dashed #21610B;
   margin: 0 0 1.5em;
+  background: aliceblue;
 }
 
-/* purgecss ignore */
 blockquote::before {
   position: absolute;
   font-size: 62px;
+  font-family: 'Courier';
   font-weight: bold;
   content: "\"";
   line-height: 1;
   top: 10px;
-  left: 10px;
+  left: 2px;
 }
-
-
 
 .post img {
   margin-bottom: 1rem;
