@@ -83,6 +83,33 @@ blockquote::before {
   border: solid 1px #EFEFEF;
 }
 
+/* purgecss start ignore */
+img[src*='#center'] {
+    display: block;
+    margin: auto;
+    width: 256px;
+}
+/* purgecss end ignore */
+
+.l, .r {
+    width: 48%;
+    text-align: justify;
+}
+
+.l:before, .r:before {
+  content: "";
+  width: 9rem;
+  height: 9rem;
+}
+
+.l:before {
+  float: right;
+}
+
+.r:before {
+  float: left;
+}
+
 .frame-wrap {
   margin-bottom: 1rem;
   padding: 5px;

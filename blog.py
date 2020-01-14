@@ -11,6 +11,7 @@ FLATPAGES_AUTO_RELOAD = DEBUG
 FLATPAGES_EXTENSION = '.md'
 FLATPAGES_ROOT = 'content'
 POST_DIR = 'posts'
+OTHER_DIR = 'other'
 
 app = Flask(__name__)
 flatpages = FlatPages(app)
@@ -36,9 +37,11 @@ def blog_post(name):
 
 @app.route("/about/")
 def about():
+    path = '{}/{}'.format(OTHER_DIR, 'about')
+    about = flatpages.get_or_404(path)
     posts = [p for p in flatpages if p.path.startswith(POST_DIR)]
     post_names = json.dumps([p.path.replace('posts/','') for p in posts])
-    return render_template('about.html', post_names=post_names)
+    return render_template('about.html', about=about, post_names=post_names)
 
 # @app.route("/backblog/")
 # def backblog():

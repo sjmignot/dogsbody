@@ -5,7 +5,9 @@ const purgecss = require('@fullhuman/postcss-purgecss')({
     './content/posts/*.md'
   ],
   whitelist: [
-    'blockquote'
+    'blockquote',
+    'l',
+    'r',
   ],
   // Include any special characters you're using in this regular expression
   defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || []
