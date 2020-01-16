@@ -4,7 +4,8 @@ module.exports = {
       colors: {
         green: '#0F493F',
         red: '#C73E1D',
-        orange: '#F18F01'
+        orange: '#F18F01',
+        blue: '#0000EE'
       },
       spacing: {
         '72': '18rem',

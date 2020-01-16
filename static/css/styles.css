@@ -91,25 +91,6 @@ img[src*='#center'] {
 }
 /* purgecss end ignore */
 
-.l, .r {
-    width: 48%;
-    text-align: justify;
-}
-
-.l:before, .r:before {
-  content: "";
-  width: 9rem;
-  height: 9rem;
-}
-
-.l:before {
-  float: right;
-}
-
-.r:before {
-  float: left;
-}
-
 .frame-wrap {
   margin-bottom: 1rem;
   padding: 5px;
@@ -118,7 +99,15 @@ img[src*='#center'] {
 }
 
 .post h2 {
+  @apply font-postheader text-2xl;
+}
 
+.post a {
+  @apply text-blue;
+}
+
+.post a:hover {
+  @apply underline;
 }
 
 .post h3 {

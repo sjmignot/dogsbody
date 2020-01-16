@@ -4,10 +4,8 @@ const purgecss = require('@fullhuman/postcss-purgecss')({
     './templates/*.html',
     './content/posts/*.md'
   ],
-  whitelist: [
-    'blockquote',
-    'l',
-    'r',
+  whitelistPatterns: [
+    /^\.post/,
   ],
   // Include any special characters you're using in this regular expression
   defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || []
