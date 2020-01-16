@@ -70,6 +70,7 @@ blockquote::before {
 }
 
 .post img {
+  @apply w-full;
   margin-bottom: 1rem;
   padding: 5px;
   background: black;
