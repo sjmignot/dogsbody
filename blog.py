@@ -24,7 +24,7 @@ def img_markdown_preprocess():
     image_sizes = {'sm':'480w', 'md':'800w'}
     img_pattern = r"<img alt=\".*\" src=\"(/static/img/.*)\" />"
     src_replace_pattern = r"src=\"/static/img/.*\""
-    srcset_size_pattern = "srcset=\"{srcset_val}\" sizes=\"(max-width: 600px) 480px, 45rem\""
+    srcset_size_pattern = "srcset=\"{srcset_val}\"" #sizes=\"(max-width: 45rem) 800px, 100vw\""
     for p in flatpages:
         img_matches = re.findall(img_pattern, p.html)
         for img_match in img_matches:
