@@ -4,6 +4,7 @@ from flask_frozen import Freezer
 import sys
 import datetime
 import random
+import re
 import json
 
 DEBUG = True
@@ -17,6 +18,19 @@ app = Flask(__name__)
 flatpages = FlatPages(app)
 freezer = Freezer(app)
 app.config.from_object(__name__)
+
+def img_markdown_preprocess():
+    '''adds a srcset attribute to all images to allow responsive image serving. Requires name of all images file to be the same. '''
+    image_sizes = {'sm':'480w', 'md':'800w'}
+    img_pattern = r"<img alt=\".*\" src=\"(/static/img/.*)\" />"
+    src_replace_pattern = r"src=\"/static/img/.*\""
+    srcset_size_pattern = "srcset=\"{srcset_val}\" sizes=\"(max-width: 600px) 480px, 45rem\""
+    for p in flatpages:
+        img_matches = re.findall(img_pattern, p.html)
+        for img_match in img_matches:
+            srcset_val = ', '.join([img_match.replace(".jpg", f"-{k}.jpg")+f" {v}" for k, v in image_sizes.items()])
+            src_replace_value = srcset_size_pattern.format(srcset_val=srcset_val)
+            p.html = re.sub(src_replace_pattern, src_replace_value, p.html)
 
 @app.route("/posts/")
 def blog():
@@ -52,6 +66,7 @@ def backblog():
     return render_template('backblog.html', backblog=backblog, post_names=post_names)
 
 if __name__ == "__main__":
+    img_markdown_preprocess()
     if len(sys.argv) > 1 and sys.argv[1] == "build":
         freezer.freeze()
     else:
