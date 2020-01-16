@@ -3,20 +3,19 @@ date: 2020-01-16
 tags: playlist,suede,velvet,midas
 genre: music
 
+This weeks playlist is rather themeless, but shaped around the first song: Mold Baby (& The Queen Midas) by The So So Glos.
+
 <div class="frame-wrap float-right">
 <iframe src="https://open.spotify.com/embed/playlist/7cq4bDwsKxg8UGmLPNisok" width="100%" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </div>
 
-This weeks playlist is ghost themed. The title draws inspiration from [Zachary Schomburg](https://www.poetryfoundation.org/poets/zachary-schomburg)'s brilliant poem _Scary, No Scary_.
-
-## 1. Spooky Ghosts, SNCKPACK
+## Mold Baby (& The Queen Midas), THe So So Glos
 
 The first song on the playlist, SNCKPACK's _Spooky Ghosts_, launched me on my ghost quest. The song is tender and heartwarming. Though, I have to admit I'm a sucker for ukulele riffs and tender lyrics.
 
-## 2. Another Song About Ghosts, Joy Again
-## 3. Ghost Town, The Specials
-## 4. Ghosteen, Nick Cave & the Bad Seeds
-## 5. Ghost Mouth, Girls
-## 6. Ghost Ship, Blur
-## 7. Henry (Acid Ghost Version), Soccer Mommy
-## 8. Living Ghost, Joy Again
+## Bobby, (Sandy) Alex G
+## Don't Ever Leave Me, Bob Marley & The Wailers
+## Linda Ronstadt, AJJ
+## The Bug Collector, Haley Heynderickx
+## The Bus Song, Jay Som
+## Cure for Pain, Morphine
