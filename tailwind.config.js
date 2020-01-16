@@ -23,6 +23,7 @@ module.exports = {
     fontFamily: {
       header: ['Gotham', 'sans-serif'],
       posttitle: ['Josefin Slab', 'serif'],
+      postheader: ['Klinic Slab', 'serif'],
       display: ['Work Sans', 'sans-serif'],
       post: ['Gotham', 'sans-serif']
     },

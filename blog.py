@@ -43,9 +43,13 @@ def about():
     post_names = json.dumps([p.path.replace('posts/','') for p in posts])
     return render_template('about.html', about=about, post_names=post_names)
 
-# @app.route("/backblog/")
-# def backblog():
-#     return render_template('backblog.html')
+@app.route("/backblog/")
+def backblog():
+    path = '{}/{}'.format(OTHER_DIR, 'backblog')
+    backblog= flatpages.get_or_404(path)
+    posts = [p for p in flatpages if p.path.startswith(POST_DIR)]
+    post_names = json.dumps([p.path.replace('posts/','') for p in posts])
+    return render_template('backblog.html', backblog=backblog, post_names=post_names)
 
 if __name__ == "__main__":
     if len(sys.argv) > 1 and sys.argv[1] == "build":
