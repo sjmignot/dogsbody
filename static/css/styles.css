@@ -1,7 +1,7 @@
-/* purgecss start ignore */
+/*! purgecss start ignore */
 @tailwind base;
 @tailwind components;
-/* purgecss end ignore */
+/*! purgecss end ignore */
 
 @tailwind utilities;
 
@@ -12,14 +12,6 @@ html {
 
 body {
     flex: 1;
-}
-
-.post > p {
-  @apply pb-4
-}
-
-.post-link {
-  position: relative;
 }
 
 #dice {
@@ -47,6 +39,7 @@ body {
   100% {content:'\2683';}
 }
 
+/*! purgecss start ignore */
 .post-link:hover::before {
   content:'→';
   position: absolute;
@@ -79,8 +72,7 @@ blockquote::before {
 .post img {
   margin-bottom: 1rem;
   padding: 5px;
-  box-shadow: 1px 1px 5px #999;
-  border: solid 1px #EFEFEF;
+  background: black;
 }
 
 /* purgecss start ignore */
@@ -94,12 +86,11 @@ img[src*='#center'] {
 .frame-wrap {
   margin-bottom: 1rem;
   padding: 5px;
-  box-shadow: 1px 1px 5px #999;
-  border: solid 1px #EFEFEF;
+  background: black;
 }
 
 .post h2 {
-  @apply font-postheader text-2xl;
+  @apply font-postheader pb-4 text-2xl;
 }
 
 .post a {
@@ -110,6 +101,15 @@ img[src*='#center'] {
   @apply underline;
 }
 
-.post h3 {
-
+.post > p {
+  @apply pb-4
 }
+
+.post-link {
+  position: relative;
+}
+
+.post h3 {
+  @apply font-postheader pb-4 text-xl;
+}
+/*! purgecss end ignore */

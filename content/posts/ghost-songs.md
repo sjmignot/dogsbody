@@ -4,7 +4,7 @@ tags: playlist,ghosts
 genre: music
 
 <div class="frame-wrap">
-<iframe src="https://open.spotify.com/embed/playlist/6ahal05QUid7ZpNTBfsG9g" width="100%" height="200" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe src="https://open.spotify.com/embed/playlist/6ahal05QUid7ZpNTBfsG9g" width="100%" height="400" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </div>
 
 This weeks playlist is ghost themed. The title draws inspiration from [Zachary Schomburg](https://www.poetryfoundation.org/poets/zachary-schomburg)'s brilliant poem _Scary, No Scary_.
