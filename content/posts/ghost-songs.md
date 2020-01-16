@@ -3,11 +3,11 @@ date: 2020-01-08
 tags: playlist,ghosts
 genre: music
 
+This weeks playlist is ghost themed. The title draws inspiration from [Zachary Schomburg](https://www.poetryfoundation.org/poets/zachary-schomburg)'s brilliant poem _Scary, No Scary_.
+
 <div class="frame-wrap">
 <iframe src="https://open.spotify.com/embed/playlist/6ahal05QUid7ZpNTBfsG9g" width="100%" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </div>
-
-This weeks playlist is ghost themed. The title draws inspiration from [Zachary Schomburg](https://www.poetryfoundation.org/poets/zachary-schomburg)'s brilliant poem _Scary, No Scary_.
 
 ## 1. Spooky Ghosts, SNCKPACK
 

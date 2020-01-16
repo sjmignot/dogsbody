@@ -3,8 +3,8 @@ date: 2020-01-16
 tags: playlist,suede,velvet,midas
 genre: music
 
-<div class="frame-wrap">
-<iframe src="https://open.spotify.com/embed/playlist/7cq4bDwsKxg8UGmLPNisok" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<div class="frame-wrap float-right">
+<iframe src="https://open.spotify.com/embed/playlist/7cq4bDwsKxg8UGmLPNisok" width="100%" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 </div>
 
 This weeks playlist is ghost themed. The title draws inspiration from [Zachary Schomburg](https://www.poetryfoundation.org/poets/zachary-schomburg)'s brilliant poem _Scary, No Scary_.
