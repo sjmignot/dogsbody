@@ -1,8 +1,9 @@
-var gulp = require('gulp');
-var postcss = require('gulp-postcss');
-var imagemin = require('gulp-imagemin');
-var rename = require("gulp-rename");
-var responsive = require('gulp-responsive')
+const gulp = require('gulp');
+const postcss = require('gulp-postcss');
+const imagemin = require('gulp-imagemin');
+const imageminMozjpeg = require('imagemin-mozjpeg');
+const rename = require("gulp-rename");
+const imageResize = require('gulp-image-resize');
 
 gulp.task('css', function () {
   return gulp.src('static/css/styles.css')
@@ -10,35 +11,35 @@ gulp.task('css', function () {
   .pipe(gulp.dest('dist/'));
 });
 
-gulp.task('resize-all', function() {
- return gulp
-  .src('static/img/**/*.jpg')
-  .pipe(
-     responsive({
-       '*.*': [
-         {
-           width: 1024,
-           format: 'jpeg',
-           rename: '*-lg.jpg',
-           withoutEnlargement: true,
-           errorOnEnlargement: false
-         },
-         {
-           width: 640,
-           format: 'jpeg',
-           rename: '*-md.jpg',
-           withoutEnlargement: true,
-           errorOnEnlargement: false
-         },
-         {
-           width: 320,
-           format: 'jpeg',
-           rename: '*-sm.jpg',
-           withoutEnlargement: true,
-           errorOnEnlargement: false
-         }
-       ]
-     })
-  )
-  .pipe(gulp.dest('dist'))
+gulp.task('images', () => {
+  const sizes = [
+    { width: 320, quality: 40, suffix: 'sm' },
+    { width: 640, quality: 60, suffix: 'md' },
+    { width: 1024, quality: 80, suffix: 'lg' },
+  ];
+  let stream;
+  sizes.forEach((size) => {
+    stream = gulp
+      .src('static/img/**/*.jpg')
+      .pipe(imageResize({ width: size.width }))
+      .pipe(
+        rename((path) => {
+          path.basename += `-${size.suffix}`;
+        }),
+      )
+      .pipe(
+        imagemin(
+          [
+            imageminMozjpeg({
+              quality: size.quality,
+            }),
+          ],
+          {
+            verbose: true,
+          },
+        ),
+      )
+      .pipe(gulp.dest('dest/'));
+  });
+  return stream;
 });
