@@ -16,9 +16,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build:css": "postcss static/css/styles.css -o static/css/output.css",
+    "build:css": "npx tailwind build static/css/styles.css -o static/css/output.css",
     "test": "python3 blog.py",
-    "build": "python3 blog.py build"
+    "build": "python3 blog.py build",
+    "postbuild": "gulp css images"
   },
   "license": "MIT",
   "devDependencies": {

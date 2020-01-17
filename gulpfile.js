@@ -8,7 +8,10 @@ const imageResize = require('gulp-image-resize');
 gulp.task('css', function () {
   return gulp.src('static/css/styles.css')
   .pipe(postcss())
-  .pipe(gulp.dest('dist/'));
+  .pipe(rename((path) => {
+    path.basename = 'output'
+  }))
+  .pipe(gulp.dest('build/static/css/'));
 });
 
 gulp.task('images', () => {
@@ -39,7 +42,7 @@ gulp.task('images', () => {
           },
         ),
       )
-      .pipe(gulp.dest('dest/'));
+      .pipe(gulp.dest('build/static/img/'));
   });
   return stream;
 });
