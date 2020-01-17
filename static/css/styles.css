@@ -30,6 +30,11 @@ body {
   animation-play-state: running;
 }
 
+@font-face {
+    font-family: 'Klinic Slab';
+    src: url(../fonts/KlinicSlabBook.otf);
+}
+
 @keyframes rolling {
   0% {content:'\2680';}
   20% {content:'\2683';}
