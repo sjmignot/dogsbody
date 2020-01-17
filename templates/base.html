@@ -56,12 +56,12 @@
   <footer class="fixed w-full bg-gray-900 text-white border-t-1 border-green">
     <p class="py-4 text-center">dogsbody · a samuel mignot production · blogging for bipeds</p>
   </footer>
+  <script>
+    var post_names = {{ post_names|safe }}
+    var post_name = post_names[Math.floor(Math.random()*post_names.length)];
+    window.onload = function() {
+      document.getElementById("dice").parentElement.href=`/post/${post_name}`;
+    }
+  </script>
 </body>
-<script>
-  var post_names = {{ post_names|safe }}
-  var post_name = post_names[Math.floor(Math.random()*post_names.length)];
-  window.onload = function() {
-    document.getElementById("dice").parentElement.href=`/post/${post_name}`;
-  }
-</script>
 </html>

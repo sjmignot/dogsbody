@@ -21,15 +21,15 @@ app.config.from_object(__name__)
 
 def img_markdown_preprocess():
     '''adds a srcset attribute to all images to allow responsive image serving. Requires name of all images file to be the same. '''
-    image_sizes = {'sm':'480w', 'md':'800w'}
+    image_sizes = {'sm':'320w', 'md':'640w', 'lg': '1024w'}
     img_pattern = r"<img alt=\".*\" src=\"(/static/img/.*)\" />"
     src_replace_pattern = r"src=\"/static/img/.*\""
-    srcset_size_pattern = "srcset=\"{srcset_val}\"" #sizes=\"(max-width: 45rem) 800px, 100vw\""
+    srcset_size_pattern = "src=\"{img_src}\" srcset=\"{srcset_val}\"" #sizes=\"(max-width: 640px) 480px, (min-width:768px) 800px, 1200w\""
     for p in flatpages:
         img_matches = re.findall(img_pattern, p.html)
         for img_match in img_matches:
             srcset_val = ', '.join([img_match.replace(".jpg", f"-{k}.jpg")+f" {v}" for k, v in image_sizes.items()])
-            src_replace_value = srcset_size_pattern.format(srcset_val=srcset_val)
+            src_replace_value = srcset_size_pattern.format(img_src=img_match.replace(".jpg", "-md.jpg"), srcset_val=srcset_val)
             p.html = re.sub(src_replace_pattern, src_replace_value, p.html)
 
 @app.route("/posts/")
