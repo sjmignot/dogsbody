@@ -18,12 +18,12 @@
             <div class="hidden md:block px-1 text-2xl">·</div>
             <a class="mx-auto sm:mx-0 text-xl sm:text-2xl hover:underline hover:text-green {{ 'active' if active_page == 'backblog' else '' }}" href="/backblog">BACKBLOG</a>
           </div>
-          <div class="order-first mx-auto flex-none inline sm:order-none w-32 sm:mx-2 my-auto md:mx-6">
+          <div class="flex order-first mx-auto sm:order-none w-32 sm:mx-2 my-auto md:mx-6">
             <a href="/posts">
               <img class="w-full" src="{{ url_for('static', filename='img/logo.svg') }}" alt="Dogsbody logo" />
             </a>
-            <div class="sm:hidden">
-              \>
+            <div class="my-auto text-3xl sm:hidden">
+              >
             </div>
           </div>
 
