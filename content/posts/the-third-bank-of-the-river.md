@@ -4,7 +4,7 @@ tags: joao-rosa,book,short-story,consciousness,anxiety,family
 genre: literature
 resonances: A Death in the Family
 
-![the-third-bank-of-the-river](/static/img/post-images/the-third-bank-of-the-river/the-third-bank-of-the-river.png)
+![the-third-bank-of-the-river](/static/img/post-images/the-third-bank-of-the-river/the-third-bank-of-the-river.jpg)
 
 Maybe it’s just me. Though, saying this after a title that pretends to “know all, say all” seems a kind of literary escapism—brackets of reluctance. This is what I have to say, and I will tell you. Though to say it right requires a journalistic recap of my day: a kind of middle school diary entry. Bear with me (please).
 

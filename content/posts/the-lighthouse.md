@@ -1,8 +1,7 @@
-title: "Chungking express: rewriting the rules"
-date: 2020-01-10
-tags: wong-kar-wai
+title: "The Lighthouse: prometheus' gift"
+date: 2020-01-1
+tags: robert-eggers
 genre: film
-resonances: Psycho,Paris Texas
 
 ![chungking-express](/static/img/post-images/chungking-express/chungking-express.jpg)
 
