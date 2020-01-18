@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body class="bg-gray-100">
-  <div class="m-auto w-full md:w-190">
+  <div class="m-auto w-full md:w-190 flex flex-col h-full">
     <header class="header">
       <!-- navbar -->
       <nav class="top-0 font-semibold w-full ml-auto pb-4 pt-4 bg-gray-100">
@@ -50,11 +50,11 @@
     </header>
 
     <!-- content -->
-    <section class="content">
+    <section class="content flex-1">
       {% block content %}{% endblock %}
     </section>
   </div>
-  <footer class="fixed w-full bg-gray-900 text-white border-t-1 border-green">
+  <footer class="w-full bg-gray-900 text-white border-t-1 border-green pin-b">
     <p class="py-4 text-center">dogsbody · a samuel mignot production · blogging for bipeds</p>
   </footer>
   <script>

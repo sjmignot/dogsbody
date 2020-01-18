@@ -1,5 +1,5 @@
 title: "The Lighthouse: prometheus' gift"
-date: 2020-01-1
+date: 2020-01-01
 tags: robert-eggers
 genre: film
 
