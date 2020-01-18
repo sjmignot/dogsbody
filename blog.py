@@ -1,10 +1,9 @@
-from flask import Flask, render_template, redirect, url_for
-from flask_flatpages import FlatPages, pygments_style_defs
+from flask import Flask, render_template, redirect, url_for, render_template_string, Markup
+from flask_flatpages import FlatPages, pygments_style_defs, pygmented_markdown
 from flask_frozen import Freezer
 import sys
-import datetime
-import random
 import re
+import datetime
 import json
 
 DEBUG = True
@@ -14,23 +13,37 @@ FLATPAGES_ROOT = 'content'
 POST_DIR = 'posts'
 OTHER_DIR = 'other'
 
+def prerender_jinja(text):
+    prerendered_body = render_template_string(Markup(text))
+    pygmented = pygmented_markdown(prerendered_body)
+    if len(sys.argv) > 1 and sys.argv[1] == "build":
+        return img_markdown_preprocess(pygmented)
+    else:
+        return pygmented
+
+FLATPAGES_HTML_RENDERER = prerender_jinja
+
 app = Flask(__name__)
 flatpages = FlatPages(app)
 freezer = Freezer(app)
+
 app.config.from_object(__name__)
 
-def img_markdown_preprocess():
+def img_markdown_preprocess(page):
     '''adds a srcset attribute to all images to allow responsive image serving. Requires name of all images file to be the same. '''
     image_sizes = {'sm':'320w', 'md':'640w', 'lg': '1024w'}
     img_pattern = r"<img alt=\".*\" src=\"(/static/img/.*)\" />"
     src_replace_pattern = r"src=\"/static/img/.*\""
     srcset_size_pattern = "src=\"{img_src}\" srcset=\"{srcset_val}\"" #sizes=\"(max-width: 640px) 480px, (min-width:768px) 800px, 1200w\""
-    for p in flatpages:
-        img_matches = re.findall(img_pattern, p.html)
-        for img_match in img_matches:
-            srcset_val = ', '.join([img_match.replace(".jpg", f"-{k}.jpg")+f" {v}" for k, v in image_sizes.items()])
-            src_replace_value = srcset_size_pattern.format(img_src=img_match.replace(".jpg", "-md.jpg"), srcset_val=srcset_val)
-            p.html = re.sub(src_replace_pattern, src_replace_value, p.html)
+    img_matches = re.findall(img_pattern, page)
+    for img_match in img_matches:
+        srcset_val = ', '.join([img_match.replace(".jpg", f"-{k}.jpg")+f" {v}" for k, v in image_sizes.items()])
+        src_replace_value = srcset_size_pattern.format(img_src=img_match, srcset_val=srcset_val)
+        return re.sub(src_replace_pattern, src_replace_value, page)
+
+@app.route('/')
+def home():
+    return redirect(url_for('blog'))
 
 @app.route("/posts/")
 def blog():
@@ -66,7 +79,6 @@ def backblog():
     return render_template('backblog.html', backblog=backblog, post_names=post_names)
 
 if __name__ == "__main__":
-    img_markdown_preprocess()
     if len(sys.argv) > 1 and sys.argv[1] == "build":
         freezer.freeze()
     else:
