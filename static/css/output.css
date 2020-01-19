@@ -10242,6 +10242,14 @@ img[src*='#center'] {
 
 /*! purgecss end ignore */
 
+img[src$='#image-right']{
+  margin-bottom: 1rem;
+  padding: 5px;
+  background: black;
+  float: right;
+  width: 50%;
+}
+
 @media (min-width: 640px) {
   .sm\:sr-only {
     position: absolute;

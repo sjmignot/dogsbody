@@ -13,12 +13,7 @@
       <!-- navbar -->
       <nav class="top-0 font-semibold w-full ml-auto pb-4 pt-4 bg-gray-100">
         <div class="flex-col font-header flex sm:flex-row">
-          <div class="nav-content hidden mx-auto pl-6 justify-between sm:flex flex-col flex-1 my-auto sm:mx-0 md:flex-row md:pl-0">
-            <a class="text-xl sm:text-2xl hover:underline hover:text-green {{ ' active' if active_page == 'blog' else '' }}" href="/posts">BLOG</a>
-            <div class="hidden md:block px-1 text-2xl">·</div>
-            <a class="mx-auto sm:mx-0 text-xl sm:text-2xl hover:underline hover:text-green {{ 'active' if active_page == 'backblog' else '' }}" href="/backblog">BACKBLOG</a>
-          </div>
-          <div class="flex order-first mx-auto sm:order-none w-32 sm:mx-2 my-auto md:mx-6">
+          <div class="flex mx-auto sm:order-none w-32 sm:mx-2 my-auto md:mx-6">
             <a href="/posts">
               <img class="w-full" src="{{ url_for('static', filename='img/logo.svg') }}" alt="Dogsbody logo" />
             </a>
@@ -27,13 +22,19 @@
             </button>
           </div>
 
-          <div class="nav-content hidden mx-auto sm:mx-0 pr-6 sm:flex flex-col flex-1 my-auto justify-between md:flex-row md:pr-0">
+          <div class="nav-content hidden mx-auto sm:pl-6 justify-between sm:order-first sm:flex flex-col flex-1 my-auto sm:mx-0 md:flex-row md:pl-0">
+            <a class="text-xl sm:text-2xl hover:underline hover:text-green {{ ' active' if active_page == 'blog' else '' }}" href="/posts">BLOG</a>
+            <div class="hidden md:block px-1 text-2xl">·</div>
+            <a class="mx-auto sm:mx-0 text-xl sm:text-2xl hover:underline hover:text-green {{ 'active' if active_page == 'backblog' else '' }}" href="/backblog">BACKBLOG</a>
+          </div>
+          
+          <div class="nav-content hidden mx-auto sm:mx-0 sm:pr-6 sm:flex flex-col flex-1 my-auto justify-between md:flex-row md:pr-0">
               <a class="text-right text-xl sm:text-2xl hover:underline hover:text-green {{ 'active' if active_page == 'about' else '' }}" href="/about">ABOUT</a>
               <div class="hidden md:block px-1 text-2xl">·</div>
               <a class="text-right text-xl sm:text-2xl hover:underline hover:text-green" href="#">SUBSCRIBE</a>
           </div>
       </div>
-      <hr class="-mt-6 mx-6 border-black border-2 sm:-mt-10 mb-6 md:mx-0"/>
+      <hr class="mx-6 border-black border-2 sm:-mt-10 mb-6 md:mx-0"/>
       <div class="flex ml-auto justify-end -mt-4 pr-6 md:pr-0">
         <a class="flex-0 px-1" href="">
           <div id="dice" class="-mt-3 -mr-3"></div>
