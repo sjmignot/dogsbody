@@ -10240,15 +10240,12 @@ img[src*='#center'] {
   font-size: 1.25rem;
 }
 
-/*! purgecss end ignore */
-
-img[src$='#image-right']{
-  margin-bottom: 1rem;
-  padding: 5px;
-  background: black;
-  float: right;
-  width: 50%;
+.nav-toggle:active {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
 }
+
+/*! purgecss end ignore */
 
 @media (min-width: 640px) {
   .sm\:sr-only {
