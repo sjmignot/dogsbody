@@ -65,6 +65,7 @@
       document.getElementById("dice").parentElement.href=`/post/${post_name}`;
     }
 
+    var open = false;
     document.getElementById('nav-toggle').onclick = function(){
       Array.from(document.getElementsByClassName("nav-content")).forEach(
         function(element, index, array) {
@@ -72,7 +73,7 @@
         }
       );
     }
-
   </script>
+  <script src="{{ url_for('static', filename='js/gifs.js') }}"></script>
 </body>
 </html>

@@ -10240,9 +10240,9 @@ img[src*='#center'] {
   font-size: 1.25rem;
 }
 
-.nav-toggle:active {
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+.rotated {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
 }
 
 /*! purgecss end ignore */
