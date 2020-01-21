@@ -10106,6 +10106,12 @@ body {
   src: url(../fonts/KlinicSlabBook.otf);
 }
 
+@font-face {
+  font-family: 'Josefin Slab';
+
+  src: url(../fonts/JosefinSlab-Regular.ttf);
+}
+
 @-webkit-keyframes rolling {
   0% {
     content:'\2680';
@@ -10238,11 +10244,6 @@ img[src*='#center'] {
   font-family: Klinic Slab, serif;
   padding-bottom: 1rem;
   font-size: 1.25rem;
-}
-
-.rotated {
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
 }
 
 /*! purgecss end ignore */

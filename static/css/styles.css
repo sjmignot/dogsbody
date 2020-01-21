@@ -35,6 +35,11 @@ body {
     src: url(../fonts/KlinicSlabBook.otf);
 }
 
+@font-face {
+  font-family: 'Josefin Slab';
+  src: url(../fonts/JosefinSlab-Regular.ttf);
+}
+
 @keyframes rolling {
   0% {content:'\2680';}
   20% {content:'\2683';}
