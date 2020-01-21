@@ -4,35 +4,43 @@ tags: joao-rosa,book,short-story,consciousness,anxiety,family
 genre: literature
 resonances: A Death in the Family
 
-![the-third-bank-of-the-river](/static/img/post-images/the-third-bank-of-the-river/the-third-bank-of-the-river.jpg)
-
 Maybe it’s just me. Though, saying this after a title that pretends to “know all, say all” seems a kind of literary escapism—brackets of reluctance. This is what I have to say, and I will tell you. Though to say it right requires a journalistic recap of my day: a kind of middle school diary entry. Bear with me (please).
 
-Maybe it’s just me but João Rosa’s short story The Third Bank of the River is an allegory for consciousness, anxiety, and control.
+Maybe it’s just me but **João Rosa’s short story The Third Bank of the River is an allegory for consciousness, anxiety, and control**.
+
+![the-third-bank-of-the-river](/static/img/post-images/the-third-bank-of-the-river/the-third-bank-of-the-river.jpg)
 
 So, let’s get on with it:
 
-Nov 7th. 2018.
+My life seems in limbo. Adulthood is just beyond a physics course that I am, at snail-speed, completing. I’m living at home: barely writing, reading, physicsing, and waiting.
 
-My life seems in limbo. Looming adulthood hangs by the thread of a physics course that I am trundling through. I never thought electricity and magnetism would prove a critical delineator of my life, but here we are. B.E.M, A.E.M. I’m living at home: barely writing, reading, physicsing, and waiting.
+All this to say that I have spent today lounging on the coach in my parent’s house. I have had three coffee’s too many: my body not deserving to by primordialized by adrenaline, having no reason to be whipped into action, having no lions, made brain lions.
 
-All this to say that I spent today lounging on the coach in my parent’s house. I have had three coffee’s too many: my body not deserving to by primordialized by adrenaline, having no reason to be whipped into action, having no lions, made brain lions.
-
-I had just finished reading Phillip Roth’s American Pastoral. A masterpiece, which, like all great pieces of literature, left me feeling like shit about my own writing. It possessed a deep compassion for its characters—at least that’s how the blurb (correctly) described its literary achievement. Though, compassion for its characters seemed to be simply a way to realize and distribute the profound sadness of their experiences.
+I had just finished reading Phillip Roth’s American Pastoral. A masterpiece, which, like most pieces of great literature, left me feeling a little conflicted: deeply moved but disappointed by my own writing. Roth's book, and generally his writing, is alight with a deep compassion for his characters. Though, compassion for its characters seemed to be simply a way to realize and distribute the profound sadness of their experiences.
 
 So, the book left me anxious and sad, and my brain was swimming with words and coffee. I couldn’t focus on anything.
 
-It’s in these kinds of moments that I tend to feel dissociated—detached from the world and my decisions. One of my recurring fears is losing control of my body my mind. Although this losing control is not the terrifying part: the terrifying part is coming to after 10 or 20 or 30 or 40 years to whatever life an automated version of myself has built. If I can zone out for 20 second, why can’t I zone out for 20 years. If the past seems lived by someone else, then who is to say it isn’t.  This is not to say that I fear aging (or at least it predominantly isn’t) or am tumbling into a midlife crisis (read: DFW’s thoughts on early midlife crises). It is more a question of anxiety, consciousness, and control: each of which is really just about the other two.
+It’s in these kinds of moments that I tend to feel dissociated—detached from the world and my decisions. One of my recurring fears is losing control of my body my mind. Although this losing control is not the terrifying part: the terrifying part is coming to after 10 or 20 or 30 or 40 years to whatever life an automated version of myself has built.
 
-It was in all of this nervousness and coffee that I finally understood João Rosa’s short story The Third Bank of the River. Though, I think understanding stories is a semantic misapplication. We don’t understand stories: we come to an understanding with them.
+If I can zone out for 20 second, why can’t I zone out for 20 years. If the past seems lived by someone else, then who is to say it isn’t.  This is not to say that I fear aging (or at least it predominantly isn’t) or that I am tumbling into a midlife crisis (read: DFW’s profoundly dark thoughts on early midlife crises). It is more a question of anxiety, consciousness, and control: each of which is really just about the other two.
+
+It was in all of this nervousness and coffee that I finally understood João Rosa’s short story *The Third Bank of the River*. Though, I think understanding stories is a semantic misapplication. We don’t understand stories: we come to an understanding with them.
 
 So, today I came to an understanding with João Rosa’s story. If you haven’t read it, then I strongly recommend you do so. In the rest of this post I will discuss nuances and specifics of the story,
 
-In the story the protagonist’s father commissions a boat and takes it out onto the wide river that snakes past his home; once on the river, he never returns to the shore.
+In the story the protagonist’s father takes a boat out onto the wide river that snakes past his home; once on the river, he never returns to the shore.
 
 > Father headed his boat to the other side of the river and into the marshes, which he knew like the palm of his hand but in which other people quickly got lost. There in his private maze, which extended for miles, with heavy foliage overhead and rushes on all sides, he was safe
 >
 > -- <cite>The Third Bank of the River</cite>
+
+In rereading Rosa's story, it was the line above that got me thinking about a secret story on conciousness. It reminded me of the first line of Dante's inferno.
+
+> Midway along the journey of our life, I woke to find myself in a dark wood,for I had wandered off from the straight path.
+>
+> -- <cite>Dante's Inferno</cite>
+
+The mind is a maze and a forest: the neurons are composed of dendrites, they are dendritic. Whenever, a character is walking through a forest, I can't help but think they are walking through a mind: though, in many cases, I admit this is not likely explicitly the point. Every verdant hike is not a metaphysical journey.
 
 Though, after all my wordage, I’m not here to try and convince you that this story is about consciousness or anxiety; I don’t think it was meant to be about either.
 
