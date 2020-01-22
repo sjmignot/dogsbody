@@ -10393,6 +10393,13 @@ progress::-moz-progress-bar {
   height: inherit;
 }
 
+.2020 {
+  background-color: #000;
+}
+
+.2020 ~ .2020, .2019 ~ .2019, .2018 ~ .2018, .2017 ~ 2017 { text-color: black;
+}
+
 /*! purgecss end ignore */
 
 @media (min-width: 640px) {

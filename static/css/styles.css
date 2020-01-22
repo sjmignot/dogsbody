@@ -136,8 +136,8 @@ progress {
 
   /* Reset the appearance */
   -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 
   /* Get rid of the default border in Firefox/Opera. */
   border: none;
@@ -177,5 +177,11 @@ progress::-moz-progress-bar {
   display: block;
   height: inherit;
 }
+
+.2020, .2019, .2018, .2017 {
+  @apply bg-black;
+}
+
+.2020 ~ .2020, .2019 ~ .2019, .2018 ~ .2018, .2017 ~ 2017 { text-color: black; }
 
 /*! purgecss end ignore */

@@ -3,26 +3,13 @@
 {% block content %}
 <div class="px-12 md:px-0 lg:px-0 xl:px-0">
   {% for post, date in posts %}
-    {% if loop.index == 1 %}
-      <div class="flex-col pb-8">
-       <a class="w-full font-posttitle text-2xl hover:text-green hover:underline post-link" href="{{ url_for('blog_post', name=post.path.replace('posts/','')) }}"> {{ post.title }} </a>
-        <div class="flex font-post text-sm font-light">
-          <div class="flex-0">{{ date }}</div>
-          <div class="text-red flex-0 px-4"> · </div>
-          <div class="flex-0"> {{ post.genre }}</div>
-        </div>
-      </div>
-
-    {% else  %}
-      <div class="flex-col pb-8">
+     <div class="flex-col pb-8 {{ date[-4:] }}">
         <a class="w-full font-posttitle text-2xl hover:text-green hover:underline post-link" href="{{ url_for('blog_post', name=post.path.replace('posts/','')) }}"> {{ post.title }} </a>
         <div class="flex font-post text-sm font-light">
           <div class="flex-0">{{ date }}</div>
           <div class="text-red flex-0 px-4"> · </div>
           <div class="flex-0"> {{ post.genre }}</div>
         </div>
-      </div>
-    {% endif %}
+     </div>
   {% endfor %}
-</div>
 {% endblock %}
