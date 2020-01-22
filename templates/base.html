@@ -16,10 +16,10 @@
   </progress>
 
   <div class="m-auto w-full md:w-190 flex flex-col h-full">
-    <header class="header sticky top-0 z-40">
+    <header class="pointer-events-none header sticky top-0 z-40">
       <!-- navbar -->
-      <nav class="top-0 font-semibold w-full ml-auto pb-4">
-        <div class="bg-gray-100 sm:bg-transparent flex-col font-header flex sm:flex-row">
+      <nav class="top-0 font-semibold w-full ml-auto">
+        <div class="pointer-events-auto bg-gray-100 sm:bg-transparent flex-col font-header flex sm:flex-row">
           <div class="flex mx-auto bg-gray-100 sm:order-none w-32 h-27">
             <a href="/posts">
               <img class="w-full" src="{{ url_for('static', filename='img/logo.svg') }}" alt="Dogsbody logo" />
@@ -29,28 +29,29 @@
             </button>
           </div>
 
-          <div class="md:pr-6 sm:pr-2 bg-gray-100 nav-content hidden pb-4 pt-16 mb-10 sm:pl-6 justify-between sm:order-first sm:flex flex-col flex-1 sm:mx-0 md:flex-row md:pl-0">
+          <div class="md:pr-6 sm:pr-2 bg-gray-100 nav-content hidden pb-4 sm:pt-6 md:pt-16 sm:pl-6 justify-between sm:order-first sm:flex flex-col flex-1 sm:mx-0 md:flex-row md:pl-0">
             <a class="text-xl sm:text-2xl hover:underline hover:text-green {{ ' active' if active_page == 'blog' else '' }}" href="/posts">BLOG</a>
             <div class="hidden md:block px-1 text-2xl">·</div>
             <a class="sm:mx-0 text-xl sm:text-2xl hover:underline hover:text-green {{ 'active' if active_page == 'backblog' else '' }}" href="/backblog">BACKBLOG</a>
           </div>
 
-          <div class="md:pl-6 sm:pl-2 bg-gray-100 nav-content hidden pb-4 pt-16 mb-10 sm:mx-0 sm:pr-6 sm:flex flex-col flex-1 justify-between md:flex-row md:pr-0">
+          <div class="md:pl-6 sm:pl-2 bg-gray-100 nav-content hidden pb-4 sm:pt-6 md:pt-16 sm:mx-0 sm:pr-6 sm:flex flex-col flex-1 justify-between md:flex-row md:pr-0">
               <a class="text-right text-xl sm:text-2xl hover:underline hover:text-green {{ 'active' if active_page == 'about' else '' }}" href="/about">ABOUT</a>
               <div class="hidden md:block px-1 text-2xl">·</div>
               <a class="text-right text-xl sm:text-2xl hover:underline hover:text-green" href="#">SUBSCRIBE</a>
           </div>
       </div>
-      <hr class="z-50 mx-6 border-black border-2 sm:-mt-10 mb-6 md:mx-0"/>
-      <div class="flex ml-auto justify-end -mt-4 pr-6 md:pr-0">
-        <a class="flex-0 px-1" href="">
+      <hr class="z-50 mx-6 border-black mb-2 border-2 md:mx-0"/>
+      <div class="flex ml-auto justify-end pr-6 md:pr-0">
+        <div class="padding-div flex-1"></div>
+        <a class="pointer-events-auto flex-0 px-1" href="">
           <div id="dice" class="-mt-3 -mr-3"></div>
         </a>
         <div class="px-1">/</div>
-        <a target="_blank" rel="noopener" class="flex-0 px-1" href="https://github.com/sjmignot">
+        <a target="_blank" rel="noopener" class="pointer-events-auto flex-0 px-1" href="https://github.com/sjmignot">
           <img class="w-full" src="{{ url_for('static', filename='img/account-icons/github.svg') }}" alt="Github Icon"/>
         </a>
-        <a target="_blank" rel="noopener" class="flex-0 px-1" href="https://www.linkedin.com/in/samuel-mignot-43498199">
+        <a target="_blank" rel="noopener" class="pointer-events-auto flex-0 px-1" href="https://www.linkedin.com/in/samuel-mignot-43498199">
           <img class="w-full" src="{{ url_for('static', filename='img/account-icons/linkedin.svg') }}" alt="LinkedIn Icon"/>
         </a>
       </div>

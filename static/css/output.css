@@ -10393,6 +10393,10 @@ progress::-moz-progress-bar {
   height: inherit;
 }
 
+nav {
+  pointer-events: none;
+}
+
 /*! purgecss end ignore */
 
 @media (min-width: 640px) {
