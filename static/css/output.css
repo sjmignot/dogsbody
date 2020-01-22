@@ -10393,7 +10393,7 @@ progress::-moz-progress-bar {
   height: inherit;
 }
 
-.2020 {
+.2020, .2019, .2018, .2017 {
   background-color: #000;
 }
 

@@ -18,7 +18,7 @@
     <!-- navbar -->
     <nav class="top-0 font-semibold w-full ml-auto">
       <div class="pointer-events-auto bg-gray-100 sm:bg-transparent flex-col font-header flex sm:flex-row">
-        <div class="flex mx-auto bg-gray-100 sm:order-none w-32 h-27">
+        <div class="flex mx-auto bg-gray-100 sm:order-none w-32 h-24">
           <a href="/posts">
             <img class="w-full" src="{{ url_for('static', filename='img/logo.svg') }}" alt="Dogsbody logo" />
           </a>
@@ -27,13 +27,13 @@
           </button>
         </div>
 
-        <div class="md:pr-6 sm:pr-2 bg-gray-100 nav-content hidden pb-4 sm:pt-6 md:pt-16 sm:pl-6 justify-between sm:order-first sm:flex flex-col flex-1 sm:mx-0 md:flex-row md:pl-0">
+        <div class="md:pr-6 sm:pr-2 bg-gray-100 nav-content hidden pb-4 sm:pt-2 md:pt-10 sm:pl-6 justify-between sm:order-first sm:flex flex-col flex-1 sm:mx-0 md:flex-row md:pl-0">
           <a class="text-xl sm:text-2xl hover:underline hover:text-green {{ ' active' if active_page == 'blog' else '' }}" href="/posts">BLOG</a>
           <div class="hidden md:block px-1 text-2xl">·</div>
           <a class="sm:mx-0 text-xl sm:text-2xl hover:underline hover:text-green {{ 'active' if active_page == 'backblog' else '' }}" href="/backblog">BACKBLOG</a>
         </div>
 
-        <div class="md:pl-6 sm:pl-2 bg-gray-100 nav-content hidden pb-4 sm:pt-6 md:pt-16 sm:mx-0 sm:pr-6 sm:flex flex-col flex-1 justify-between md:flex-row md:pr-0">
+        <div class="md:pl-6 sm:pl-2 bg-gray-100 nav-content hidden pb-4 sm:pt-2 md:pt-10 sm:mx-0 sm:pr-6 sm:flex flex-col flex-1 justify-between md:flex-row md:pr-0">
             <a class="text-right text-xl sm:text-2xl hover:underline hover:text-green {{ 'active' if active_page == 'about' else '' }}" href="/about">ABOUT</a>
             <div class="hidden md:block px-1 text-2xl">·</div>
             <a class="text-right text-xl sm:text-2xl hover:underline hover:text-green" href="#">SUBSCRIBE</a>
