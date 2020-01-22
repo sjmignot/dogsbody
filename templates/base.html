@@ -8,10 +8,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body class="bg-gray-100">
+
+  <progress class="z-50" value="0">
+    <div class="progress-container">
+      <span class="progress-bar"></span>
+    </div>
+  </progress>
+
   <div class="m-auto w-full md:w-190 flex flex-col h-full">
     <header class="header sticky top-0 z-40">
       <!-- navbar -->
-      <nav class="top-0 font-semibold w-full ml-auto pb-4 pt-4">
+      <nav class="top-0 font-semibold w-full ml-auto pb-4">
         <div class="bg-gray-100 sm:bg-transparent flex-col font-header flex sm:flex-row">
           <div class="flex mx-auto bg-gray-100 sm:order-none w-32 h-27">
             <a href="/posts">
@@ -74,6 +81,5 @@
       );
     }
   </script>
-  <script src="{{ url_for('static', filename='js/gifs.js') }}"></script>
-</body>
+ </body>
 </html>
