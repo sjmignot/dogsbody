@@ -10393,9 +10393,17 @@ progress::-moz-progress-bar {
   height: inherit;
 }
 
+<<<<<<< HEAD
 .date-indicator {
   left: 90%;
   font-size: x-large;
+=======
+.2020, .2019, .2018, .2017 {
+  background-color: #000;
+}
+
+.2020 ~ .2020, .2019 ~ .2019, .2018 ~ .2018, .2017 ~ 2017 { text-color: black;
+>>>>>>> 05bdc0d9acd341cbd9768a79933bb5e2436bbc99
 }
 
 /*! purgecss end ignore */
