@@ -14,17 +14,18 @@ I knew the general direction I needed to travel to get home, but Paris is full o
 
 Specifically, I was repeating a lyric from Leonard Cohen's song [Anthem](https://open.spotify.com/track/7aAE5KL20Uycf3dswsaHjp?si=rosh5vBKQOaNVAMgghYuNQ).
 
-> There is a crack in everything. That's how the light gets in. That's how the light gets in.
+> There is a crack in everything.  
+> That's how the light gets in.  
+> That's how the light gets in.  
 >
-> -- Leonard Cohen, Anthem
+> <cite>-- Leonard Cohen, Anthem</cite>
 
 Ever since I tried to read Bukowski's novel Factotum and was left feeling appalingly depressed by the absolute emptiness and lack of hope, the presence of beauty in Drama has become exceedingly important for me.
 
 For a long while, I thought art couldn't be beautiful, impactful, good, unless it had something inside it to redeem all the horror and bleakness: the crack in which the light gets in.
 
-
 ## Fault and culpability
 
-An An Elephant Sitting Still, characters constantly blame each other.
+In Bo's An Elephant Sitting Still, characters ceaselessly blame each other.
 
 ## Power dynamics: possessing the frame

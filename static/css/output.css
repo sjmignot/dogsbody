@@ -10272,7 +10272,8 @@ body {
 
 .post blockquote {
   position: relative;
-  font-size: 12px;
+  font-size: 14px;
+  font-family: Courier;
   font-style: italic;
   display: block;
   border-left: 5px solid #21610B;
@@ -10282,7 +10283,7 @@ body {
   background: aliceblue;
 }
 
-blockquote::before {
+.post blockquote::before {
   position: absolute;
   font-size: 62px;
   font-family: 'Courier';
@@ -10291,6 +10292,13 @@ blockquote::before {
   line-height: 1;
   top: 10px;
   left: 2px;
+}
+
+.post blockquote cite {
+  position: relative;
+  left: 5px;
+  top: 5px;
+  font-size: 12px;
 }
 
 .post img {
@@ -10395,6 +10403,72 @@ progress::-moz-progress-bar {
 .date-indicator {
   left: 90%;
   font-size: x-large;
+}
+
+figure {
+  width: 100%%;
+  margin: 0;
+  position: relative;
+  cursor: pointer;
+}
+
+figure:before,
+figure:after {
+  position: absolute;
+}
+
+figure:before {
+  top: 103.5px;
+  left: 50%;
+  margin-left: -25px;
+  width: 50px;
+  height: 50px;
+  border: 3px solid rgba(255, 255, 255, 0.7);
+  border-radius: 25px;
+  background-color: rgba(204, 209, 217, 0.3);
+  font-family: 'Ionicons';
+  content: '\f215';
+  text-align: center;
+  line-height: 45px;
+  font-size: 19px;
+  color: #F5F7FA;
+}
+
+figure:after {
+  content: 'gif';
+  position: absolute;
+  display: inline-block;
+  width: 40px;
+  text-align: center;
+  top: 20px;
+  right: 20px;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 5px;
+  border-radius: 3px;
+  color: #656D78;
+  background-color: rgba(170, 178, 189, 0.1);
+  text-transform: uppercase;
+}
+
+figure.play:before {
+  display: none;
+}
+
+figure.play:after {
+  color: #fff;
+  background-color: #8CC152;
+}
+
+figcaption {
+  padding-top: 15px;
+  font-size: 14px;
+  color: #8d9bad;
+}
+
+figcaption a {
+  color: #59687b;
+  text-decoration: none;
 }
 
 /*! purgecss end ignore */
