@@ -4,7 +4,7 @@ tags: joao-rosa,book,short-story,consciousness,anxiety,family
 genre: literature
 resonances: A Death in the Family
 
-Maybe it’s just me. Though, saying this after a title that pretends to “know all, say all” seems a kind of literary escapism—brackets of reluctance. This is what I have to say, and I will tell you. Though to say it right requires a journalistic recap of my day: a kind of middle school diary entry. Bear with me (please).
+Maybe it’s just me. Though, saying this after a title that pretends to “know all, say all” seems a kind of literary escapism—brackets of reluctance. This is what I have to say, and I will tell you: that should be the approach. Though to say it right requires a recap of my day.
 
 Maybe it’s just me but **João Rosa’s short story The Third Bank of the River is an allegory for consciousness, anxiety, and control**.
 
@@ -12,13 +12,15 @@ Maybe it’s just me but **João Rosa’s short story The Third Bank of the Rive
 
 So, let’s get on with it:
 
+## Some personal context: American Pastoral and "understanding stories"
+
 My life seems in limbo. Adulthood is just beyond a physics course that I am, at snail-speed, completing. I’m living at home: barely writing, reading, physicsing, and waiting.
 
 All this to say that I have spent today lounging on the coach in my parent’s house. I have had three coffee’s too many: my body not deserving to by primordialized by adrenaline, having no reason to be whipped into action, having no lions, made brain lions.
 
-I had just finished reading Phillip Roth’s American Pastoral. A masterpiece, which, like most pieces of great literature, left me feeling a little conflicted: deeply moved but disappointed by my own writing. Roth's book, and generally his writing, is alight with a deep compassion for his characters. Though, compassion for its characters seemed to be simply a way to realize and distribute the profound sadness of their experiences.
+I have just finished reading Phillip Roth’s American Pastoral. A masterpiece, which, like most pieces of great literature, left me feeling a little conflicted: deeply moved but disappointed by my own writing. Roth's book, and generally his writing, is alight with a deep compassion for his characters. Though, compassion for its characters seems simply a way to realize and distribute the profound sadness of their experiences: so I ask, is this empathy?
 
-So, the book left me anxious and sad, and my brain was swimming with words and coffee. I couldn’t focus on anything.
+The book left me anxious and sad and moved, and my brain was swimming with words and coffee. I couldn’t focus on anything.
 
 It’s in these kinds of moments that I tend to feel dissociated—detached from the world and my decisions. One of my recurring fears is losing control of my body my mind. Although this losing control is not the terrifying part: the terrifying part is coming to after 10 or 20 or 30 or 40 years to whatever life an automated version of myself has built.
 
@@ -26,15 +28,17 @@ If I can zone out for 20 second, why can’t I zone out for 20 years. If the pas
 
 It was in all of this nervousness and coffee that I finally understood João Rosa’s short story *The Third Bank of the River*. Though, I think understanding stories is a semantic misapplication. We don’t understand stories: we come to an understanding with them.
 
-So, today I came to an understanding with João Rosa’s story. If you haven’t read it, then I strongly recommend you do so. In the rest of this post I will discuss nuances and specifics of the story,
+So, today I came to an understanding with João Rosa’s story. If you haven’t read it, then I strongly recommend you do so. **In the rest of this post, I discuss specifics of the story**
+
+## The river and consciousness
 
 In the story the protagonist’s father takes a boat out onto the wide river that snakes past his home; once on the river, he never returns to the shore.
 
-> Father headed his boat to the other side of the river and into the marshes, which he knew like the palm of his hand but in which other people quickly got lost. There in his private maze, which extended for miles, with heavy foliage overhead and rushes on all sides, he was safe
+> Father headed his boat to the other side of the river and into the marshes, which he knew like the palm of his hand but in which other people quickly got lost. There in his private maze, which extended for miles, with heavy foliage overhead and rushes on all sides, he was safe.
 >
 > -- <cite>The Third Bank of the River</cite>
 
-In rereading Rosa's story, it was the line above that got me thinking about a secret story on conciousness. It reminded me of the first line of Dante's inferno.
+In rereading Rosa's story, it was the line above that got me thinking that questions of conciousness underlie **The Third Bank of the R*iver*. The line reminded me of the first line of Dante's inferno.
 
 > Midway along the journey of our life, I woke to find myself in a dark wood,for I had wandered off from the straight path.
 >
@@ -42,7 +46,7 @@ In rereading Rosa's story, it was the line above that got me thinking about a se
 
 The mind is a maze and a forest: the neurons are composed of dendrites, they are dendritic. Whenever, a character is walking through a forest, I can't help but think they are walking through a mind: though, in many cases, I admit this is not likely explicitly the point. Every verdant hike is not a metaphysical journey.
 
-Though, after all my wordage, I’m not here to try and convince you that this story is about consciousness or anxiety; I don’t think it was meant to be about either.
+And, anyway, after all my wordage, I’m not here to try and convince you that this story is "about" consciousness or anxiety; I don’t think it was meant to be about either.
 
 What I can’t help but thinking and feeling when reading and rereading the story is this:
 

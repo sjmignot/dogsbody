@@ -1,6 +1,6 @@
 $(window).scroll(function() {
   // Setting: Start fading halfway up the page
-  var startPos = 0.5;
+  var startPos = 0.3;
 
   // Cache window object
   var $w = $(window);

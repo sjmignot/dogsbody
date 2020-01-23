@@ -21,7 +21,7 @@ body {
 }
 
 #dice::after {
-  content:'\2680';
+  content:'\2684';
   animation: rolling 4s linear infinite;
   animation-play-state: paused
 }
@@ -41,12 +41,12 @@ body {
 }
 
 @keyframes rolling {
-  0% {content:'\2680';}
+  0% {content:'\2684';}
   20% {content:'\2683';}
   40% {content:'\2682';}
   60% {content:'\2685';}
-  80% {content:'\2684';}
-  100% {content:'\2683';}
+  80% {content:'\2681';}
+  100% {content:'\2680';}
 }
 
 /*! purgecss start ignore */
@@ -95,9 +95,8 @@ img[src*='#center'] {
 /* purgecss end ignore */
 
 .frame-wrap {
-  margin-bottom: 1rem;
-  padding: 5px;
-  background: black;
+  margin: 5px;
+  border: black 4px solid;
 }
 
 .post h2 {

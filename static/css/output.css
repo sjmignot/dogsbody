@@ -10186,7 +10186,7 @@ body {
 }
 
 #dice::after {
-  content:'\2680';
+  content:'\2684';
   -webkit-animation: rolling 4s linear infinite;
           animation: rolling 4s linear infinite;
   -webkit-animation-play-state: paused;
@@ -10212,7 +10212,7 @@ body {
 
 @-webkit-keyframes rolling {
   0% {
-    content:'\2680';
+    content:'\2684';
   }
 
   20% {
@@ -10228,17 +10228,17 @@ body {
   }
 
   80% {
-    content:'\2684';
+    content:'\2681';
   }
 
   100% {
-    content:'\2683';
+    content:'\2680';
   }
 }
 
 @keyframes rolling {
   0% {
-    content:'\2680';
+    content:'\2684';
   }
 
   20% {
@@ -10254,11 +10254,11 @@ body {
   }
 
   80% {
-    content:'\2684';
+    content:'\2681';
   }
 
   100% {
-    content:'\2683';
+    content:'\2680';
   }
 }
 
@@ -10311,9 +10311,8 @@ img[src*='#center'] {
 /* purgecss end ignore */
 
 .frame-wrap {
-  margin-bottom: 1rem;
-  padding: 5px;
-  background: black;
+  margin: 5px;
+  border: black 4px solid;
 }
 
 .post h2 {
@@ -10393,17 +10392,9 @@ progress::-moz-progress-bar {
   height: inherit;
 }
 
-<<<<<<< HEAD
 .date-indicator {
   left: 90%;
   font-size: x-large;
-=======
-.2020, .2019, .2018, .2017 {
-  background-color: #000;
-}
-
-.2020 ~ .2020, .2019 ~ .2019, .2018 ~ .2018, .2017 ~ 2017 { text-color: black;
->>>>>>> 05bdc0d9acd341cbd9768a79933bb5e2436bbc99
 }
 
 /*! purgecss end ignore */
