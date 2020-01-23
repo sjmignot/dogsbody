@@ -3,7 +3,11 @@
 {% block content %}
 <div class="px-12 md:px-0 lg:px-0 xl:px-0">
   {% for post, date in posts %}
-     <div class="flex-col pb-8 {{ date[-4:] }}">
+     <div class="flex-col w-full pb-8 y-{{ date[-4:] }}">
+        {% if loop.previtem is not defined or loop.previtem[1][-4:] != date[-4:] %}
+          <div class="hidden lg:block absolute date-indicator scroll-fade">{{date[-4:]}}</div>
+        {% endif %}
+
         <a class="w-full font-posttitle text-2xl hover:text-green hover:underline post-link" href="{{ url_for('blog_post', name=post.path.replace('posts/','')) }}"> {{ post.title }} </a>
         <div class="flex font-post text-sm font-light">
           <div class="flex-0">{{ date }}</div>
@@ -12,4 +16,8 @@
         </div>
      </div>
   {% endfor %}
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="{{ url_for('static', filename='js/scrollfade.js') }}"></script>
+
+
 {% endblock %}
