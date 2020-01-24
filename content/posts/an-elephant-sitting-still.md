@@ -26,6 +26,10 @@ For a long while, I thought art couldn't be beautiful, impactful, good, unless i
 
 ## Fault and culpability
 
-In Bo's An Elephant Sitting Still, characters ceaselessly blame each other.
+In Bo's An Elephant Sitting Still, characters ceaselessly blame each other. Yu Cheng blames both his girlfriend and his ex for the death of his friend, and his parents blame him for the death of his brother. Wei Bu blames his friend for revealing his location to his parents, and a bully blames that same friend for the theft of a cellphone. The owner of the stray dog blames Wang Jin, inexplicably. Wang Yuwen's teacher blames her for ruining his career.
+
+The central question is why do all these characters feel a need to exteriorize their anguish into blame: a pattern that continues on and on, into perpetual redirection and resolves nothing. I considered a few possible explanations: a redirection.
+
+I was also curious what this meant for a culture that is "collectivist". Putting aside the fact that individualism and collectivism are too all emcompasing to mean much, the idea of blame seems antithetical to community (beyond scapegoating).
 
 ## Power dynamics: possessing the frame
