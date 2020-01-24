@@ -10301,11 +10301,10 @@ body {
   font-size: 12px;
 }
 
-.post img {
+.post img, .post video {
   width: 100%;
   margin-bottom: 1rem;
-  padding: 5px;
-  background: black;
+  border: black 4px solid;
 }
 
 /* purgecss start ignore */
@@ -10403,69 +10402,6 @@ progress::-moz-progress-bar {
 .date-indicator {
   left: 90%;
   font-size: x-large;
-}
-
-figure {
-  width: 100%%;
-  margin: 0;
-  position: relative;
-  cursor: pointer;
-}
-
-figure:before,
-figure:after {
-  position: absolute;
-}
-
-figure:before {
-  top: 50%;
-  left: 50%;
-  margin-left: -25px;
-  margin-top: -25px;
-  width: 50px;
-  height: 50px;
-  content: '\25B6';
-  text-align: center;
-  line-height: 45px;
-  font-size: 54px;
-  color: #f5f7fa6b;
-}
-
-figure:after {
-  content: 'gif';
-  position: absolute;
-  display: inline-block;
-  width: 40px;
-  text-align: center;
-  top: 20px;
-  right: 20px;
-  font-size: 11px;
-  font-weight: 600;
-  padding: 5px;
-  border-radius: 3px;
-  color: #656D78;
-  background-color: rgba(170, 178, 189, 0.1);
-  text-transform: uppercase;
-}
-
-figure.play:before {
-  display: none;
-}
-
-figure.play:after {
-  color: #fff;
-  background-color: #8CC152;
-}
-
-figcaption {
-  padding-top: 15px;
-  font-size: 14px;
-  color: #8d9bad;
-}
-
-figcaption a {
-  color: #59687b;
-  text-decoration: none;
 }
 
 /*! purgecss end ignore */

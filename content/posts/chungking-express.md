@@ -8,7 +8,8 @@ resonances: Psycho,Paris Texas
 
 Wong Kar-Wai’s film Chungking Express is a masterpiece. In place, it rewrites the rules of cinema.
 
-<figure>
-  <img src="{{ url_for('static', filename='img/post-images/chungking-express/chungking-express-still.jpg')}}" alt="Static Image" data-alt="{{ url_for('static', filename='img/post-images/chungking-express/chungking-express.gif')}}">
-</figure>
-
+<video controls>
+    <source src="{{ url_for('static', filename='vid/post-videos/chungking-express/chungking-express.mp4')}}"
+            type="video/mp4">
+    Sorry, your browser doesn't support embedded videos.
+</video>
