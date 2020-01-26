@@ -6,7 +6,15 @@ resonances: Psycho,Paris Texas
 
 Wong Kar-Wai’s film Chungking Express is a masterpiece. In place, it rewrites the technical rules of cinema.
 
-With gorgeous cinematography work by Directory of Photography Chistopher Doyle, 
+With gorgeous cinematography work by Directory of Photography Chistopher Doyle,
+
+```py
+import numpy
+
+x = 5
+y = [1,2,3,4]
+z = list(map(str, y))
+```
 
 ![chungking-express](/static/img/post-images/chungking-express/chungking-express.jpg)
 
