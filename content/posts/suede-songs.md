@@ -25,11 +25,11 @@ Having long been obsessed with the character Bobby from Twin Peaks, I decided to
 
 This song is like a new heartbeat.
 
-> Bobby's just a friend of mine
-> He's on his back
-> I'm on his mind
-> He wakes me when he goes to work
-> His hands are cold
+> Bobby's just a friend of mine  
+> He's on his back  
+> I'm on his mind  
+> He wakes me when he goes to work  
+> His hands are cold  
 > His breath is smoke
 
 ## Don't Ever Leave Me, Bob Marley & The Wailers
@@ -45,14 +45,12 @@ AJJ is a surprising band. On the surface, they seem rather nihilistic, but aspec
 
 ## The Bug Collector, Haley Heynderickx
 
-Heynderickx's song The Bug Collector is visually striking and her vocals are beautiful but sharp: cold but not in a way that feels distant.
+Heynderickx's song The Bug Collector is visually striking, with vocals that are beautiful but sharp: cold but not in a way that feels distant.
 
 > And there's a praying mantis  
 > Prancing on your bathtub  
 > And you swear it's a priest  
-> From a past life out to getcha  
-
-## The Bus Song, Jay Som
+> From a past life out to getcha
 
 ## Cure for Pain, Morphine
 
