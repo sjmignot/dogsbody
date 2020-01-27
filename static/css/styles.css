@@ -1,4 +1,5 @@
 /*! purgecss start ignore */
+
 @tailwind base;
 @tailwind components;
 /*! purgecss end ignore */
@@ -67,6 +68,7 @@ body {
   border-right: 2px dashed #21610B;
   margin: 0 0 1.5em;
   background: aliceblue;
+  z-index: 10;
 }
 
 .post blockquote::before {
@@ -111,6 +113,28 @@ img[src*='#center'] {
   @apply font-postheader pb-4 text-2xl;
 }
 
+.post h2:before {
+  display: block;
+  content: "";
+  margin-top: -6rem;
+  height: 6rem;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.post .footnote-ref:before {
+    display: block;
+    content: "";
+    margin-top: -12rem;
+    height: 12rem;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.post .footnote-ref {
+  display: inline-block;
+}
+
 .post a {
   @apply text-blue;
 }
@@ -120,7 +144,7 @@ img[src*='#center'] {
 }
 
 .post > p {
-  @apply pb-4
+  @apply pb-4 z-10;
 }
 
 .post-link {
@@ -128,7 +152,7 @@ img[src*='#center'] {
 }
 
 .post h3 {
-  @apply font-postheader pb-4 text-xl;
+  @apply font-postheader pb-4 text-xl z-10;
 }
 
 .header-link {
@@ -192,6 +216,14 @@ progress::-moz-progress-bar {
 .date-indicator {
   left: 90%;
   font-size: x-large;
+}
+
+.transition-linear {
+  transition-timing-function: linear;
+}
+
+.transition-ease {
+  transition: all .2s ease-out;
 }
 
 /*! purgecss end ignore */

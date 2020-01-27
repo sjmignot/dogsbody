@@ -10313,6 +10313,7 @@ body {
   border-right: 2px dashed #21610B;
   margin: 0 0 1.5em;
   background: aliceblue;
+  z-index: 10;
 }
 
 .post blockquote::before {
@@ -10361,6 +10362,28 @@ img[src*='#center'] {
   font-size: 1.5rem;
 }
 
+.post h2:before {
+  display: block;
+  content: "";
+  margin-top: -6rem;
+  height: 6rem;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.post .footnote-ref:before {
+  display: block;
+  content: "";
+  margin-top: -12rem;
+  height: 12rem;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.post .footnote-ref {
+  display: inline-block;
+}
+
 .post a {
   color: #0000EE;
 }
@@ -10370,7 +10393,8 @@ img[src*='#center'] {
 }
 
 .post > p {
-  padding-bottom: 1rem
+  padding-bottom: 1rem;
+  z-index: 10;
 }
 
 .post-link {
@@ -10381,6 +10405,7 @@ img[src*='#center'] {
   font-family: Klinic Slab, serif;
   padding-bottom: 1rem;
   font-size: 1.25rem;
+  z-index: 10;
 }
 
 .header-link {
@@ -10439,6 +10464,16 @@ progress::-moz-progress-bar {
 .date-indicator {
   left: 90%;
   font-size: x-large;
+}
+
+.transition-linear {
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+}
+
+.transition-ease {
+  -webkit-transition: all .2s ease-out;
+  transition: all .2s ease-out;
 }
 
 /*! purgecss end ignore */
