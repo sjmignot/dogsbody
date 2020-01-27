@@ -42,14 +42,14 @@ Haunting yet spiritual. Visceral but tender. Although undeniably dark, Cave's mu
 
 ## Ghost Ship, Blur
 
-Off of Blur's latest album *The Magic Whip*, Ghost Ship has a beautiful underlying rhythm. Nothing seems fixed in the foreground or background of the song: rather, everything seems to weave in and out of the background.
+Off of Blur's latest album *The Magic Whip*, Ghost Ship has a beautiful underlying rhythm. Nothing seems fixed in the foreground or background of the song: rather, everything seems to weave in and out.
 
 > I got away for a little while  
 > But then it came back much harder
 
 ## Ghost Song, Jim Morrison
 
-Releasesd posthumously on The Doors final albume *An American Prayer*, Ghost Song is a brilliant example of Morrison's stunning songwriting:
+Releasesd posthumously on The Doors final album *An American Prayer*, Ghost Song is a brilliant example of Morrison's stunning songwriting:
 
 > Awake.  
 > Shake dreams from your hair  
