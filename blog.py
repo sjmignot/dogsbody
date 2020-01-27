@@ -10,7 +10,7 @@ import json
 DEBUG = True
 FLATPAGES_AUTO_RELOAD = DEBUG
 FLATPAGES_EXTENSION = '.md'
-MARKDOWN_EXTENSIONS = ['codehilite', 'footnotes']
+MARKDOWN_EXTENSIONS = ['codehilite', 'footnotes', 'fenced_code']
 FLATPAGES_ROOT = 'content'
 POST_DIR = 'posts'
 OTHER_DIR = 'other'

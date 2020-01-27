@@ -9,13 +9,16 @@ genre: music
 
 This weeks playlist is rather themeless, but shaped around the first song: Mold Baby (& The Queen Midas) by The So So Glos.
 
-## 1. Mold Baby (& The Queen Midas), The So So Glos
+## Mold Baby (& The Queen Midas), The So So Glos
 
-The first song on the playlist, SNCKPACK's _Spooky Ghosts_, launched me on my ghost quest. The song is tender and heartwarming. Though, I have to admit I'm a sucker for ukulele riffs and tender lyrics.
+The first song on the playlist, Mold Baby was buried in my main playlist and popped up on shuffle. I looped it for the rest of the day. Sent one of my friends the song with a tagline of "This is rather spiritual," not necessarily knowing what I meant, but knowing that it was true, at least for me (though I in no way consider myself spiritual, having conflated it with strong emotional resonance).
 
-## 2. Bobby, (Sandy) Alex G
-## 3. Don't Ever Leave Me, Bob Marley & The Wailers
-## 4. Linda Ronstadt, AJJ
-## 5. The Bug Collector, Haley Heynderickx
-## 6. The Bus Song, Jay Som
-## 7. Cure for Pain, Morphine
+## Bobby, (Sandy) Alex G
+
+Having long been obsessed with the character Bobby from Twin Peaks, I decided to like this song before first hearing it (a pratice which can be rewarding but also deeply disappointing. See ).
+
+## Don't Ever Leave Me, Bob Marley & The Wailers
+## Linda Ronstadt, AJJ
+## The Bug Collector, Haley Heynderickx
+## The Bus Song, Jay Som
+## Cure for Pain, Morphine
