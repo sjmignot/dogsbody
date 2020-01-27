@@ -1,5 +1,6 @@
 from flask import Flask, render_template, redirect, url_for, render_template_string, Markup
 from flask_flatpages import FlatPages, pygments_style_defs, pygmented_markdown
+import markdown
 from flask_frozen import Freezer
 import sys
 import re
@@ -9,13 +10,14 @@ import json
 DEBUG = True
 FLATPAGES_AUTO_RELOAD = DEBUG
 FLATPAGES_EXTENSION = '.md'
+MARKDOWN_EXTENSIONS = ['codehilite', 'footnotes']
 FLATPAGES_ROOT = 'content'
 POST_DIR = 'posts'
 OTHER_DIR = 'other'
 
 def prerender_jinja(text):
     prerendered_body = render_template_string(Markup(text))
-    pygmented = pygmented_markdown(prerendered_body)
+    pygmented = markdown.markdown(prerendered_body, extensions = app.config['MARKDOWN_EXTENSIONS'])
     if len(sys.argv) > 1 and sys.argv[1] == "build":
         return img_markdown_preprocess(pygmented)
     else:

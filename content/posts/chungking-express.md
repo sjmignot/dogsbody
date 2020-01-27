@@ -8,6 +8,14 @@ Wong Kar-Wai’s film Chungking Express is a masterpiece. In place, it rewrites 
 
 With gorgeous cinematography work by Directory of Photography Chistopher Doyle,
 
+```py
+import numpy
+
+x = 5
+y = [1,2,3,4]
+z = list(map(str, y))
+```
+
 ![chungking-express](/static/img/post-images/chungking-express/chungking-express.jpg)
 
 > Wong’s stylistic dominant ... involves complicating (or roughening) the viewer’s perception and comprehension without sacrificing overall dramatic clarity. Pledged to making the image “difficult” yet intelligible, Wong revises, recombines, and repurposes standard schemas of visual style.
