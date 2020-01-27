@@ -30,7 +30,10 @@ module.exports = {
       post: ['Gotham', 'sans-serif']
     },
   },
-  variants: {},
+  variants: {
+    fill: ['responsive', 'hover'],
+    stroke: ['responsive', 'hover', 'focus'],
+  },
   plugins: [
     function({ addBase, config }) {
       addBase({
