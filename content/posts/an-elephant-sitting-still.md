@@ -31,5 +31,3 @@ In Bo's An Elephant Sitting Still, characters ceaselessly blame each other. Yu C
 The central question is why do all these characters feel a need to exteriorize their anguish into blame: a pattern that continues on and on, into perpetual redirection and resolves nothing. I considered a few possible explanations: a redirection.
 
 I was also curious what this meant for a culture that is "collectivist". Putting aside the fact that individualism and collectivism are too all emcompasing to mean much, the idea of blame seems antithetical to community (beyond scapegoating).
-
-## Power dynamics: possessing the frame
