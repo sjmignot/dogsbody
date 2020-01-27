@@ -132,14 +132,7 @@ img[src*='#center'] {
 }
 
 .header-link {
-  position: absolute;
-  right: calc(100% + 1px);
-  top: 6.2rem;
-  color: #c2c2c2!important;
-  opacity: .9;
-  font-size: 65%;
-  text-decoration: none;
-  font-weight: 100;
+  left: -20px;
 }
 
 progress {

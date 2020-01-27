@@ -33,6 +33,7 @@ module.exports = {
   variants: {
     fill: ['responsive', 'hover'],
     stroke: ['responsive', 'hover', 'focus'],
+    opacity: ['responsive', 'hover', 'focus', 'group-hover'],
   },
   plugins: [
     function({ addBase, config }) {
