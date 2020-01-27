@@ -2,6 +2,7 @@ from flask import Flask, render_template, redirect, url_for, render_template_str
 from flask_flatpages import FlatPages, pygments_style_defs, pygmented_markdown
 import markdown
 from flask_frozen import Freezer
+from slugify import slugify
 import sys
 import re
 import datetime
@@ -19,9 +20,9 @@ def prerender_jinja(text):
     prerendered_body = render_template_string(Markup(text))
     pygmented = markdown.markdown(prerendered_body, extensions = app.config['MARKDOWN_EXTENSIONS'])
     if len(sys.argv) > 1 and sys.argv[1] == "build":
-        return img_markdown_preprocess(pygmented)
+        return header_markdown_preprocess(img_markdown_preprocess(pygmented))
     else:
-        return pygmented
+        return header_markdown_preprocess(pygmented)
 
 FLATPAGES_HTML_RENDERER = prerender_jinja
 
@@ -41,7 +42,19 @@ def img_markdown_preprocess(page):
     for img_match in img_matches:
         srcset_val = ', '.join([img_match.replace(".jpg", f"-{k}.jpg")+f" {v}" for k, v in image_sizes.items()])
         src_replace_value = srcset_size_pattern.format(img_src=img_match, srcset_val=srcset_val)
-        return re.sub(src_replace_pattern, src_replace_value, page)
+        page = re.sub(src_replace_pattern, src_replace_value, page)
+    return page
+
+def header_markdown_preprocess(page):
+    '''adds a srcset attribute to all images to allow responsive image serving. Requires name of all images file to be the same. '''
+    header_pattern = r"<h2>(.*)</h2>"
+    header_matches = re.findall(header_pattern, page)
+    for match in header_matches:
+        header_replace = f"<h2 id=\"{slugify(match)}\"><a class=\"header-link\" href=\"#{slugify(match)}\">#</a>{match}</h2>"
+        header_pattern = re.compile(f"<h2>{match}</h2>")
+        page = re.sub(header_pattern, header_replace, page)
+    return page
+
 
 @app.route('/')
 def home():
