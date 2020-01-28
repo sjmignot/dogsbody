@@ -9,7 +9,8 @@ genre: film
 
 It is hard to unpack a Tarkovsky film. You take any thread, start pulling and it turns out to be the entire tapestry. Which is not to say that his movies are simple. Rather that everything is linked. The length of the thread is time and time ducks into itself.
 
-![andrei-rublev](/static/img/post-images/andrei-rublev/andrei-rublev.jpg)
+![andrei-rublev](/static/img/post-images/andrei-rublev/andrei-rublev-1.jpg)
+*frame from andrei rublev: the raising of the bell*
 
 After watching a film you leave with moments folded into each other: a composite. What you watched existed in time, but your reflections are necessarily condensed: a kind of emotional singularity.
 
@@ -31,6 +32,9 @@ It isn't the kind of scene that causes hearts to leap or armchairs to be knuckle
 
 Hitchcock famously connected suspense and dramatic irony: the audience "knowing more" than the film's characters. However, with Tarkovsky, we don't **know more** but think we do. This is an important and powerful distinction that is essential to the unique brand of suspense that Tarkovsky create.
 
+![andrei-rublev](/static/img/post-images/andrei-rublev/andrei-rublev-2.jpg)
+*frame from andrei rublev: the ringing of the bell*
+
 Tarkovsky foreshadows conflict and hints western suspense tropes: with character believing the coat for the making of a bell will not hold, but the bell holds. It is strange that the suspense does not end there. Because there are things we carry that trascend.
 
 > Kolya Burlyaev as Boriska, the bell-caster's son in Audrey Rublyov was working with me for the second time after Ivan's Childhood. All the time we were shooting I had to give him to understand through my assistants that I was thoroughly dissatisfied with his work, and might retake his scenes using another actor. I wanted him to feel disaster hanging over him, perhaps about to fall, so that he would genuinely be feeling acutely insecure. Burlyaev is an extraordinarily dissipated, shallow and ostentatious actor. His bursts of temperament are artificial. That was why I had to have recourse to such severe measures.
@@ -46,6 +50,15 @@ But I think it remains essential to recognize that every film exists "the cinema
 ## A parallel of sound and color
 
 After witnessing the horrors of a barbarian invasion, Rublev takes a vow of silence. At the end of the film, the vow is broken which as accompanied with a different but equally significant unmuting. The film, up to that point entirely in black and white, switches to color.
+
+<p>
+<video controls>
+    <source src="{{ url_for('static', filename='vid/post-videos/andrei-rublev/andrei-rublev.mp4')}}"
+            type="video/mp4">
+    Sorry, your browser doesn't support embedded videos.
+</video>
+<em>clip from andrei rublev: panning over fragments of rublev paintings</em>
+</p>
 
 This parallel seems fundamental in challenging and creating a film is art in itself that is not a mesh, pel-mel of other forms.
 

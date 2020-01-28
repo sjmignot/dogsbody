@@ -10348,7 +10348,7 @@ body {
 .post video {
   width: 100%;
   padding: 5px;
-  background:black;
+  background: black;
 }
 
 /* purgecss start ignore */
@@ -10493,6 +10493,18 @@ progress::-moz-progress-bar {
 }
 
 .post img + em:before {
+  counter-increment: figure;
+  content: "figure " counter(figure) ". ";
+  font-weight: 700;
+}
+
+.post video + em {
+  font-size: 1rem;
+  color: #a0aec0;
+  text-transform: lowercase;
+}
+
+.post video + em:before {
   counter-increment: figure;
   content: "figure " counter(figure) ". ";
   font-weight: 700;

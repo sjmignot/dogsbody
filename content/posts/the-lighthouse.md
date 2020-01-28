@@ -10,6 +10,7 @@ Prometheus creates humanity from clay. Seeing them cold and suffering, he gives 
 As punishment, he is chained to a rock in Caucasus. His liver is pecked out by eagles and regenerates in the night, allowing the process to continue forever.
 
 ![the lighthouse](/static/img/post-images/the-lighthouse/the-lighthouse-1.jpg)
+*frame from the lighthouse: howard pecked by seagulls*
 
 In *Prometheus Unbound*, Percy Shelley reimagines Prometheus as a Romantic hero. A beacon of emotion, innovation, sensitivity.
 
@@ -41,15 +42,19 @@ The primary gap follows: if Pattinson's character steals the lighthouse flame, t
 
 In film, the camera is often closely connected to characters and their movements. Specifically, the camera connects us to the characters it chooses to connect us to: for example, showing us what they see with an eyeline match.  
 
+<p>
 <video controls>
     <source src="{{ url_for('static', filename='vid/post-videos/the-lighthouse/the-lighthouse.mp4')}}"
             type="video/mp4">
     Sorry, your browser doesn't support embedded videos.
-</video>  
+</video>
+<em>clip from the lighthouse: howard stares up through the grid  floor at the lighthouse's light</em>
+</p>
 
 It is Pattinson's character who leads us into the ligthouse.
 
 ![the lighthouse](/static/img/post-images/the-lighthouse/the-lighthouse-2.jpg)
+*frame from the lighthouse: howard makes it into the lighthouse's light*
 
 ///Footnotes Go Here///
 [^1]: 1\. Percy Shelley, *Prometheus Unbound*, Act I. 304-306.

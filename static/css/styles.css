@@ -103,7 +103,7 @@ body {
 .post video {
   @apply w-full;
   padding: 5px;
-  background:black;
+  background: black;
 }
 
 /* purgecss start ignore */
@@ -246,5 +246,18 @@ progress::-moz-progress-bar {
   content: "figure " counter(figure) ". ";
   @apply font-bold;
 }
+
+.post video + em {
+  @apply text-base text-gray-500;
+  text-transform: lowercase;
+}
+
+.post video + em:before {
+  counter-increment: figure;
+  content: "figure " counter(figure) ". ";
+  @apply font-bold;
+}
+
+
 
 /*! purgecss end ignore */
