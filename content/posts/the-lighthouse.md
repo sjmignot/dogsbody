@@ -1,6 +1,6 @@
 # --
 title: "The Lighthouse: a postmodern prometheus"
-date: 2020-01-01
+date: 2020-01-12
 tags: robert-eggers
 genre: film
 # --

@@ -11,7 +11,7 @@ The film is 4 hours long. I watched it at the Brady Theater. When it was over, e
 I knew the general direction I needed to travel to get home, but Paris is full of sickle shaped streets: it took me an hour longer than it should have. All the while, I was stuck thinking about redemptive beauty.
 
 ![an-elephant-sitting-still]({{ url_for('static', filename='img/post-images/an-elephant-sitting-still/an-elephant-sitting-still.jpg')}})
-*frame from an elephant sitting still: city through a rain-dampened windshield*
+*frame from an elephant sitting still: Manzhouli through a rain-dampened windshield*
 
 ## Redemptive Beauty
 
@@ -23,9 +23,15 @@ Specifically, I was repeating a lyric from Leonard Cohen's song [Anthem](https:/
 >
 > <cite>-- Leonard Cohen, Anthem</cite>
 
-Ever since I tried to read Bukowski's novel Factotum and was left feeling appalingly depressed by the absolute emptiness and lack of hope, the presence of beauty in Drama has become exceedingly important for me.
+Ever since I tried to read Bukowski's novel Factotum and was left feeling appalingly depressed by the absolute emptiness and lack of hope, the presence of beauty and hope in Drama has become exceedingly important for me.
 
 For a long while, I thought art couldn't be beautiful, impactful, good, unless it had something inside it to redeem all the horror and bleakness: the crack in which the light gets in.
+
+Though my perspective is likely influenced by the director's recent suicide, I had trouble finding hope and beauty in Hu Bo's film, seeing past what seemed insurmountable suffering. Many characters persist but others don't: two commit suicide.
+
+Humor is also muted. The closest we get to a joke is when Huang Ling retroactively calls one of her comments one (a not altogether convincing declaration).
+
+And characters don't rage against their circumstances, they persist.
 
 ## Fault and culpability
 
