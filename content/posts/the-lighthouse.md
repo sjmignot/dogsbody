@@ -5,11 +5,13 @@ tags: robert-eggers
 genre: film
 # --
 
-Prometheus created humanity and stole fire from the gods for them. As punishment, he is chained to a rock in Caucasus and his liver is pecked out by eagles whereupon it regenerates so the process can continue forever. 
+Prometheus creates humanity from clay. Seeing them cold and suffering, he gives them fire which he steals from the gods. 
+
+As punishment, he is chained to a rock in Caucasus. His liver is pecked out by eagles and regenerates in the night, allowing the process to continue forever.
 
 ![the lighthouse](/static/img/post-images/the-lighthouse/the-lighthouse-1.jpg)
 
-In *Prometheus Unbound*, Percy Shelley made Prometheus into a Romantic hero:  
+In *Prometheus Unbound*, Percy Shelley reimagines Prometheus as a Romantic hero. A beacon of emotion, innovation, sensitivity.
 
 > It doth repent me; words are quick and vain;  
 > Grief for awhile is blind, and so was mine.  
@@ -27,9 +29,9 @@ In his film *The Lighthouse*, Eggers continues this tradition and creates a post
 
 ## Extending the myth of Prometheus
 
-In his film *The Lighthouse* Eggers extends the myth of Prometheus into the self-indulgence and complexity of modernity.
+Eggers extends the myth of Prometheus into the self-indulgence and complexity of modernity.
 
-The link to the myth is most explict in the final shot of the film: Pattinson's character is sprawled on the rocks, seagulls eating his entrails. This forces a retroactive mapping of the story onto the myth.
+The link to the myth is most explict in the final shot of the film: Pattinson's character is sprawled on the rocks, seagulls eating his entrails. This forces a retroactive mapping of the story onto the myth: the analogy.
 
 Though this mythological mapping leaves important gaps, I don't think Prometheus is a one-off reference. Escpecially with the repeated flamelike and divine symbolism of *the light of the lighthouse*.
 
@@ -37,11 +39,13 @@ The primary gap follows: if Pattinson's character steals the lighthouse flame, t
 
 ## Leading the camera, sharing the light
 
+In film, the camera is often closely connected to characters and their movements. Specifically, the camera connects us to the characters it chooses to connect us to: for example, showing us what they see with an eyeline match.  
+
 <video controls>
     <source src="{{ url_for('static', filename='vid/post-videos/the-lighthouse/the-lighthouse.mp4')}}"
             type="video/mp4">
     Sorry, your browser doesn't support embedded videos.
-</video>
+</video>  
 
 It is Pattinson's character who leads us into the ligthouse.
 
