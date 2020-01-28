@@ -1,4 +1,6 @@
+# --
 title: About
+# --
 
 I don't like writing about myself: even a little third person trickery doesn't make the process comfortable.
 
