@@ -8,9 +8,9 @@ resonances: A Death in the Family
 
 Maybe it’s just me. Though, saying this after a title that pretends to “know all, say all” seems a kind of literary escapism—brackets of reluctance. This is what I have to say, and I will tell you: that should be the approach. Though to say it right requires a recap of my day.
 
-Maybe it’s just me but **João Rosa’s short story The Third Bank of the River is an allegory for consciousness, anxiety, and control**.
-
 ![the-third-bank-of-the-river](/static/img/post-images/the-third-bank-of-the-river/the-third-bank-of-the-river.jpg)
+
+Maybe it’s just me but **João Rosa’s short story The Third Bank of the River is an allegory for consciousness, anxiety, and control**.
 
 So, let’s get on with it:
 
