@@ -47,4 +47,4 @@ Tarkovsky seems obsessed with generating styllistic independence in the nascent 
 
 ///Footnotes Go Here///
 
-[^1]: 1\. Sculpting in Time
+[^1]: 1\. Tarkovski, A. (1987). Sculpting in time. Austin, TX: University of Texas Press.
