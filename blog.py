@@ -51,7 +51,8 @@ def header_markdown_preprocess(page):
     header_matches = re.findall(header_pattern, page)
     for match in header_matches:
         header_replace = f"<div class=\"header-link-padding\" id=\"{slugify(match)}\"></div><h2 class=\"group relative z-0\"><a class=\"header-link absolute opacity-0 group-hover:opacity-100 pin-l pin-t transition-ease\" href=\"#{slugify(match)}\">#</a>{match}</h2>"
-        header_pattern = re.compile(f"<h2>{match}</h2>")
+        header_pattern = re.compile(f"<h2>{re.escape(match)}</h2>")
+        print(header_pattern)
         page = re.sub(header_pattern, header_replace, page)
     return page
 

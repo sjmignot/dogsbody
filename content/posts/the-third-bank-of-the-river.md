@@ -38,13 +38,13 @@ In the story the protagonist’s father takes a boat out onto the wide river tha
 
 > Father headed his boat to the other side of the river and into the marshes, which he knew like the palm of his hand but in which other people quickly got lost. There in his private maze, which extended for miles, with heavy foliage overhead and rushes on all sides, he was safe.
 >
-> <cite> -- The Third Bank of the River</cite>
+> <cite> -- The Third Bank of the River[^1] </cite>
 
 In rereading Rosa's story, it was the line above that got me thinking that questions of conciousness underlie **The Third Bank of the R*iver*. The line reminded me of the first line of Dante's inferno.
 
 > Midway along the journey of our life, I woke to find myself in a dark wood,for I had wandered off from the straight path.
 >
-> <cite> -- Dante's Inferno</cite>
+> <cite> -- Dante's Inferno[^2]</cite>
 
 The mind is a maze and a forest: the neurons are composed of dendrites, they are dendritic. Whenever, a character is walking through a forest, I can't help but think they are walking through a mind: though, in many cases, I admit this is not likely explicitly the point. Every verdant hike is not a metaphysical journey.
 
@@ -56,7 +56,7 @@ When the son tries to take his father’s place on the river.
 
 > He heard me. He stood up. He maneuvered with oars and headed the boat toward me. He had accepted my offer. And suddenly I trembled, down deep. For he had raised his arm and waved—the first time in so many, so many years
 >
-> <cite> -- The Third Bank of the River</cite>
+> <cite> -- The Third Bank of the River[^3]</cite>
 
 When the father rows back towards the shore, I cannot help but think he is waking up from a dream: from his life that has been lived and spent on the river without him. A life finally remembered.
 
@@ -70,4 +70,12 @@ Anxiety is swimming against the current of the stream of consciousness, but what
 
 > I must stay in the deserts and unmarked plains of my life, and I fear I shall shorten it. But when death comes I want them to take me and put me in a little boat in this perpetual water between the long shores: and I, down the river, lost in the river, inside the river…the river…
 >
-> <cite> -- The Third Bank of the River</cite>
+> <cite> -- The Third Bank of the River[^4]</cite>
+
+///Footnotes Go Here///
+
+[^1]: 1\. Rosa, *The Third Bank of the River* (Translated by William Grossman), 1.
+[^2]: 2\. Dante, *Inferno* (Translated by Henry Longfellow), 1.
+[^3]: 3\. Rosa, *The Third Bank of the River* (Translated by William Grossman), 2.
+[^4]: 4\. Ibid, 3.
+
