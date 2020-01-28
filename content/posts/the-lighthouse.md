@@ -1,7 +1,9 @@
-title: "The Lighthouse: prometheus' gift"
+# --
+title: "The Lighthouse: a postmodern prometheus"
 date: 2020-01-01
 tags: robert-eggers
 genre: film
+# --
 
 Prometheus created humanity and stole fire from the gods for them. As punishment, he is chained to a rock in Caucasus and his liver is pecked out by eagles whereupon it regenerates so the process can continue forever. In his film *The Lighthouse* Eggers revives the myth, or at least imagery from the myth. For example, in the final shot of the film, Pattinson's character is sprawled on the rocks, seagulls eating his entrails.
 

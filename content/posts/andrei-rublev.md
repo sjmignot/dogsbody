@@ -1,30 +1,45 @@
+# --
 title: "Andrei Rublev: resonance, color, sound, and time"
 date: 2019-12-27
 tags: tarkovsky,film,silence,poetry
 subject: andrei rublev
 genre: film
+# --
 
 
 It is hard to unpack a Tarkovsky film. You take any thread, start pulling and it turns out to be the entire tapestry. Which is not to say that his movies are simple. Rather that everything is linked. The length of the thread is time and time ducks into itself.
 
 ![andrei-rublev](/static/img/post-images/andrei-rublev/andrei-rublev.jpg)
 
-Watching a film you leave with moments ducked into each other: composite
+After watching a film you leave with moments ducked into each other: a composite. What you experienced existed in time, but your reflections are necessarily condensed.
+
+This is what makes review or summary of temporal art a strange, but fascinating process: it involves a mapping, compression, into atemporal memory, and then back into the temporal, which is inevitably a lossy process.
+
+Though all of this may sound a hasty premeditated complaint of the writing that follows, though it very well might be, I want to share some thoughts.
 
 ## Suspense in the ringing of the bell
 
-Tarkovsky is not known for suspense: he is known for long takes, and slow cinema. But, in the final chapter of Andrei Rublevcontructs a beautiful, grounding, human, and suspensful scene. Though it isn't the kind of scene that causes hearts to leap or armchairs to be knuckled. It is slow suspense, that catches you in the slow give and pull of the scene.
+Tarkovsky is not known for suspense: he is known for long takes, and slow cinema. But, in the final chapter of Andrei Rublev, he contructs a beautiful, grounding, human, and suspensful scene.
 
+It isn't the kind of scene that causes hearts to leap or armchairs to be knuckled. It is slow suspense, that catches you in the slow give and pull of the scene.
 
-Tarkovsky foreshadows conflict: with character believing the coat for the making of a bell will not hold, but the bell holds. It is strange that the suspense does not end there. Because there are things we carry that trascend.
+> Mystery is when the spectator knows less than the characters in the movie. Suspense is when the spectator knows more than the characters in the movie.
+> 
+> <cite> -- Alfred Hitchock </cite>
 
-And
+Hitchcock famously connected suspense and dramatic irony: the audience "knowing more" than the film's characters. However, with Tarkovsky, we don't **know more** but think we do. This is an important and powerful distinction that is essential to the unique brand of suspense that Tarkovsky create.
 
-> Kolya Burlyaev as Boriska, the bell-caster's son in Audrey Rublyov was working with me for the second time after Ivan's Childhood. All the time we were shooting I had to give him to understand through my assistants that I was thoroughly dissatisfied with his work, and might retake his scenes using another actor. I wanted him to feel disaster hanging over him, perhaps about to fall, so that he would genuinely be feeling acutely insecure. Burlyaev is an extraordinarily dissipated, shallow and ostentatious actor. His bursts of temperament are artificial. That was why I had to have recourse to such severe measures. Even so his performance was not on the same level as that of my favourite actors.
+Tarkovsky foreshadows conflict and hints western suspense tropes: with character believing the coat for the making of a bell will not hold, but the bell holds. It is strange that the suspense does not end there. Because there are things we carry that trascend.
+
+> Kolya Burlyaev as Boriska, the bell-caster's son in Audrey Rublyov was working with me for the second time after Ivan's Childhood. All the time we were shooting I had to give him to understand through my assistants that I was thoroughly dissatisfied with his work, and might retake his scenes using another actor. I wanted him to feel disaster hanging over him, perhaps about to fall, so that he would genuinely be feeling acutely insecure. Burlyaev is an extraordinarily dissipated, shallow and ostentatious actor. His bursts of temperament are artificial. That was why I had to have recourse to such severe measures.
 > 
 > <cite> -- Andrei Tarkovsky, Sculpting in Time[^1]</cite>
 
+The suspense does not break until the ringing of the bell. We see the bell raised: it is an arduous process and the constant shots of ropes sow doubt in the strength of the twine. In the fillm tradition, seeing something often means it must be important, right? This mapping of shots to direct plot functionality.
 
+Though I must stress that this process is perhaps coincidental. In his writings Tarkovsky is adament in creating films that don't push against but rather excise cinematic tropes. Therefore, my readingn through the lens of susepense conventions could be a symptom of my western cinematic upbringing.
+
+But I think it remains essential to recognize that every film exists "the cinematic tradition". The power of Tarkovsky's cinema is, in part, dependent on that of Kurosawa and Hitchcock, Hollywood and the New Wave. It also goes without saying that Tarkovsky watched films from these movements and that they, inevitably, became a part of his cinematic language.
 
 ## A parallel of sound and color
 

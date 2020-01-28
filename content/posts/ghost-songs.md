@@ -1,7 +1,9 @@
+# --
 title: "Scary, no scary: ghost songs for the not quite dead"
 date: 2020-01-08
 tags: playlist,ghosts
 genre: music
+# --
 
 <div class="frame-wrap mx-auto sm:float-right">
 <iframe src="https://open.spotify.com/embed/playlist/6ahal05QUid7ZpNTBfsG9g" width="100%" height="250" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
