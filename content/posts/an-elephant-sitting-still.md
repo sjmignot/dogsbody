@@ -11,7 +11,7 @@ The film is 4 hours long. I watched it at the Brady Theater. When it was over, e
 I knew the general direction I needed to travel to get home, but Paris is full of sickle shaped streets: it took me an hour longer than it should have. All the while, I was stuck thinking about redemptive beauty.
 
 ![an-elephant-sitting-still]({{ url_for('static', filename='img/post-images/an-elephant-sitting-still/an-elephant-sitting-still.jpg')}})
-*frame from an elephant sitting still: Manzhouli through a rain-dampened windshield*
+*frame from an elephant sitting still: city through a rain-dampened windshield*
 
 ## Redemptive Beauty
 
@@ -31,7 +31,9 @@ Though my perspective is likely influenced by the director's recent suicide, I h
 
 Humor is also muted. The closest we get to a joke is when Huang Ling retroactively calls one of her comments one (a not altogether convincing declaration).
 
-And characters don't rage against their circumstances, they persist.
+And characters don't rage against their circumstances, they persist. This is especially frustrating because the film piles on explosive sudden events, what Justin Chang perfectly describes in his LA Times review as "a soap opera season’s worth of romantic indiscretions, sudden deaths, unfortunate accidents, provoked and unprovoked attacks"[^1].
+
+I left the film depressed, but also deeply moved. Frustrated, but disabused from the idea that art cannot be bleak.
 
 ## Fault and culpability
 
@@ -40,3 +42,6 @@ In Bo's An Elephant Sitting Still, characters ceaselessly blame each other. Yu C
 The central question is why do all these characters feel a need to exteriorize their anguish into blame: a pattern that continues on and on, into perpetual redirection and resolves nothing. I considered a few possible explanations: a redirection.
 
 I was also curious what this meant for a culture that is "collectivist". Putting aside the fact that individualism and collectivism are too all emcompasing to mean much, the idea of blame seems antithetical to community (beyond scapegoating).
+
+///Footnotes Go Here///
+[^1]: 1\. Justin Chang, *Review: ‘An Elephant Sitting Still,’ Hu Bo’s first and last feature, is a haunting dispatch from northern China*, LA Times.
