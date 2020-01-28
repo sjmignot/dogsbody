@@ -17,8 +17,6 @@ In *Prometheus Unbound*, Percy Shelley made Prometheus into a Romantic hero:
 >  
 > <cite> -- Percy Shelley, Prometheus Unbound[^1]</cite>
 
-In his film *The Lighthouse* Eggers revives the myth, or at least imagery from the myth. For example, in the final shot of the film, Pattinson's character is sprawled on the rocks, seagulls eating his entrails.
-
 In *Frankenstein*, Mary Shelley envisions a modern Prometheus: a tortured monster who utters, what is to me, one of the most powerful lines in English literature.
 
 > If I cannot inspire love then I will cause fear
@@ -27,12 +25,19 @@ In *Frankenstein*, Mary Shelley envisions a modern Prometheus: a tortured monste
 
 In his film *The Lighthouse*, Eggers creates a postmodern Prometheus.
 
-This leaves important gaps in the Prometheus-Lighthouse analogy, which I don't think is a one-off reference, specifically when there is something as flamelike and divine as the *the light of the lighthouse*, which characters are grappling for possession of.
+## Extending the myth of Prometheus
 
-The primary gap follows: if Pattinson's character steals the lighthouse flame, then how does he share it with humanity.
+In his film *The Lighthouse* Eggers extends the myth of Prometheus into the self-indulgence and complexity of modernity.
+
+The link to the myth is most explict in the final shot of the film: Pattinson's character is sprawled on the rocks, seagulls eating his entrails. This forces a retroactive mapping of the story onto the myth.
+
+Though this mythological mapping leaves important gaps, I don't think Prometheus is a one-off reference. Escpecially with the repeated flamelike and divine symbolism of *the light of the lighthouse*.
+
+The primary gap follows: if Pattinson's character steals the lighthouse flame, then how does he share it with humanity. Doesn't this also imply that Defoe's character, as the original owner of the flame, is divine[^3]?
 
 ## Leading the camera, sharing the light
 
 ///Footnotes Go Here///
 [^1]: 1\. Percy Shelley, *Prometheus Unbound*, Act I. 304-306.
 [^2]: 2\. Mary Shelley, *Frankenstein*.
+[^3]: 3\. A reputation at odds with his reckless, ceaseless farting and sailor-tongue (though such practices are in line with the impetuous holiness of Greek deities).
