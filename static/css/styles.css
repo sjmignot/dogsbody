@@ -100,6 +100,12 @@ body {
   background: black;
 }
 
+.post video {
+  @apply w-full;
+  padding: 5px;
+  background:black;
+}
+
 /* purgecss start ignore */
 img[src*='#center'] {
     display: block;

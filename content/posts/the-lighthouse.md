@@ -7,7 +7,7 @@ genre: film
 
 Prometheus created humanity and stole fire from the gods for them. As punishment, he is chained to a rock in Caucasus and his liver is pecked out by eagles whereupon it regenerates so the process can continue forever. 
 
-![the lighthouse](/static/img/post-images/the-lighthouse/the-lighthouse.jpg)
+![the lighthouse](/static/img/post-images/the-lighthouse/the-lighthouse-1.jpg)
 
 In *Prometheus Unbound*, Percy Shelley made Prometheus into a Romantic hero:  
 
@@ -23,7 +23,7 @@ In *Frankenstein*, Mary Shelley envisions a modern Prometheus: a tortured monste
 >  
 > <cite> -- Mary Shelley, Frankenstein[^2]</cite>
 
-In his film *The Lighthouse*, Eggers creates a postmodern Prometheus.
+In his film *The Lighthouse*, Eggers continues this tradition and creates a postmodern Prometheus.
 
 ## Extending the myth of Prometheus
 
@@ -36,6 +36,16 @@ Though this mythological mapping leaves important gaps, I don't think Prometheus
 The primary gap follows: if Pattinson's character steals the lighthouse flame, then how does he share it with humanity. Doesn't this also imply that Defoe's character, as the original owner of the flame, is divine[^3]?
 
 ## Leading the camera, sharing the light
+
+<video controls>
+    <source src="{{ url_for('static', filename='vid/post-videos/the-lighthouse/the-lighthouse.mp4')}}"
+            type="video/mp4">
+    Sorry, your browser doesn't support embedded videos.
+</video>
+
+It is Pattinson's character who leads us into the ligthouse.
+
+![the lighthouse](/static/img/post-images/the-lighthouse/the-lighthouse-2.jpg)
 
 ///Footnotes Go Here///
 [^1]: 1\. Percy Shelley, *Prometheus Unbound*, Act I. 304-306.

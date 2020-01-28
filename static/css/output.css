@@ -10345,6 +10345,12 @@ body {
   background: black;
 }
 
+.post video {
+  width: 100%;
+  padding: 5px;
+  background:black;
+}
+
 /* purgecss start ignore */
 
 img[src*='#center'] {
