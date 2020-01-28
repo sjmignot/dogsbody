@@ -12,7 +12,8 @@ html {
 }
 
 body {
-    flex: 1;
+  flex: 1;
+  counter-reset: figure;
 }
 
 #dice {
@@ -57,6 +58,10 @@ body {
   left: -40px;
 }
 
+.post p {
+  z-index: 10;
+}
+
 .post blockquote {
   position: relative;
   font-size: 14px;
@@ -91,7 +96,6 @@ body {
 
 .post img {
   @apply w-full;
-  margin-bottom: 1rem;
   padding: 5px;
   background: black;
 }
@@ -113,11 +117,11 @@ img[src*='#center'] {
   @apply font-postheader pb-4 text-2xl;
 }
 
-.post h2:before {
+.post .header-link-padding {
   display: block;
   content: "";
-  margin-top: -6rem;
-  height: 6rem;
+  margin-top: -7rem;
+  height: 7rem;
   visibility: hidden;
   pointer-events: none;
 }
@@ -224,6 +228,17 @@ progress::-moz-progress-bar {
 
 .transition-ease {
   transition: all .2s ease-out;
+}
+
+.post img + em {
+  @apply text-base text-gray-500;
+  text-transform: lowercase;
+}
+
+.post img + em:before {
+  counter-increment: figure;
+  content: "figure " counter(figure) ". ";
+  @apply font-bold;
 }
 
 /*! purgecss end ignore */

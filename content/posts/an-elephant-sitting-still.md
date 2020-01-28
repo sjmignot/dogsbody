@@ -11,6 +11,7 @@ The film is 4 hours long. I watched it at the Brady Theater. When it was over, e
 I knew the general direction I needed to travel to get home, but Paris is full of sickle shaped streets: it took me an hour longer than it should have. All the while, I was stuck thinking about redemptive beauty.
 
 ![an-elephant-sitting-still]({{ url_for('static', filename='img/post-images/an-elephant-sitting-still/an-elephant-sitting-still.jpg')}})
+*frame from an elephant sitting still: city through a rain-dampened windshield*
 
 ## Redemptive Beauty
 

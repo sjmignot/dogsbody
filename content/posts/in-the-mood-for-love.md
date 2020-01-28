@@ -11,6 +11,7 @@ Wong Kar-Wai’s film *In the Mood for Love*, on first reflection, seems destine
 It tells the story of two neighbors who develop a relationship as they begin to suspect their respective partners of affairs. They grow close but are committed to not make the same mistakes.
 
 ![Male protagonist smoking]({{ url_for('static', filename='img/post-images/in-the-mood-for-love/in-the-mood-for-love-1.jpg')}})
+*Frame from In the Mood for Love: Tony Leung's character smoking*
 
 The story is beautiful, but the medium of film seems antagonistic to the intimacy and contained humanity that Wong’s characters need. The movie must work against a number of difficult dynamics: primarily, how to present the private intimacy of the characters against the incidentally cold/observational and voyeuristic nature of filmmaking and framing.
 
@@ -23,12 +24,14 @@ I mean to propose, more than anything, that we as viewers should not feel entitl
 In some scenes Wong Kar-Wai provides us with a pretty direct view of his characters where we see their faces, but still his compositions are layered. The frame below comes from a shot that opens with the bottom fourth cut off. There are plants in the foreground and a partially opened window that creates an additional frame inside the shot. The room is further blocked off by the outer walls of the building.
 
 ![Female protagonist drinking water in window]({{ url_for('static', filename='img/post-images/in-the-mood-for-love/in-the-mood-for-love-2.jpg')}})
+*Frame from In the Mood for Love: Maggie Cheung's character drinking water by the window*
 
 We are given access to the room through the window but are not allowed into it—the camera (and consequently us, the viewer) is not allowed in the room. Nonetheless, the open window implies that we are not looking into the scene uninvited; we have permission to look into the room, but it is a permission that we are given not one that we are entitled to.
 
 The shot also reminded me of Richard Diebenkorn’s 1959 painting Coffee (shown below): both seem to offer personality through obfuscation. In both images the character’s face is blocked by a glass but made more expressive virtue of it. I believe this serves as a greater metaphor for Wong Kar-Wai film: the shots and framing in *In the Mood for Love* are blocked but more expressive as a result.
 
 ![Diebenkorn's Coffee painting]({{ url_for('static', filename='img/post-images/in-the-mood-for-love/coffee-diebenkorn.jpg')}})
+*Diebenkorn's Coffee painting*
 
 Wong consistently reframes and softens his shots. The film’s cinematography and set design take advantage of:
 - obstructions in the foreground,
@@ -43,6 +46,9 @@ Wong consistently reframes and softens his shots. The film’s cinematography an
 ## Rejecting the prying eye
 
 This is also the reason why I love Magritte’s painting Lovers II. It rejects our natural instinct to possess characters and art—to see everything: their eyes, their faces, how they feel. It covers their heads. The man wears a clichéd black suit with a black tie like he could literally be anybody. The cloth condemns us to not understand them.
+
+![Magritte The Lovers painting]({{ url_for('static', filename='img/post-images/in-the-mood-for-love/the-lovers.jpg')}})
+*Magritte's painting The Lovers*
 
 However, the cloth doesn’t affect them. They see everything that they want to see because their eyes are closed and their lips can (clearly) still kiss through the cloth. Their faces, the cynosure of the painting, are only known by the characters. We must accept, for once, that the characters do not belong to us. Their secrets expressions are buried in cloth
 
