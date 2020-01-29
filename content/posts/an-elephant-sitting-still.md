@@ -47,7 +47,7 @@ Instead, as disasters befall them, Bo'scharacters become more entrenched in who 
 
 Macbeth certainly could have proved an inspiration for Hu Bo's film: his mentor Bela Tarr directed an adaption, which it is very likely Bo saw.
 
-I left the film depressed, but also deeply moved. Frustrated, but disabused from the idea that art cannot be bleak.
+I left the film depressed, but also deeply moved. Frustrated, but disabused from the idea that art cannot be profoundly bleak.
 
 ## Fault and culpability
 

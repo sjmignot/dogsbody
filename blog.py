@@ -55,7 +55,6 @@ def header_markdown_preprocess(page):
         page = re.sub(header_pattern, header_replace, page)
     return page
 
-
 @app.route('/')
 def home():
     return redirect(url_for('blog'))
