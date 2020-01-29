@@ -33,7 +33,7 @@ Humor is also muted. The closest we get to a joke is when Huang Ling retroactive
 
 And characters don't rage against their circumstances, they persist. This is especially frustrating because the film piles on explosive sudden events, what Justin Chang perfectly describes in his LA Times review as "a soap opera season’s worth of romantic indiscretions, sudden deaths, unfortunate accidents, provoked and unprovoked attacks"[^1].
 
-I left the film depressed, but also deeply moved. Frustrated, but disabused from the idea that art cannot be bleak.
+I left the film depressed, but also deeply moved. Frustrated, but disabused from the idea that art cannot be profoundly bleak.
 
 ## Fault and culpability
 
