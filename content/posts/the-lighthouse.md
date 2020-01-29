@@ -34,9 +34,10 @@ Eggers extends the myth of Prometheus into the self-indulgence and complexity of
 
 The link to the myth is most explict in the final shot of the film: Pattinson's character is sprawled on the rocks, seagulls eating his entrails. This forces a retroactive mapping of the story onto the myth: the analogy.
 
-Though this mythological mapping leaves important gaps, I don't think Prometheus is a one-off reference. Escpecially with the repeated flamelike and divine symbolism of *the light of the lighthouse*.
+Prometheus isn't a one-off reference. The flamelike symbolism of *the light of the lighthouse* can be mapped to stolen fire. Besides, Eggers explicitly mentions his adpotion of the myth in an interview with Vox saying: "Well, Prometheus and Proteus never hung out in any Greek myths before, but that seems to be what is kind of happening here". He goes on to say "Prometheus might be taking on some characteristics that he hasn’t in the past. But you know what? The classical authors did that all the time"[^3].
 
-The primary gap follows: if Pattinson's character steals the lighthouse flame, then how does he share it with humanity. Doesn't this also imply that Defoe's character, as the original owner of the flame, is divine[^3]?
+Though this mythological mapping leaves important gaps
+The primary gap follows: if Pattinson's character steals the lighthouse flame, then how does he share it with humanity.
 
 ## Leading the camera, sharing the light
 
@@ -58,7 +59,14 @@ It is Pattinson's character who leads us into the ligthouse, into an inner sanct
 
 We see what we sees. At least we do before he tumbles down the stairs and dies. Eggers imperfect, postmodern prometheus shares the arc of his analog: stealing the light, giving it to us, and being punished for it. However, his motives are egotistical, obsessive. His world lonely. His gift coincidental.
 
+In his brilliant video essay on Cuarón's film Children of Men, titled [Don't Ignore the Background](https://www.youtube.com/watch?v=-woNlmVcdjc&has_verified=1), Evan Puschak talks about the process of identification.
+
+> In thousand of films we interpret the world through the eyes of the main character. This process of identification is automatic and strong. So strong that we can even be made to sympathize with people who are bad or evil. So when the camera actively breaks that identification and shows us imagery the lead character doesn't see or notice we're made forcefully aware, in a purely visual way, of the perspective of the film itself.
+> 
+><cite> -- Evan Puschak, Don't Ignore the Background[^4]</cite>
+
 ///Footnotes Go Here///
 [^1]: 1\. Percy Shelley, *Prometheus Unbound*, Act I. 304-306.
 [^2]: 2\. Mary Shelley, *Frankenstein*.
-[^3]: 3\. A reputation at odds with his reckless, ceaseless farting and sailor-tongue (though such practices are in line with the impetuous holiness of Greek deities).
+[^3]: 3\. Alissa Wilkison, *The Witch director Robert Eggers spills his beans about The Lighthouse*. https://www.vox.com/culture/2019/10/15/20914097/robert-eggers-lighthouse-interview-witch.
+[^4]: 4\. Evan Puschak, *Children of Men: Don't Ignore the Background*
