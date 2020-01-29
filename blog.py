@@ -28,6 +28,7 @@ FLATPAGES_HTML_RENDERER = prerender_jinja
 
 app = Flask(__name__)
 flatpages = FlatPages(app)
+ 
 freezer = Freezer(app)
 
 app.config.from_object(__name__)
@@ -55,13 +56,19 @@ def header_markdown_preprocess(page):
         page = re.sub(header_pattern, header_replace, page)
     return page
 
+def get_posts():
+    if len(sys.argv) > 1 and sys.argv[1] == "build":
+        return [p for p in flatpages if p.path.startswith(POST_DIR) and 'draft' not in p.meta]
+    else:
+        return [p for p in flatpages if p.path.startswith(POST_DIR)]
+
 @app.route('/')
 def home():
     return redirect(url_for('blog'))
 
 @app.route("/posts/")
 def blog():
-    posts = [p for p in flatpages if p.path.startswith(POST_DIR)]
+    posts = get_posts()
     posts.sort(key=lambda item:item['date'], reverse=True)
     dates = [post['date'].strftime("%b. %d, %Y").lower() for post in posts]
     post_names = [p.path.replace('posts/','') for p in posts]
@@ -70,7 +77,7 @@ def blog():
 @app.route('/post/<name>/')
 def blog_post(name):
     path = '{}/{}'.format(POST_DIR, name)
-    posts = [p for p in flatpages if p.path.startswith(POST_DIR)]
+    posts = get_posts()
     post = flatpages.get_or_404(path)
     date = post['date'].strftime("%b. %d, %Y").lower()
     post_names = [p.path.replace('posts/', '') for p in posts]
@@ -80,7 +87,7 @@ def blog_post(name):
 def about():
     path = '{}/{}'.format(OTHER_DIR, 'about')
     about = flatpages.get_or_404(path)
-    posts = [p for p in flatpages if p.path.startswith(POST_DIR)]
+    posts = get_posts()
     post_names = json.dumps([p.path.replace('posts/','') for p in posts])
     return render_template('about.html', about=about, post_names=post_names)
 
@@ -88,7 +95,7 @@ def about():
 def backblog():
     path = '{}/{}'.format(OTHER_DIR, 'backblog')
     backblog= flatpages.get_or_404(path)
-    posts = [p for p in flatpages if p.path.startswith(POST_DIR)]
+    posts = get_posts()
     post_names = json.dumps([p.path.replace('posts/','') for p in posts])
     return render_template('backblog.html', backblog=backblog, post_names=post_names)
 

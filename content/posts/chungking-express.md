@@ -4,6 +4,7 @@ date: 2020-01-10
 tags: wong-kar-wai
 genre: film
 resonances: Psycho,Paris Texas
+draft: true
 # --
 
 Wong Kar-Wai’s film Chungking Express is a masterpiece. In place, it rewrites the technical rules of cinema.
@@ -11,7 +12,7 @@ Wong Kar-Wai’s film Chungking Express is a masterpiece. In place, it rewrites 
 With gorgeous cinematography work by Directory of Photography Chistopher Doyle,
 
 ![chungking-express](/static/img/post-images/chungking-express/chungking-express.jpg)
-*frame from chungking express: cop 663 opens faye's letter
+*frame from chungking express: cop 663 opens faye's letter*
 
 ## Roughing up the image
 
