@@ -18,34 +18,42 @@ This is what makes review or summary of temporal art (film, literature, music) a
 
 Though all of this may sound a hasty premeditated complaint of the writing that follows, though it very well might be, it does seem the kind of preamble Tarkovsky would have appreciated. After all, he modestly called his art "sculpting in time".
 
-I want to share some thoughts.
-
 ## Suspense in the ringing of the bell
 
 Tarkovsky is not known for suspense: he is known for long takes, and slow cinema. But, in the final chapter of Andrei Rublev, he contructs a beautiful, grounding, human, and suspensful scene.
 
-It isn't the kind of scene that causes hearts to leap or armchairs to be knuckled. It is slow suspense, that catches you in the slow give and pull of the scene.
+It isn't the kind of scene that causes hearts to leap or armchairs to be knuckled. It is slow suspense, that catches you and patiently wraps you in the give and pull of the scene.
 
 > Mystery is when the spectator knows less than the characters in the movie. Suspense is when the spectator knows more than the characters in the movie.
 > 
 > <cite> -- Alfred Hitchock </cite>
 
-Hitchcock famously connected suspense and dramatic irony: the audience "knowing more" than the film's characters. However, with Tarkovsky, we don't **know more** but think we do. This is an important and powerful distinction that is essential to the unique brand of suspense that Tarkovsky create.
+Hitchcock famously connected suspense and dramatic irony: the audience "knowing more" than the film's characters. However, with Tarkovsky, we don't **know more** than characters, we only think we do. This is an important and powerful distinction that is essential to the unique brand of suspense that Tarkovsky create.
 
 ![andrei-rublev](/static/img/post-images/andrei-rublev/andrei-rublev-2.jpg)
 *frame from andrei rublev: the ringing of the bell*
 
-Tarkovsky foreshadows conflict and hints western suspense tropes: with character believing the coat for the making of a bell will not hold, but the bell holds. It is strange that the suspense does not end there. Because there are things we carry that trascend.
+Tarkovsky foreshadows conflict and hints Hollywood style suspense tropes:
+The young bell maker Boriska is told that the argile coat that serves as the mold for the making of a bell won't hold. He reacts harshly, sending his skeptical friend to be whipped. In the tradition of suspense cinema, this should be a strong clue that the mold is inadequate and the bell . But the mold holds. But the suspense does not end there and the resolution is not anti-climactic: part of this is likely do to Burlyaev's acting (which I thought was stunning, but that Tarkovsky pans in his book *Sculpting in Time).
 
 > Kolya Burlyaev as Boriska, the bell-caster's son in Audrey Rublyov was working with me for the second time after Ivan's Childhood. All the time we were shooting I had to give him to understand through my assistants that I was thoroughly dissatisfied with his work, and might retake his scenes using another actor. I wanted him to feel disaster hanging over him, perhaps about to fall, so that he would genuinely be feeling acutely insecure. Burlyaev is an extraordinarily dissipated, shallow and ostentatious actor. His bursts of temperament are artificial. That was why I had to have recourse to such severe measures.
 > 
 > <cite> -- Andrei Tarkovsky, Sculpting in Time[^1]</cite>
 
-The suspense does not break until the ringing of the bell. We see the bell raised: it is an arduous process and the constant shots of ropes sow doubt in the strength of the twine. In the fillm tradition, seeing something often means it must be important, right? This mapping of shots to direct plot functionality.
+It is the insecurity of Boriska, that generates suspense, which is insanely innovative because it works inside-out rather than the outside-in of Hitchcockian suspense. 
+
+The suspense, and Boriska's insecurity, are both heighetned when the bell is raised. Boriska is told that they should have gotten chains: that the rope may not hold.
+
+We see the bell raised: it is an arduous process and the constant shots of strained ropes generate suspense and doubt. In the fillm tradition, we are taught to equate what is shown with what is important. A mapping of shots to pure plot functionality. But the bell is raised without problem. Still, the feeling of suspense that Tarkovsky has build doesn't diffuse. 
+
+But the ringing of the bell, hypnotic, slow, that should prove complete carthasis doesn't disperse the louring of suspense.
+
+Not until Boriska breaks down in Rublev's arms, not until the internal (inside-out) emotional release, is the immense pressure that Tarkovsky builds diffused.
 
 Though I must stress that this process is perhaps coincidental. In his writings Tarkovsky is adament in creating films that don't push against but rather excise cinematic tropes. Therefore, my readingn through the lens of susepense conventions could be a symptom of my western cinematic upbringing.
 
-But I think it remains essential to recognize that every film exists "the cinematic tradition". The power of Tarkovsky's cinema is, in part, dependent on that of Kurosawa and Hitchcock, Hollywood and the New Wave. It also goes without saying that Tarkovsky watched films from these movements and that they, inevitably, became a part of his cinematic language.
+But I think it remains essential to recognize that every film exists in "the cinematic tradition". The power of Tarkovsky's cinema is, in part, dependent on that of Kurosawa and Hitchcock, Hollywood and the New Wave. It also goes without saying that Tarkovsky watched films from these directors and movements: that they, inevitably, became a part of his cinematic language.
+
 
 ## A parallel of sound and color
 
