@@ -64,3 +64,5 @@ I was also curious what this meant for a culture that is "collectivist". Putting
 ///Footnotes Go Here///
 [^1]: 1\. Justin Chang, *Review: ‘An Elephant Sitting Still,’ Hu Bo’s first and last feature, is a haunting dispatch from northern China*, LA Times.
 [^2]: 2\. Shakespeare, *Macbeth*, V.2.25-28.
+
+<hr />

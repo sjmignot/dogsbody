@@ -90,3 +90,4 @@ Tarkovsky seems obsessed with generating styllistic independence in the young ar
 [^2]: 2\. Ibid., 64.
 [^3]: 3\. Ibid., 78.
 
+<hr />

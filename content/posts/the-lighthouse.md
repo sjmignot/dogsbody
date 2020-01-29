@@ -32,9 +32,9 @@ In his film *The Lighthouse*, Eggers continues this tradition and creates a post
 
 Eggers extends the myth of Prometheus into the self-indulgence and complexity of modernity.
 
-The link to the myth is most explict in the final shot of the film: Pattinson's character is sprawled on the rocks, seagulls eating his entrails. This forces a retroactive mapping of the story onto the myth: the analogy.
+The link to the myth is most explict in the final shot of the film: Pattinson's character is sprawled on the rocks, seagulls eating his entrails. This forces a retroactive mapping of the story onto the myth.
 
-Prometheus isn't a one-off reference. The flamelike symbolism of *the light of the lighthouse* can be mapped to stolen fire. Besides, Eggers explicitly mentions his adpotion of the myth in an interview with Vox saying: "Well, Prometheus and Proteus never hung out in any Greek myths before, but that seems to be what is kind of happening here". He goes on to say "Prometheus might be taking on some characteristics that he hasn’t in the past. But you know what? The classical authors did that all the time"[^3].
+Prometheus isn't a one-off reference. The flamelike symbolism of *the light of the lighthouse* can be mapped to stolen fire, and Eggers explicitly mentions his use of the myth in an interview with Vox saying: "Well, Prometheus and Proteus[^3] never hung out in any Greek myths before, but that seems to be what is kind of happening here". He goes on to say "Prometheus might be taking on some characteristics that he hasn’t in the past. But you know what? The classical authors did that all the time"[^4].
 
 It is important to pin down what these characteristics are, especially after using a term as protean as postmodernist to define him.
 
@@ -43,7 +43,19 @@ The primary gap follows: if Pattinson's character steals the lighthouse flame, t
 
 ## Leading the camera, sharing the light
 
-In film, the camera is often closely connected to characters and their movements. Specifically, the camera connects us to the characters it chooses to connect us to: for example, showing us what they see with an eyeline match.  
+In film, the camera is often closely connected to characters and their movements. Specifically, the camera "chooses" which characters it connects us to. This is done in a number of subtle ways, but best seen through an example:
+
+Imagine a simple shot with two characters sitting at a table. One of them gets up: does the camera adjust to keep their full body in frame? If one of them moves does it follow them, removing the other character from the frame, does it zoom out?
+
+Framing and camera movement decisions effect the degree to which we identify with specific characters.
+
+In his brilliant video essay on Cuarón's film Children of Men, titled [Don't Ignore the Background](https://www.youtube.com/watch?v=-woNlmVcdjc&has_verified=1), Evan Puschak talks about this as the process of identification (though, specifically, how Children of Men breaks that process).
+
+> In thousand of films we interpret the world through the eyes of the main character. This process of identification is automatic and strong. So strong that we can even be made to sympathize with people who are bad or evil. So when the camera actively breaks that identification and shows us imagery the lead character doesn't see or notice we're made forcefully aware, in a purely visual way, of the perspective of the film itself.
+> 
+><cite> -- Evan Puschak, Don't Ignore the Background[^5]</cite>
+
+In *The Lighthouse* Egger's makes us identify with both Pattinson and Defoe's characters in different scenes. For exampe, when we see the following shot of Pattinson's character, Thomas Howard, staring through the grated floor of the lighthouse's inner sanctum, we are bound closer to him and to his perspective. We want to see the light, to see what is so special about it. We trust Pattinson's character more and distrust Defoe's[^6].
 
 <p>
 <video controls>
@@ -54,21 +66,26 @@ In film, the camera is often closely connected to characters and their movements
 <em>clip from the lighthouse: howard stares up through the grid  floor at the lighthouse's light</em>
 </p>
 
-In his brilliant video essay on Cuarón's film Children of Men, titled [Don't Ignore the Background](https://www.youtube.com/watch?v=-woNlmVcdjc&has_verified=1), Evan Puschak talks about the process of identification.
-
-> In thousand of films we interpret the world through the eyes of the main character. This process of identification is automatic and strong. So strong that we can even be made to sympathize with people who are bad or evil. So when the camera actively breaks that identification and shows us imagery the lead character doesn't see or notice we're made forcefully aware, in a purely visual way, of the perspective of the film itself.
-> 
-><cite> -- Evan Puschak, Don't Ignore the Background[^4]</cite>
-
-It is Pattinson's character, Thomas Howard, who leads us into the ligthouse, into an inner sanctum that seems like it's out of a science fiction movie. Briefly, we see it all. The light, the lens, the room. By reaching it himself, Howard indirectly gives us the light.
+It is Pattinson's character, Thomas Howard, who leads us into the ligthouse, into an inner sanctum that seems like it's out of an old science fiction movie (like Tarkovsky's Solaris). Briefly, we can see everything: the light, the lens, the room. By reaching it himself, Howard indirectly gives us the light: indirectly gives us fire.
 
 ![the lighthouse](/static/img/post-images/the-lighthouse/the-lighthouse-2.jpg)
 *frame from the lighthouse: howard makes it into the lighthouse's light*
 
-We see what he sees. At least we do before he falls down the stairs and dies. Eggers imperfect, postmodern prometheus shares the arc of his analog: he steals fire, gives it to us, and is punished for it. However, his motives are egotistical, obsessive. His world lonely. His gift coincidental.
+We see what he sees. At least we do before he falls down the stairs and dies.
+
+Through the process of identificaiton, Eggers imperfect prometheus shares the arc of his analog: he steals fire, gives it to us, and is punished for it. However, his motives are egotistical, obsessive. His world lonely. His gift coincidental.
+
+My main qualm with *The Lighthouse* is that Eggers fails to bind us close enough to Pattinson's character to make his sharing of the light a powerful act.
+In different scenes of the movie we identify more with Defoe or Pattinson, which is a great virtue for a movie that aims to sow psychological distrust and discomfort. However, this process is at odds with what is essentially powerful about Prometheus as a character. If Prometheus steals fire but doesn't redistribute it, he is no longer Prometheus: the essential complexity of his character is removed.
+
+Don't get me wrong, I think the film is phenomenal, but Eggers' take on the myth of Prometheus, so close to brilliant, is weakened by the conflicting directions of the film.
 
 ///Footnotes Go Here///
 [^1]: 1\. Percy Shelley, *Prometheus Unbound*, Act I. 304-306.
 [^2]: 2\. Mary Shelley, *Frankenstein*.
-[^3]: 3\. Alissa Wilkison, [*The Witch director Robert Eggers spills his beans about The Lighthouse*](https://www.vox.com/culture/2019/10/15/20914097/robert-eggers-lighthouse-interview-witch).
-[^4]: 4\. Evan Puschak, *Children of Men: Don't Ignore the Background*
+[^3]: 3\. Proteus being the wile, shape-shifting sea god.
+[^4]: 4\. Alissa Wilkison, [*The Witch director Robert Eggers spills his beans about The Lighthouse*](https://www.vox.com/culture/2019/10/15/20914097/robert-eggers-lighthouse-interview-witch).
+[^5]: 5\. Evan Puschak, *Children of Men: Don't Ignore the Background*
+[^6]: 6\. One of the things that Eggers does quite well in *The Lighthouse* is shift our focus and trust between Defoe and Eggers. A process epitomized by Lanthimos' movie *The Favourite*.
+
+<hr />

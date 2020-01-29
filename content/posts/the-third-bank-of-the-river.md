@@ -1,14 +1,14 @@
 # --
-title: "The Third Bank of the River: consciousness, anxiety, and family"
+title: "The Third Bank of the River: consciousness and anxiety"
 date: 2018-08-27
-tags: joao-rosa,book,short-story,consciousness,anxiety,family
+tags: joao-rosa,book,short-story,consciousness,anxiety
 genre: literature
 resonances: A Death in the Family
 # --
 
 Maybe it’s just me. Though, saying this after a title that pretends to “know all, say all” seems a kind of literary escapism—brackets of reluctance. This is what I have to say, and I will tell you: that should be the approach. Though to say it right requires a recap of my day.
 
-![the-third-bank-of-the-river](/static/img/post-images/the-third-bank-of-the-river/the-third-bank-of-the-river.jpg)
+![the-third-bank-of-the-river](/static/img/post-images/the-third-bank-of-the-river/the-third-bank-of-the-river-1.jpg)
 
 Maybe it’s just me but **João Rosa’s short story The Third Bank of the River is an allegory for consciousness, anxiety, and control**.
 
@@ -40,13 +40,16 @@ In the story the protagonist’s father takes a boat out onto the wide river tha
 >
 > <cite> -- The Third Bank of the River[^1] </cite>
 
-In rereading Rosa's story, it was the line above that got me thinking that questions of conciousness underlie **The Third Bank of the R*iver*. The line reminded me of the first line of Dante's inferno.
+In rereading Rosa's story, it was the line above that got me thinking that questions of conciousness underlie *The Third Bank of the River*. The line reminded me of the first line of Dante's inferno.
 
 > Midway along the journey of our life, I woke to find myself in a dark wood,for I had wandered off from the straight path.
 >
 > <cite> -- Dante's Inferno[^2]</cite>
 
 The mind is a maze and a forest: the neurons are composed of dendrites, they are dendritic. Whenever, a character is walking through a forest, I can't help but think they are walking through a mind: though, in many cases, I admit this is not likely explicitly the point. Every verdant hike is not a metaphysical journey.
+
+![the-third-bank-of-the-river](/static/img/post-images/the-third-bank-of-the-river/the-third-bank-of-the-river-2.jpg)
+*Rosa during his travels through the sertão[^3]*
 
 And, anyway, after all my wordage, I’m not here to try and convince you that this story is "about" consciousness or anxiety; I don’t think it was meant to be about either.
 
@@ -56,7 +59,7 @@ When the son tries to take his father’s place on the river.
 
 > He heard me. He stood up. He maneuvered with oars and headed the boat toward me. He had accepted my offer. And suddenly I trembled, down deep. For he had raised his arm and waved—the first time in so many, so many years
 >
-> <cite> -- The Third Bank of the River[^3]</cite>
+> <cite> -- The Third Bank of the River[^4]</cite>
 
 When the father rows back towards the shore, I cannot help but think he is waking up from a dream: from his life that has been lived and spent on the river without him. A life finally remembered.
 
@@ -70,11 +73,14 @@ Anxiety is swimming against the current of the stream of consciousness, but what
 
 > I must stay in the deserts and unmarked plains of my life, and I fear I shall shorten it. But when death comes I want them to take me and put me in a little boat in this perpetual water between the long shores: and I, down the river, lost in the river, inside the river…the river…
 >
-> <cite> -- The Third Bank of the River[^4]</cite>
+> <cite> -- The Third Bank of the River[^5]</cite>
 
 ///Footnotes Go Here///
 
 [^1]: 1\. Rosa, *The Third Bank of the River* (Translated by William Grossman), 1.
 [^2]: 2\. Dante, *Inferno* (Translated by Henry Longfellow), 1.
-[^3]: 3\. Rosa, *The Third Bank of the River* (Translated by William Grossman), 2.
-[^4]: 4\. Ibid, 3.
+[^3]: 3\. Guimarães Rosa em viagem.jpg." Wikimedia Commons, the free media repository.
+[^4]: 4\. Rosa, *The Third Bank of the River* (Translated by William Grossman), 2.
+[^5]: 5\. Ibid, 3.
+
+<hr />
