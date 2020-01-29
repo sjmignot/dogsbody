@@ -75,15 +75,6 @@
     window.onload = function() {
       document.getElementById("dice").parentElement.href=`/post/${post_name}`;
     }
-
-    var open = false;
-    document.getElementById('nav-toggle').onclick = function(){
-      Array.from(document.getElementsByClassName("nav-content")).forEach(
-        function(element, index, array) {
-          element.classList.toggle("hidden");
-        }
-      );
-    }
   </script>
  </body>
 </html>
