@@ -33,15 +33,7 @@ The shot also reminded me of Richard Diebenkorn’s 1959 painting Coffee (shown 
 ![Diebenkorn's Coffee painting]({{ url_for('static', filename='img/post-images/in-the-mood-for-love/coffee-diebenkorn.jpg')}})
 *Diebenkorn's Coffee painting*
 
-Wong consistently reframes and softens his shots. The film’s cinematography and set design take advantage of:
-- obstructions in the foreground,
-- contrasting colors/patterns,
-- frames inside frames,
-- orientation of characters,
-- mirrors and reflections,
-- repeating colors/patterns,
-- camera movement,
-- shadows.
+Wong consistently reframes and softens his shots. The film’s cinematography and set design take advantage of: obstructions in the foreground, contrasting colors/patterns, nested frames, orientation of characters, mirrors and reflections, repeating colors/patterns, camera movement, shadows.
 
 ## Rejecting the prying eye
 

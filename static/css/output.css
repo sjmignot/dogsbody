@@ -10212,6 +10212,14 @@ body {
   counter-reset: figure;
 }
 
+::-moz-selection {
+  background-color: #F18F01;
+}
+
+::selection {
+  background-color: #F18F01;
+}
+
 #dice {
   font-size: 30px;
   font-weight: 100;
@@ -10416,6 +10424,10 @@ img[src*='#center'] {
   padding-bottom: 1rem;
   font-size: 1.25rem;
   z-index: 10;
+}
+
+.post ul {
+  list-style-type: disc;
 }
 
 .header-link {

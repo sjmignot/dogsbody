@@ -16,6 +16,10 @@ body {
   counter-reset: figure;
 }
 
+::selection {
+  @apply bg-orange;
+}
+
 #dice {
   font-size: 30px;
   font-weight: 100;
@@ -163,6 +167,10 @@ img[src*='#center'] {
 
 .post h3 {
   @apply font-postheader pb-4 text-xl z-10;
+}
+
+.post ul {
+ @apply list-disc;
 }
 
 .header-link {
