@@ -56,7 +56,7 @@ It is Pattinson's character who leads us into the ligthouse, into an inner sanct
 ![the lighthouse](/static/img/post-images/the-lighthouse/the-lighthouse-2.jpg)
 *frame from the lighthouse: howard makes it into the lighthouse's light*
 
-We see what we sees. Before he tumbles down the stairs and dies. Eggers imperfect, postmodern prometheus shares the arc of his analog: stealing the light, giving it to us, and being punished for it. However, his motives are egotistical, obsessive. His world lonely. His gift coincidental.
+We see what we sees. At least we do before he tumbles down the stairs and dies. Eggers imperfect, postmodern prometheus shares the arc of his analog: stealing the light, giving it to us, and being punished for it. However, his motives are egotistical, obsessive. His world lonely. His gift coincidental.
 
 ///Footnotes Go Here///
 [^1]: 1\. Percy Shelley, *Prometheus Unbound*, Act I. 304-306.
