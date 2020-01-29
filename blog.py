@@ -37,13 +37,14 @@ def img_markdown_preprocess(page):
     '''adds a srcset attribute to all images to allow responsive image serving. Requires name of all images file to be the same. '''
     image_sizes = {'sm':'320w', 'md':'640w', 'lg': '1024w'}
     img_pattern = r"<img alt=\".*\" src=\"(/static/img/.*)\" />"
-    src_replace_pattern = r"src=\"/static/img/.*\""
+    src_replace_pattern = "src=\"{img_src}\""
     srcset_size_pattern = "src=\"{img_src}\" srcset=\"{srcset_val}\"" #sizes=\"(max-width: 640px) 480px, (min-width:768px) 800px, 1200w\""
     img_matches = re.findall(img_pattern, page)
     for img_match in img_matches:
+        print(img_match)
         srcset_val = ', '.join([img_match.replace(".jpg", f"-{k}.jpg")+f" {v}" for k, v in image_sizes.items()])
         src_replace_value = srcset_size_pattern.format(img_src=img_match, srcset_val=srcset_val)
-        page = re.sub(src_replace_pattern, src_replace_value, page)
+        page = re.sub(re.compile(src_replace_pattern.format(img_src=img_match)), src_replace_value, page)
     return page
 
 def header_markdown_preprocess(page):

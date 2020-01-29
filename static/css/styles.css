@@ -6,6 +6,8 @@
 
 @tailwind utilities;
 
+/*! purgecss start ignore */
+
 html {
     min-height: 100%;
     display: flex;
@@ -55,7 +57,6 @@ body {
   100% {content:'\2680';}
 }
 
-/*! purgecss start ignore */
 .post-link:hover::before {
   content:'→';
   position: absolute;
