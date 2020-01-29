@@ -51,10 +51,12 @@ In film, the camera is often closely connected to characters and their movements
 <em>clip from the lighthouse: howard stares up through the grid  floor at the lighthouse's light</em>
 </p>
 
-It is Pattinson's character who leads us into the ligthouse.
+It is Pattinson's character who leads us into the ligthouse, into an inner sanctum that seems like it's out of a science fiction movie. Briefly, we see it all. The light, the lens, the room. By reaching it himself, Thomas Howard indirectly gives us the light.
 
 ![the lighthouse](/static/img/post-images/the-lighthouse/the-lighthouse-2.jpg)
 *frame from the lighthouse: howard makes it into the lighthouse's light*
+
+We see what we sees. Before he tumbles down the stairs and dies. Eggers imperfect, postmodern prometheus shares the arc of his analog: stealing the light, giving it to us, and being punished for it. However, his motives are egotistical, obsessive. His world lonely. His gift coincidental.
 
 ///Footnotes Go Here///
 [^1]: 1\. Percy Shelley, *Prometheus Unbound*, Act I. 304-306.
