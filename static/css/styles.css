@@ -17,7 +17,7 @@ body {
 }
 
 ::selection {
-  @apply bg-orange;
+  background: #00800066;
 }
 
 #dice {
@@ -266,6 +266,7 @@ progress::-moz-progress-bar {
   @apply font-bold;
 }
 
-
-
+.footnote {
+  @apply text-xs;
+}
 /*! purgecss end ignore */

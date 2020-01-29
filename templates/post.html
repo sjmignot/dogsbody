@@ -15,7 +15,7 @@
   <hr class="mx-auto w-1/3 border-black border-1 mb-4"/>
 <article class="post font-post leading-relaxed font-light">
 {{ post.html|safe }}
-<div class="px-6 py-4">
+<div class="py-4">
   {% for tag in post.tags.split(",") %}
     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#{{tag}}</span>
   {% endfor %}

@@ -10213,11 +10213,11 @@ body {
 }
 
 ::-moz-selection {
-  background-color: #F18F01;
+  background: #00800066;
 }
 
 ::selection {
-  background-color: #F18F01;
+  background: #00800066;
 }
 
 #dice {
@@ -10520,6 +10520,10 @@ progress::-moz-progress-bar {
   counter-increment: figure;
   content: "figure " counter(figure) ". ";
   font-weight: 700;
+}
+
+.footnote {
+  font-size: 0.75rem;
 }
 
 /*! purgecss end ignore */

@@ -20,7 +20,7 @@ My life seems in limbo. Adulthood is just beyond a physics course that I am, at 
 
 All this to say that I have spent today lounging on the coach in my parent’s house. I have had three coffee’s too many: my body not deserving to by primordialized by adrenaline, having no reason to be whipped into action, having no lions, made brain lions.
 
-I have just finished reading Phillip Roth’s American Pastoral. A masterpiece, which, like most pieces of great literature, left me feeling a little conflicted: deeply moved but disappointed by my own writing. Roth's book, and generally his writing, is alight with a deep compassion for his characters. Though, compassion for its characters seems simply a way to realize and distribute the profound sadness of their experiences: so I ask, is this empathy?
+I have just finished reading Phillip Roth’s American Pastoral. A masterpiece, which, like most pieces of great literature, has left me feeling a little conflicted: deeply moved but disappointed by my own writing. Roth's book, and generally his writing, is alight with a deep compassion for his characters. Though, compassion for its characters seems simply a way to realize and distribute the profound sadness of their experiences: so I ask, is this empathy?
 
 The book left me anxious and sad and moved, and my brain was swimming with words and coffee. I couldn’t focus on anything.
 
@@ -78,4 +78,3 @@ Anxiety is swimming against the current of the stream of consciousness, but what
 [^2]: 2\. Dante, *Inferno* (Translated by Henry Longfellow), 1.
 [^3]: 3\. Rosa, *The Third Bank of the River* (Translated by William Grossman), 2.
 [^4]: 4\. Ibid, 3.
-
