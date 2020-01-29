@@ -10,7 +10,7 @@ The film is 4 hours long. I watched it at the Brady Theater. When it was over, e
 
 I knew the general direction I needed to travel to get home, but Paris is full of sickle shaped streets: it took me an hour longer than it should have. All the while, I was stuck thinking about redemptive beauty.
 
-![an-elephant-sitting-still]({{ url_for('static', filename='img/post-images/an-elephant-sitting-still/an-elephant-sitting-still.jpg')}})
+![an elephant sitting still]({{ url_for('static', filename='img/post-images/an-elephant-sitting-still/an-elephant-sitting-still.jpg')}})
 *frame from an elephant sitting still: city through a rain-dampened windshield*
 
 ## Redemptive Beauty
@@ -31,17 +31,36 @@ Though my perspective is likely influenced by the director's recent suicide, I h
 
 Humor is also muted. The closest we get to a joke is when Huang Ling retroactively calls one of her comments one (a not altogether convincing declaration).
 
-And characters don't rage against their circumstances, they persist. This is especially frustrating because the film piles on explosive sudden events, what Justin Chang perfectly describes in his LA Times review as "a soap opera season’s worth of romantic indiscretions, sudden deaths, unfortunate accidents, provoked and unprovoked attacks"[^1].
+And characters don't rage against their circumstances, they persist. This is especially frustrating because the film piles on explosive sudden events, what Justin Chang perfectly describes in his LA Times review as "a soap opera season’s worth of romantic indiscretions, sudden deaths, unfortunate accidents, provoked and unprovoked attacks"[^1]. 
+
+These events lack their natural function: in the soap opera tradition they exist to incite strong emotional reactions, adding modulation to characters who otherwise would appear excedingly flat.
+
+Instead, as disasters befall them, Bo'scharacters become more entrenched in who they are. Not inspired to act as much as convinced that acting is meaningless. The persistence and transformation in *An Elephant Sitting Still* reminds me of *Macbeth*, specifically the "Tomorrow and Tomorrow and Tomorrow" monologue.
+
+> Life's but a walking shadow, a poor player,  
+> That struts and frets his hour upon the stage,  
+> And then is heard no more. It is a tale  
+> Told by an idiot, full of sound and fury,  
+> Signifying nothing.  
+>  
+> <cite>-- Shakespeare, Macbeth[^2]</cite>
+
+Macbeth certainly could have proved an inspiration for Hu Bo's film: his mentor Bela Tarr directed an adaption, which it is very likely Bo saw.
 
 I left the film depressed, but also deeply moved. Frustrated, but disabused from the idea that art cannot be bleak.
 
 ## Fault and culpability
 
-In Bo's An Elephant Sitting Still, characters ceaselessly blame each other. Yu Cheng blames both his girlfriend and his ex for the death of his friend, and his parents blame him for the death of his brother. Wei Bu blames his friend for revealing his location to his parents, and a bully blames that same friend for the theft of a cellphone. The owner of the stray dog blames Wang Jin, inexplicably. Wang Yuwen's teacher blames her for ruining his career.
+In Bo's An Elephant Sitting Still, characters ceaselessly blame each other. Yu Cheng blames both his girlfriend and his ex for the death of his friend; and his parents blame him for the death of his brother.
 
-The central question is why do all these characters feel a need to exteriorize their anguish into blame: a pattern that continues on and on, into perpetual redirection and resolves nothing. I considered a few possible explanations: a redirection.
+Wei Bu blames his friend for revealing his location to his parents, and a bully blames that same friend for the theft of a cellphone. 
+
+The owner of the stray dog blames Wang Jin, inexplicably. Wang Yuwen's teacher blames her for ruining his career.
+
+The central question is why do all these characters feel a need to exteriorize their anguish into blame: a pattern that endlessly perpetuates and resolves nothing. I considered a few possible explanations: redirection.
 
 I was also curious what this meant for a culture that is "collectivist". Putting aside the fact that individualism and collectivism are too all emcompasing to mean much, the idea of blame seems antithetical to community (beyond scapegoating).
 
 ///Footnotes Go Here///
 [^1]: 1\. Justin Chang, *Review: ‘An Elephant Sitting Still,’ Hu Bo’s first and last feature, is a haunting dispatch from northern China*, LA Times.
+[^2]: 2\. Shakespeare, *Macbeth*, V.2.25-28.
