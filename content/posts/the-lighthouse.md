@@ -65,10 +65,10 @@ It is Pattinson's character, Thomas Howard, who leads us into the ligthouse, int
 ![the lighthouse](/static/img/post-images/the-lighthouse/the-lighthouse-2.jpg)
 *frame from the lighthouse: howard makes it into the lighthouse's light*
 
-We see what he sees. At least we do before he tumbles down the stairs and dies. Eggers imperfect, postmodern prometheus shares the arc of his analog: stealing fire, giving it to us, and being punished for it. However, his motives are egotistical, obsessive. His world lonely. His gift coincidental.
+We see what he sees. At least we do before he falls down the stairs and dies. Eggers imperfect, postmodern prometheus shares the arc of his analog: he steals fire, gives it to us, and is punished for it. However, his motives are egotistical, obsessive. His world lonely. His gift coincidental.
 
 ///Footnotes Go Here///
 [^1]: 1\. Percy Shelley, *Prometheus Unbound*, Act I. 304-306.
 [^2]: 2\. Mary Shelley, *Frankenstein*.
-[^3]: 3\. Alissa Wilkison, *The Witch director Robert Eggers spills his beans about The Lighthouse*. https://www.vox.com/culture/2019/10/15/20914097/robert-eggers-lighthouse-interview-witch.
+[^3]: 3\. Alissa Wilkison, [*The Witch director Robert Eggers spills his beans about The Lighthouse*](https://www.vox.com/culture/2019/10/15/20914097/robert-eggers-lighthouse-interview-witch).
 [^4]: 4\. Evan Puschak, *Children of Men: Don't Ignore the Background*
