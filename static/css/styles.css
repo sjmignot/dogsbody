@@ -116,6 +116,15 @@ img[src*='#center'] {
     margin: auto;
     width: 256px;
 }
+
+img[src*='#block'] {
+  display: block;
+  width: auto;
+  background: none;
+  padding: none;
+  opacity: 40%;
+}
+
 /* purgecss end ignore */
 
 .frame-wrap {

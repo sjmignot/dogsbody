@@ -99,6 +99,14 @@ def backblog():
     post_names = json.dumps([p.path.replace('posts/','') for p in posts])
     return render_template('backblog.html', backblog=backblog, post_names=post_names)
 
+@app.route("/subscribe/")
+def subscribe():
+    path = '{}/{}'.format(OTHER_DIR, 'subscribe')
+    subscribe = flatpages.get_or_404(path)
+    posts = get_posts()
+    post_names = json.dumps([p.path.replace('posts/','') for p in posts])
+    return render_template('subscribe.html', subscribe=subscribe, post_names=post_names)
+
 if __name__ == "__main__":
     if len(sys.argv) > 1 and sys.argv[1] == "build":
         freezer.freeze()
