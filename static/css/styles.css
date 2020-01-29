@@ -180,6 +180,7 @@ img[src*='#block'] {
 
 .post ul {
  @apply list-disc;
+ text-indent: 1rem;
 }
 
 .header-link {

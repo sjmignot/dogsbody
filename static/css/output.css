@@ -10436,6 +10436,7 @@ img[src*='#block'] {
 
 .post ul {
   list-style-type: disc;
+  text-indent: 1rem;
 }
 
 .header-link {

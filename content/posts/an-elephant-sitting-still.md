@@ -35,7 +35,7 @@ And characters don't rage against their circumstances, they persist. This is esp
 
 These events lack their natural function: in the soap opera tradition they exist to incite strong emotional reactions, adding modulation to characters who otherwise would appear excedingly flat.
 
-Instead, as disasters befall them, Bo'scharacters become more entrenched in who they are. Not inspired to act as much as convinced that acting is meaningless. The persistence and transformation in *An Elephant Sitting Still* reminds me of *Macbeth*, specifically the "Tomorrow and Tomorrow and Tomorrow" monologue.
+Instead, as disasters befall them, Bo'scharacters become more entrenched in who they are. Not inspired to act, but rather convinced that acting is meaningless. The persistence and transformation in *An Elephant Sitting Still* reminds me of *Macbeth*, specifically the "Tomorrow and Tomorrow and Tomorrow" soliloquy.
 
 > Life's but a walking shadow, a poor player,  
 > That struts and frets his hour upon the stage,  
@@ -45,7 +45,7 @@ Instead, as disasters befall them, Bo'scharacters become more entrenched in who 
 >  
 > <cite>-- Shakespeare, Macbeth[^2]</cite>
 
-Macbeth certainly could have proved an inspiration for Hu Bo's film: his mentor Bela Tarr directed an adaption, which it is very likely Bo saw.
+Macbeth certainly could have proved an inspiration for Hu Bo's film: his mentor Bela Tarr directed an adaption, which Bo quite possibly saw.
 
 I left the film depressed, but also deeply moved. Frustrated, but disabused from the idea that art cannot be profoundly bleak.
 
