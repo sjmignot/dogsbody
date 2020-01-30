@@ -126,8 +126,6 @@ img[src*='#block'] {
   opacity: 40%;
 }
 
-/* purgecss end ignore */
-
 .frame-wrap {
   margin: 5px 0 5px 5px;
   border: black 4px solid;

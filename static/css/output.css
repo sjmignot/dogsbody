@@ -10200,6 +10200,8 @@ h3 {
   z-index: auto;
 }
 
+/*! purgecss start ignore */
+
 html {
   min-height: 100%;
   display: -webkit-box;
@@ -10303,8 +10305,6 @@ body {
   }
 }
 
-/*! purgecss start ignore */
-
 .post-link:hover::before {
   content:'→';
   position: absolute;
@@ -10374,8 +10374,6 @@ img[src*='#block'] {
   padding: none;
   opacity: 40%;
 }
-
-/* purgecss end ignore */
 
 .frame-wrap {
   margin: 5px 0 5px 5px;
