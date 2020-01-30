@@ -45,19 +45,21 @@ Instead, as disasters befall them, Bo'scharacters become more entrenched in who 
 >  
 > <cite>-- Shakespeare, Macbeth[^2]</cite>
 
-Macbeth certainly could have proved an inspiration for Hu Bo's film: his mentor Bela Tarr directed an adaption, which Bo quite possibly saw.
+Macbeth certainly could have proved an inspiration for Hu Bo's film: his mentor Bela Tarr directed an adaption, which it is likely Bo saw.
 
 I left the film depressed, but also deeply moved. Frustrated, but disabused from the idea that art cannot be profoundly bleak.
 
 ## Fault and culpability
 
+Blame is another aspect of *An Elephant Sitting Still* that fascinates me.
+
 In Bo's An Elephant Sitting Still, characters ceaselessly blame each other. Yu Cheng blames both his girlfriend and his ex for the death of his friend; and his parents blame him for the death of his brother.
 
-Wei Bu blames his friend for revealing his location to his parents, and a bully blames that same friend for the theft of a cellphone. 
+Wei Bu blames his friend for revealing his location to his parents, and a bully blames that same friend for the theft of a cellphone.
 
-The owner of the stray dog blames Wang Jin, inexplicably. Wang Yuwen's teacher blames her for ruining his career.
+The owner of the stray dog blames Wang Jin for the disappearance of his dog. Wang Yuwen's teacher blames her for ruining his teaching career.
 
-The central question is why do all these characters feel a need to exteriorize their anguish into blame: a pattern that endlessly perpetuates and resolves nothing. I considered a few possible explanations: redirection.
+Why do all these characters feel a need to exteriorize their anguish into blame: a pattern that endlessly perpetuates and resolves nothing. Is this the only recourse when life offers no answers, a way of dealing with guilt, ?
 
 I was also curious what this meant for a culture that is "collectivist". Putting aside the fact that individualism and collectivism are too all emcompasing to mean much, the idea of blame seems antithetical to community (beyond scapegoating).
 
