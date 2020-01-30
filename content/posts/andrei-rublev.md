@@ -13,7 +13,7 @@ It is hard to unpack a Tarkovsky film. You take any thread, start pulling and it
 
 After watching a film you leave with moments folded into each other: a composite. What you watched existed in time, but your reflections are necessarily condensed: a kind of emotional singularity.
 
-This is what makes review or summary of temporal art (film, literature, music) a strange but fascinating process. Experience of the piece involves a mapping, compression, into atemporal memory. Recall involves temporal restoration, which is inevitably a lossy process.
+This is what makes review or summary of temporal art (film, literature, music) a strange but fascinating process. Experience of the piece involves a mapping, compression, into atemporal memory[^1]. Recall involves temporal restoration, which is inevitably a lossy process.
 
 Though all of this may sound a hasty premeditated complaint of the writing that follows, though it very well might be, it does seem the kind of preamble Tarkovsky would have appreciated. After all, he modestly called his art "sculpting in time".
 
@@ -39,7 +39,7 @@ The suspense does not end there and the resolution is not anti-climactic: part o
 
 > Kolya Burlyaev as Boriska, the bell-caster's son in Audrey Rublyov was working with me for the second time after Ivan's Childhood. All the time we were shooting I had to give him to understand through my assistants that I was thoroughly dissatisfied with his work, and might retake his scenes using another actor. I wanted him to feel disaster hanging over him, perhaps about to fall, so that he would genuinely be feeling acutely insecure. Burlyaev is an extraordinarily dissipated, shallow and ostentatious actor. His bursts of temperament are artificial. That was why I had to have recourse to such severe measures.
 > 
-> <cite> -- Andrei Tarkovsky, Sculpting in Time[^1]</cite>
+> <cite> -- Andrei Tarkovsky, Sculpting in Time[^3]</cite>
 
 It is the insecurity of Boriska, that generates suspense, which is insanely innovative because it works inside-out rather than the outside-in of Hitchcockian suspense. 
 
@@ -81,14 +81,15 @@ In fact, Tarkovsky explicitly mentions the danger of styllistically emulating pa
 > Had we gone for reconstruction of the picturesque tradition of the picturesque world of those times, the result would have been a stylised, conventional ancient Russian world, of the kind that at best is reminiscent of miniatures or icons of the period. But for cinema that is not the right way. I have never understood, for instance, attempts to construct mise en scene from a painting. All you will be doing is bringing the painting back to life, and duly being rewarded with superficial acclaim: 'Ah, what a feeling for the period!' 'Ah, what cultivated people!' But you will also be killing cinema.  
 > Therefore one of the aims of our work was to reconstruct for a modern audience the real world of the fifteenth century, that is, to present that world in such a way that costume, speech, life-style and architecture would not give the audience any feeling of relic, of antiquarian rarity. In order to achieve the truth of direct observation, what one might almost term physiological truth, we had to move away from the truth of archaeology and ethnography. Inevitably there was an element of artificiality, but this was the antithesis of that of the revived painting.
 >
-> <cite> -- Andrei Tarkovsky, Sculpting in Time[^3] </cite>
+> <cite> -- Andrei Tarkovsky, Sculpting in Time[^4] </cite>
 
 Tarkovsky seems obsessed with generating styllistic independence in the young art form of cinema. The final scene of the film, the movement of color and sound between, seem testaments to this simultaneous fear and desire: ways of generating independence from color (painting) and sound (music) respectively.
 
 ///Footnotes Go Here///
 
-[^1]: 1\. Tarkovski, *Sculpting in time*, 146.
-[^2]: 2\. Ibid., 64.
-[^3]: 3\. Ibid., 78.
+[^1]: 1\. Assuming, perhaps too boldly, that memory is atemporal.
+[^2]: 2\. Tarkovski, *Sculpting in time*, 146.
+[^3]: 3\. Ibid., 64.
+[^4]: 4\. Ibid., 78.
 
 <hr />
