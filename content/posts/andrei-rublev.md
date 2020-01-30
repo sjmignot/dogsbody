@@ -32,10 +32,12 @@ Hitchcock famously connected suspense and dramatic irony: the audience "knowing 
 ![andrei-rublev](/static/img/post-images/andrei-rublev/andrei-rublev-2.jpg)
 *frame from andrei rublev: the ringing of the bell*
 
-Tarkovsky foreshadows conflict and hints Hollywood style suspense tropes:
-The young bell maker Boriska is told that the argile coat that serves as the mold for the making of a bell won't hold. He reacts harshly, sending his skeptical friend to be whipped. In the tradition of suspense cinema, this should be a strong clue that the mold is inadequate: that it will break. But it holds.
+Tarkovsky foreshadows conflict and hints with Hollywood style suspense tropes:
+The young bell maker Boriska is told that the argile coat that serves as the mold for the making of a bell won't hold. He reacts harshly, sending his skeptical friend to be whipped. In the tradition of suspense cinema, this should be a strong clue that the mold is inadequate: that it will break. 
 
-The suspense does not end there and the resolution is not anti-climactic: part of this is likely do to Burlyaev's acting (which I thought was stunning, but that Tarkovsky pans in his book *Sculpting in Time*).
+But it holds.
+
+But the suspense does not end there with anti-climactic resolution: it persists. Part of this is likely do to Burlyaev's acting (which I thought was stunning, but that Tarkovsky pans in his book *Sculpting in Time*).
 
 > Kolya Burlyaev as Boriska, the bell-caster's son in Audrey Rublyov was working with me for the second time after Ivan's Childhood. All the time we were shooting I had to give him to understand through my assistants that I was thoroughly dissatisfied with his work, and might retake his scenes using another actor. I wanted him to feel disaster hanging over him, perhaps about to fall, so that he would genuinely be feeling acutely insecure. Burlyaev is an extraordinarily dissipated, shallow and ostentatious actor. His bursts of temperament are artificial. That was why I had to have recourse to such severe measures.
 > 
@@ -45,9 +47,11 @@ It is the insecurity of Boriska, that generates suspense, which is insanely inno
 
 The suspense, and Boriska's insecurity, are both heighetned when the bell is raised. Boriska is told that they should have gotten chains: that the rope may not hold.
 
-We see the bell raised: it is an arduous process and the constant shots of strained ropes generate suspense and doubt. In the fillm tradition, we are taught to equate what is shown with what is important. A mapping of shots to pure plot functionality. But the bell is raised without problem. Still, the feeling of suspense that Tarkovsky has built doesn't diffuse.
+We see the bell raised: it is an arduous process and the constant shots of strained ropes generate doubt and echo Boriska's insecurity. In the fillm tradition, we are taught to equate what is shown with what is important. A mapping of shots to pure plot functionality. But the bell is raised without problem. Still, the feeling of suspense that Tarkovsky has built doesn't diffuse.
 
-The ringing of the bell, hypnotic, slow, should prove complete carthasis, but it doesn't disperse the louring of suspense and doubt.
+The ringing of the bell, hypnotic, slow, should prove complete carthasis. A final resolultion for the creation of the bell that answers or lingering concerns: will it sound good? is there something wrong with it? Will it crack? But the bell rings and it rings well.
+
+Yet, even though there is nothing left for us to doubt, the feeling of suspense remains.
 
 Not until Boriska breaks down in Rublev's arms, not until the internal (inside-out) emotional release, is the immense pressure that Tarkovsky builds diffused.
 
