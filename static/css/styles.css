@@ -123,7 +123,7 @@ img[src*='#block'] {
   width: auto;
   background: none;
   padding: none;
-  opacity: 40%;
+  opacity: .4;
 }
 
 .frame-wrap {
