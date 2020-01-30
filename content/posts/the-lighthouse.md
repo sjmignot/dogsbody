@@ -5,7 +5,7 @@ tags: robert-eggers
 genre: film
 # --
 
-Prometheus creates humanity from clay. Seeing them cold and suffering, he gives them fire which he steals from the gods. 
+Prometheus creates humanity from clay. Seeing them cold and suffering, he gives them fire which he steals from the gods.
 
 As punishment, he is chained to a rock in Caucasus. His liver is pecked out by eagles and regenerates in the night, allowing the process to continue forever.
 
@@ -36,10 +36,9 @@ The link to the myth is most explict in the final shot of the film: Pattinson's 
 
 Prometheus isn't a one-off reference. The flamelike symbolism of *the light of the lighthouse* can be mapped to stolen fire, and Eggers explicitly mentions his use of the myth in an interview with Vox saying: "Well, Prometheus and Proteus[^3] never hung out in any Greek myths before, but that seems to be what is kind of happening here". He goes on to say "Prometheus might be taking on some characteristics that he hasn’t in the past. But you know what? The classical authors did that all the time"[^4].
 
-It is important to pin down what these characteristics are, especially after using a term as protean as postmodernist to define him.
+It is important to pin down what these characteristics are, especially after using a term as protean as postmodernist to define him: these traits seem mainly concerned with egocentrism. The extreme isolation of the film leaves two options; for its characters to either blur or become self-entrenched. This is what is postmodern about Egger's characters, their solipsistic emotional isolation, their volatility.
 
-Though this mythological mapping leaves important gaps
-The primary gap follows: if Pattinson's character steals the lighthouse flame, then how does he share it with humanity.
+There is however an important gap in Egger's Prometheus adaptation: if Pattinson's character steals the lighthouse flame, then how does he share it with humanity.
 
 ## Leading the camera, sharing the light
 
