@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>{{ base_url }}</loc>
+    <lastmod>2019-02-04</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  {% for post in posts %}
+  <url>
+    <loc>{{ base_url }}/{{ url_for('blog_post', name=post.path.replace('posts/'    ,'')) }}</loc>
+    <lastmod>{{ article.lastmod}}</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  {% endfor %}
+  <url>
+    <loc>{{ base_url }}/about</loc>
+    <lastmod>2019-02-04</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+
+</urlset>

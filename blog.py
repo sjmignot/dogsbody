@@ -108,6 +108,12 @@ def subscribe():
     post_names = json.dumps([p.path.replace('posts/','') for p in posts])
     return render_template('subscribe.html', subscribe=subscribe, post_names=post_names)
 
+@app.route('/sitemap.xml')
+def site_map():
+  posts = get_posts()
+  posts.sort(key=lambda item:item['date'], reverse=True)
+  return render_template('sitemap_template.xml', posts=posts, base_url="https://sjmignot.github.io", date=date.today())
+
 if __name__ == "__main__":
     if len(sys.argv) > 1 and sys.argv[1] == "build":
         freezer.freeze()
