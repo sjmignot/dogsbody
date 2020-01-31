@@ -4,6 +4,7 @@ date: 2020-01-16
 tags: playlist,suede,velvet,midas
 description: "A Spotify playlist including songs from The So So Glos, (Sandy) Alex G, AJJ, and Morphine."
 genre: music
+lastmod: 2020-01-16
 # --
 
 <div class="frame-wrap mx-auto sm:float-right">

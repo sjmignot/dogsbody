@@ -4,6 +4,7 @@ date: 2020-01-08
 tags: playlist,ghosts
 description: "A Spotify playlist about ghosts including songs from SNCKPACK, Joy Again, and the Specials."
 genre: music
+lastmod: 2020-01-08
 # --
 
 <div class="frame-wrap mx-auto sm:float-right">

@@ -4,6 +4,7 @@ date: 2020-01-12
 tags: robert-eggers
 description: "A review and analysis of identification and mythology in Eggers film The Lighthouse."
 genre: film
+lastmod: 2020-01-12
 # --
 
 Prometheus creates humanity from clay. Seeing them cold and suffering, he gives them fire which he steals from the gods.

@@ -5,6 +5,7 @@ tags: joao-rosa,book,short-story,consciousness,anxiety
 genre: literature
 description: "A review and analysis of conciousness and anxiety in João Guimarães Rosa's short story The Third Bank of the River."
 resonances: A Death in the Family
+lastmod: 2018-08-27
 # --
 
 Maybe it’s just me. Though, saying this after a title that pretends to “know all, say all” seems a kind of literary escapism—brackets of reluctance. This is what I have to say, and I will tell you: that should be the approach. Though to say it right requires a recap of my day.

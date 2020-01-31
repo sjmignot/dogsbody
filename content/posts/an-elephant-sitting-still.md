@@ -5,6 +5,7 @@ tags: hu-bo,film,fault
 subject: an elephant sitting still
 description: "A review and analysis of fault and beauty in Hu Bo's film An Elephant Sitting Still."
 genre: film
+lastmod: 2020-01-17
 # --
 
 The film is 4 hours long. I watched it at the Brady Theater. When it was over, everyone sat watching the credits. I watched the film at 8pm and got out of the theater at midnight. It was raining lightly and my phone was dead.

@@ -5,6 +5,7 @@ tags: tarkovsky,film,silence,poetry
 subject: andrei rublev
 description: "A review and analysis of suspense and film as an independent form in Tarkovsky's film Andrei Rublev."
 genre: film
+lastmod: 2019-12-27
 # --
 
 It is hard to unpack a Tarkovsky film. You take any thread, start pulling and it turns out to be the entire tapestry. Which is not to say that his movies are simple. Rather that everything is linked. The length of the thread is time and time ducks into itself.
