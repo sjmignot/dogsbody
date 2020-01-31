@@ -54,7 +54,7 @@ In his brilliant video essay on Cuarón's film Children of Men, titled [Don't Ig
 > 
 ><cite> -- Evan Puschak, Don't Ignore the Background[^5]</cite>
 
-In *The Lighthouse* Egger's makes us identify with both Pattinson and Defoe's characters in different scenes. For exampe, when we see the following shot of Pattinson's character, Thomas Howard, staring through the grated floor of the lighthouse's inner sanctum, we are bound closer to him and to his perspective. We want to see the light, to see what is so special about it. We trust Pattinson's character more and distrust Defoe's[^6].
+In *The Lighthouse* Egger's makes us identify with both Pattinson and Defoe's characters in different scenes. For example, when we see the following shot of Pattinson's character, Thomas Howard, staring through the grated floor of the lighthouse's inner sanctum, we are bound closer to him and to his perspective. We want to see the light, to see what is so special about it. We trust Pattinson's character more and distrust Defoe's[^6].
 
 <p>
 <video controls>
