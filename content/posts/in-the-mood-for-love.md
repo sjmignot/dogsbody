@@ -3,6 +3,7 @@ title: "In the Mood for Love and the Lovers II: silence, observation, and the li
 date: 2018-04-27
 tags: wong-kar-wai,film,love,magritte
 subject: in the mood for love
+description: "A review and analysis of voyeurism, love, and framing in Wong Kar-Wai's film In the Mood for Love."
 genre: film
 # --
 

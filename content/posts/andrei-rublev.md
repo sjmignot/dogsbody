@@ -3,6 +3,7 @@ title: "Andrei Rublev: resonance, color, sound, and time"
 date: 2019-12-27
 tags: tarkovsky,film,silence,poetry
 subject: andrei rublev
+description: "A review and analysis of suspense and film as an independent form in Tarkovsky's film Andrei Rublev."
 genre: film
 # --
 

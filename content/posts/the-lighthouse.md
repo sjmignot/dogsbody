@@ -2,6 +2,7 @@
 title: "The Lighthouse: a postmodern prometheus"
 date: 2020-01-12
 tags: robert-eggers
+description: "A review and analysis of identification and mythology in Eggers film The Lighthouse."
 genre: film
 # --
 

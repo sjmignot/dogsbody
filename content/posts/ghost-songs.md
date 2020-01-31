@@ -2,6 +2,7 @@
 title: "Scary, no scary: ghost songs for the not quite dead"
 date: 2020-01-08
 tags: playlist,ghosts
+description: "A Spotify playlist about ghosts including songs from SNCKPACK, Joy Again, and the Specials."
 genre: music
 # --
 

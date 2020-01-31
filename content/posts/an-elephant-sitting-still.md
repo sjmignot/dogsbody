@@ -3,6 +3,7 @@ title: "An elephant sitting still: redemptive beauty and fault"
 date: 2020-01-17
 tags: hu-bo,film,fault
 subject: an elephant sitting still
+description: "A review and analysis of fault and beauty in Hu Bo's film An Elephant Sitting Still."
 genre: film
 # --
 
