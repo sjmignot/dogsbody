@@ -7,7 +7,7 @@
   </url>
   {% for post in posts %}
   <url>
-    <loc>{{ base_url }}/{{ url_for('blog_post', name=post.path.replace('posts/'    ,'')) }}</loc>
+    <loc>{{ base_url }}{{ url_for('blog_post', name=post.path.replace('posts/'    ,'')) }}</loc>
     <lastmod>{{ post.lastmod}}</lastmod>
     <changefreq>weekly</changefreq>
   </url>
