@@ -2,6 +2,7 @@ from flask import Flask, render_template, redirect, url_for, render_template_str
 from flask_flatpages import FlatPages, pygments_style_defs, pygmented_markdown
 import markdown
 from flask_frozen import Freezer
+
 from slugify import slugify
 import sys
 import re
@@ -28,7 +29,6 @@ FLATPAGES_HTML_RENDERER = prerender_jinja
 
 app = Flask(__name__)
 flatpages = FlatPages(app)
- 
 freezer = Freezer(app)
 
 app.config.from_object(__name__)

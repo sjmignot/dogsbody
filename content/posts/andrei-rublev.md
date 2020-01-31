@@ -32,8 +32,9 @@ Hitchcock famously connected suspense and dramatic irony: the audience "knowing 
 ![andrei-rublev](/static/img/post-images/andrei-rublev/andrei-rublev-2.jpg)
 *frame from andrei rublev: the ringing of the bell*
 
-Tarkovsky foreshadows conflict and hints with Hollywood style suspense tropes:
-The young bell maker Boriska is told that the argile coat that serves as the mold for the making of a bell won't hold. He reacts harshly, sending his skeptical friend to be whipped. In the tradition of suspense cinema, this should be a strong clue that the mold is inadequate: that it will break. 
+Th final chapter of Tarkovsky's epic Andrei Rublev shows the medieval process for creating a church bell. A young boy, Boriska, is commisioned to make the bell. Tarkovsky foreshadows conflict and hints with Hollywood style suspense tropes:
+
+The young bell maker is told that the argile coat that serves as the mold for the making of a bell won't hold. He reacts harshly, sending his skeptical friend to be whipped. In the tradition of suspense cinema, this should be a strong clue that the mold is inadequate: that it will break. 
 
 But it holds.
 
