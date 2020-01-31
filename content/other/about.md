@@ -1,5 +1,6 @@
 # --
 title: About
+description: "About Samuel Mignot and his art blog Dogsbody."
 # --
 
 I don't like writing about myself: even a little third person trickery doesn't make the process comfortable.
