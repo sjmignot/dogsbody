@@ -10421,6 +10421,14 @@ img[src*='#block'] {
   z-index: 10;
 }
 
+.post ul > li:first-child {
+  margin-top: -1rem;
+}
+
+.post ul > li:last-child {
+  padding-bottom: 1rem;
+}
+
 .post-link {
   position: relative;
 }
