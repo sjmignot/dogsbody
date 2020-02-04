@@ -1,5 +1,5 @@
 # --
-title: "An elephant sitting still: redemptive beauty and fault"
+title: "An Elephant Sitting Still: redemptive beauty and fault"
 date: 2020-01-17
 tags: hu-bo,film,fault
 subject: an elephant sitting still
@@ -33,11 +33,11 @@ Though my perspective is likely influenced by the director's recent suicide, I h
 
 Humor is also muted. The closest we get to a joke is when Huang Ling retroactively calls one of her comments one (a not altogether convincing declaration).
 
-And characters don't rage against their circumstances, they persist. This is especially frustrating because the film piles on explosive sudden events, what Justin Chang perfectly describes in his LA Times review as "a soap opera season’s worth of romantic indiscretions, sudden deaths, unfortunate accidents, provoked and unprovoked attacks"[^1]. 
+And characters don't rage against their circumstances, they persist. This is especially frustrating because the film piles on explosive, sudden events, what Justin Chang perfectly describes in his LA Times review as "a soap opera season’s worth of romantic indiscretions, sudden deaths, unfortunate accidents, provoked and unprovoked attacks"[^1].
 
 These events lack their natural function: in the soap opera tradition they exist to incite strong emotional reactions, adding modulation to characters who otherwise would appear excedingly flat.
 
-Instead, as disasters befall them, Bo'scharacters become more entrenched in who they are. Not inspired to act, but rather convinced that acting is meaningless. The persistence and transformation in *An Elephant Sitting Still* reminds me of *Macbeth*, specifically the "Tomorrow and Tomorrow and Tomorrow" soliloquy.
+Instead, as disasters befall them, Bo's characters become more entrenched in who they are. Not inspired to act, but rather convinced that acting is meaningless. The persistence and transformation in *An Elephant Sitting Still* reminds me of *Macbeth*, specifically the "Tomorrow and Tomorrow and Tomorrow" soliloquy.
 
 > Life's but a walking shadow, a poor player,  
 > That struts and frets his hour upon the stage,  
@@ -47,19 +47,23 @@ Instead, as disasters befall them, Bo'scharacters become more entrenched in who 
 >  
 > <cite>-- Shakespeare, Macbeth[^2]</cite>
 
-Macbeth certainly could have proved an inspiration for Hu Bo's film: his mentor Bela Tarr directed an adaption, which it is likely Bo saw.
+Macbeth certainly could have proved an inspiration for Hu Bo's film: his mentor Bela Tarr directed an adaption, which it is altogether probable that Bo saw.
 
-I left the film depressed, but also deeply moved. Frustrated, but disabused from the idea that art cannot be profoundly bleak.
+I stress the importance of hope in art, but have never been bothered by it's relative absence in Shakespeare's tragedies. Or, if I've considered it, I've always concluded that the beauty of the language redeems the violence of the content. After all, isn't beauty a kind of hope?
+
+The same mechanisms must be at play in *An Elephant Sitting Still*. I left the film depressed, but also deeply moved. Frustrated, but disabused from the idea that art cannot be profoundly bleak.
 
 ## Fault and culpability
 
 Blame is another aspect of *An Elephant Sitting Still* that fascinates me.
 
-In Bo's An Elephant Sitting Still, characters ceaselessly blame each other. Yu Cheng blames both his girlfriend and his ex for the death of his friend; and his parents blame him for the death of his brother.
+Characters ceaselessly blame each other. Yu Cheng blames both his girlfriend and his ex for the death of his friend; and his parents blame him for the death of his brother.
 
 Wei Bu blames his friend for revealing his location to his parents, and a bully blames that same friend for the theft of a cellphone.
 
 The owner of the stray dog blames Wang Jin for the disappearance of his dog. Wang Yuwen's teacher blames her for ruining his teaching career.
+
+This tendency to "blame" is another tie between Bo's film and the soap opera tradition. Soap opera's exploit betrayal, blame, and fault to create clear and consumable relationships between characters. However, once more use orthogonally.
 
 Why do all these characters feel a need to exteriorize their anguish into blame: a pattern that endlessly perpetuates and resolves nothing. Is this the only recourse when life offers no answers, a way of dealing with guilt, ?
 

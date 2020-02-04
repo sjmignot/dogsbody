@@ -10533,6 +10533,15 @@ progress::-moz-progress-bar {
   font-size: 0.75rem;
 }
 
+.poem {
+  font-size: 1em;
+  padding: 2rem;
+  background: black;
+  color: white;
+  border-radius: 5%;
+  margin-bottom: 1rem;
+}
+
 /*! purgecss end ignore */
 
 @media (min-width: 640px) {

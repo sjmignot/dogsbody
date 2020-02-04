@@ -278,4 +278,14 @@ progress::-moz-progress-bar {
 .footnote {
   @apply text-xs;
 }
+
+.poem {
+  font-size: 1em;
+  padding: 2rem;
+  background: black;
+  color: white;
+  border-radius: 5%;
+  margin-bottom: 1rem;
+}
+
 /*! purgecss end ignore */
