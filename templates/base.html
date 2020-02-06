@@ -4,6 +4,7 @@
   <title>{% block title %}{% endblock %} dogsbody - art review by samuel mignot</title>
   <link rel="stylesheet" href="{{ url_for('static', filename='css/output.css') }}">
   <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans|Lato&display=swap" rel="stylesheet">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="google-site-verification" content="lQcj_VfrLnJc8g0N-Lz1sgBByIm2-6nkMy2_CsWRk0Q" />
@@ -27,15 +28,13 @@
         </div>
 
         <div class="md:pr-6 sm:pr-2 bg-gray-100 nav-content hidden pb-4 sm:pt-2 md:pt-10 sm:pl-6 justify-between sm:order-first sm:flex flex-col flex-1 sm:mx-0 md:flex-row md:pl-0">
-          <a class="text-xl sm:text-2xl hover:underline hover:text-green {{ ' active' if active_page == 'blog' else '' }}" href="/posts">BLOG</a>
-          <div class="hidden md:block px-1 text-2xl">·</div>
-          <a class="sm:mx-0 text-xl sm:text-2xl hover:underline hover:text-green {{ 'active' if active_page == 'backblog' else '' }}" href="/backblog">BACKBLOG</a>
+          <a class="text-xl sm:text-2xl hover:underline hover:text-green {{ ' active' if active_page == 'blog' else '' }}" href="/posts">POSTS</a>
+          <a class="sm:mx-0 text-xl sm:text-2xl hover:underline hover:text-green {{ 'active' if active_page == 'subscribe' else '' }}" href="/subscribe">SUBSCRIBE</a>
         </div>
 
         <div class="md:pl-6 sm:pl-2 bg-gray-100 nav-content hidden pb-4 sm:pt-2 md:pt-10 sm:mx-0 sm:pr-6 sm:flex flex-col flex-1 justify-between md:flex-row md:pr-0">
-            <a class="text-right text-xl sm:text-2xl hover:underline hover:text-green {{ 'active' if active_page == 'about' else '' }}" href="/about">ABOUT</a>
-            <div class="hidden md:block px-1 text-2xl">·</div>
-            <a class="text-right text-xl sm:text-2xl hover:underline hover:text-green" href="/subscribe">SUBSCRIBE</a>
+            <a class="text-right text-xl sm:text-2xl hover:underline hover:text-green {{ 'active' if active_page == 'about' else '' }}" href="/projects">PROJECTS</a>
+            <a class="text-right text-xl sm:text-2xl hover:underline hover:text-green" href="/about">ABOUT</a>
         </div>
     </div>
     <hr class="z-50 mx-6 border-black mb-2 border-2 md:mx-0"/>
@@ -51,7 +50,7 @@
           <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
         </svg>
       </a>
-      <a target="_blank" rel="noopener" class="pointer-events-auto flex-grow-0 px-1" href="https://www.linkedin.com/in/samuel-mignot-43498199">
+      <a target="_blank" rel="noopener" class="pointer-events-auto flex-grow-0 px-1" href="https://www.linkedin.com/in/sjmignot">
         <svg class="text-green hover:stroke-current" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
           <rect x="2" y="9" width="4" height="12"/>
