@@ -1,5 +1,5 @@
 # --
-title: "What He Said: unexpected proclamations"
+title: "What He Said: unexpected proclamations and divine inspiration"
 date: 2020-02-03
 tags: b-h-fairchild,poetry,language
 genre: literature

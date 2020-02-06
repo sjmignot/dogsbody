@@ -65,7 +65,10 @@ def get_posts():
 
 @app.route('/')
 def home():
-    return redirect(url_for('blog'))
+    posts = get_posts()
+    posts.sort(key=lambda item:item['date'], reverse=True)
+    post_names = json.dumps([p.path.replace('posts/','') for p in posts])
+    return render_template('index.html', post_names=post_names, latest_post=posts[0])
 
 @app.route("/posts/")
 def blog():
@@ -75,7 +78,7 @@ def blog():
     post_names = [p.path.replace('posts/','') for p in posts]
     return render_template('posts.html', posts=zip(posts,dates), post_names=post_names)
 
-@app.route('/post/<name>/')
+@app.route('/posts/<name>/')
 def blog_post(name):
     path = '{}/{}'.format(POST_DIR, name)
     posts = get_posts()
@@ -92,13 +95,13 @@ def about():
     post_names = json.dumps([p.path.replace('posts/','') for p in posts])
     return render_template('about.html', about=about, post_names=post_names)
 
-@app.route("/backblog/")
-def backblog():
-    path = '{}/{}'.format(OTHER_DIR, 'backblog')
-    backblog= flatpages.get_or_404(path)
+@app.route("/projects/")
+def projects():
+    path = '{}/{}'.format(OTHER_DIR, 'projects')
+    projects = flatpages.get_or_404(path)
     posts = get_posts()
     post_names = json.dumps([p.path.replace('posts/','') for p in posts])
-    return render_template('backblog.html', backblog=backblog, post_names=post_names)
+    return render_template('projects.html', projects=projects, post_names=post_names)
 
 @app.route("/subscribe/")
 def subscribe():
