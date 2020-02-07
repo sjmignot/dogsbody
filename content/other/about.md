@@ -11,7 +11,7 @@ I don't like writing about myself: even a little third person trickery doesn't m
 
 Though, I must like writing about myself because I enjoy writing, which is, inevitably, a distilling and sieving of the self through words.
 
-![Picture of the young man as a young man](../../static/img/me.jpg#center)
+![Picture of the young man as a young man](../../static/img/me.jpg#float-round)
 
 Perhaps what I like is writing about myself by proxy: letting the books, movies, music, art that I love cast shadows of me on the wall.
 

@@ -4,9 +4,9 @@
 {% block description %} Samuel Mignot's Personal Site {% endblock %}
 {% block content %}
   <article class="landing-page px-6 md:px-0">
-      <section class="grid-area name border-l-2 md:border-b-2">
-        <h1 class="font-posttitle text-4xl md:text-5xl">dogsbody. <a class="text-blue-500 hover:underline" href="/about">samuel mignot</a></h1>
-        <p class="font-post"> an art review & personal website</p>
+      <section class="font-posttitle grid-area name border-l-2 md:border-b-2">
+        <h1 class="text-5xl sm:text-7xl">DOGSBODY. </h1>
+        <a class="text-4xl sm:text-6xl text-blue-500 hover:underline" href="/about">samuel mignot</a>
       </section>
       <section class="flex py-auto grid-area picture">
         <img class="rounded-full border-2" alt="Picture of the young man as a young man" src="../../static/img/me.jpg#center">
@@ -16,16 +16,16 @@
       </section>
       <section class="grid-area latest-post border-l-2 md:border-l-0 md:border-r-2">
         <h2 class="text-3xl font-posttitle text-justify">
-          <a class="hover:text-green hover:underline" href="{{ url_for('blog_post', name=latest_post.path.replace('posts/','')) }}">{{ latest_post.title }}</a>... <p class="text-lg inline">{{latest_post.description}}</p>
+          <a class="hover:text-green hover:underline" href="{{ url_for('blog_post', name=latest_post.path.replace('posts/','')) }}">{{ latest_post.title }}</a>. <p class="text-lg inline">{{latest_post.preview}}</p>
         </h2>
       </section>
       <section class="grid-area border-t-2 md:border-t-0 left-cats">
-        <div class="text-3xl sm:text-6xl md:text-7xl font-posttitle"> PROSE </div>
-        <div class="text-3xl sm:text-6xl md:text-7xl font-posttitle"> POEMS </div>
+        <div class="text-3xl sm:text-6xl font-posttitle text-gray-700"> PROSE </div>
+        <div class="text-3xl sm:text-6xl font-posttitle text-gray-700"> POEMS </div>
       </section>
       <section class="grid-area right-cats border-t-0 md:border-t-2 border-l-2">
-        <div class="text-3xl sm:text-6xl md:text-7xl font-posttitle text-right"> PROGS </div>
-        <div class="text-3xl sm:text-6xl md:text-7xl font-posttitle text-right"> PHOTO </div>
+        <div class="text-3xl sm:text-6xl font-posttitle text-right text-gray-700"> PROGS </div>
+        <div class="text-3xl sm:text-6xl font-posttitle text-right text-gray-700"> PHOTO </div>
       </section>
       <section class="grid-area arrow">
           <div class="flex justify-center">

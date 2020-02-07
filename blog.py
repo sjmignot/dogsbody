@@ -63,12 +63,17 @@ def get_posts():
     else:
         return [p for p in flatpages if p.path.startswith(POST_DIR)]
 
+def add_preview(latest_post):
+    latest_post.preview = latest_post.body[:latest_post.body.find('!')].replace('\n', ' ')[:300]+"..."
+    return latest_post
+
 @app.route('/')
 def home():
     posts = get_posts()
     posts.sort(key=lambda item:item['date'], reverse=True)
     post_names = json.dumps([p.path.replace('posts/','') for p in posts])
-    return render_template('index.html', post_names=post_names, latest_post=posts[0])
+    latest_post = posts[0]
+    return render_template('index.html', post_names=post_names, latest_post=add_preview(latest_post))
 
 @app.route("/posts/")
 def blog():

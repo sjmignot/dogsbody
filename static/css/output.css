@@ -10976,6 +10976,15 @@ body {
 
 /* purgecss start ignore */
 
+img[src*='#float-round'] {
+  display: block;
+  float: right;
+  width: 256px;
+  shape-outside: inset(1% round 50%);
+  margin: 10px;
+  border-radius: 9999px;
+}
+
 img[src*='#center'] {
   display: block;
   margin: auto;
