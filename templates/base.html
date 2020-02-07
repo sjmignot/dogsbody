@@ -22,7 +22,7 @@
     <nav class="top-0 font-semibold w-full ml-auto">
       <div class="pointer-events-auto bg-gray-100 sm:bg-transparent flex-col font-header flex sm:flex-row">
         <div class="w-24 h-16 flex mx-auto bg-gray-100 sm:order-none sm:w-32 sm:h-24">
-          <a href="/posts">
+          <a href="/">
             <img class="w-full" src="{{ url_for('static', filename='img/logo.svg') }}" alt="Dogsbody logo" />
           </a>
         </div>
@@ -37,8 +37,8 @@
             <a class="text-right text-xl sm:text-2xl hover:underline hover:text-green" href="/about">ABOUT</a>
         </div>
     </div>
-    <hr class="z-50 mx-6 border-black mb-2 border-2 md:mx-0"/>
-    <div class="pl-6 flex flex-no-wrap pr-6 md:pr-0">
+    <hr class="z-50 mx-6 border-black border-2 md:mx-0"/>
+    <div class="pl-6 flex flex-no-wrap pr-6 md:pr-0 pt-2">
       <div class="padding-div flex-1"></div>
       <a class="pointer-events-auto flex-grow-0 px-1" href="">
         <div id="dice" class="-mt-3 -mr-3 hover:text-green"></div>
@@ -60,7 +60,7 @@
     </div>
     </nav>
   </header>
-  <div class="m-auto w-full md:w-190 flex flex-col h-full">
+  <div class="m-auto w-full md:w-190 flex flex-col {{ 'h-full' if active_page != 'landing' }}">
     <!-- content -->
     <section class="z-0 content flex-1">
       {% block content %}{% endblock %}

@@ -157,7 +157,7 @@ img[src*='#block'] {
 }
 
 .post a {
-  @apply text-blue;
+  @apply text-blue-500;
 }
 
 .post a:hover {
@@ -321,24 +321,42 @@ progress::-moz-progress-bar {
 }
 
 .grid-area {
-    padding: 1em 1em 1em 1em;
+    padding: 1rem 1rem 1rem 1rem;
     /* border : 1px black solid; */
 }
 
 .name {
     grid-area: name;
+    @apply -mt-12 pt-16 pr-2;
 }
 
 .about {
     grid-area: about;
+    position: relative;
+    hyphens: auto;
 }
+
+@screen md {
+  .about::after {
+    content: '';
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 102%;
+    @apply border-b-8 border-gray-100;
+  }
+}
+
 
 .picture{
   grid-area: picture;
+  @apply px-1;
 }
 
 .latest-post {
     grid-area: latest-post;
+    hyphens: auto;
 }
 
 .left-cats{
@@ -351,6 +369,7 @@ progress::-moz-progress-bar {
 
 .arrow {
     grid-area: arrow;
+    padding-top: 0;
 }
 
 /*! purgecss end ignore */

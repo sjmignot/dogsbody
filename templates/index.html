@@ -1,32 +1,40 @@
 {% extends 'base.html' %}
 
+{% set active_page = "landing" %}
 {% block description %} Samuel Mignot's Personal Site {% endblock %}
 {% block content %}
-  <article class="landing-page">
-      <section class="grid-area name border-l-2 border-b-2">
-        <h1 class="font-header text-4xl">DOGSBODY. <a href="/about">samuel mignot</a></h1>
+  <article class="landing-page px-6 md:px-0">
+      <section class="grid-area name border-l-2 md:border-b-2">
+        <h1 class="font-posttitle text-4xl md:text-5xl">dogsbody. <a class="text-blue-500 hover:underline" href="/about">samuel mignot</a></h1>
         <p class="font-post"> an art review & personal website</p>
       </section>
-      <section class="grid-area picture">
-        <img class="rounded-full" alt="Picture of the young man as a young man" src="../../static/img/me.jpg#center">
+      <section class="flex py-auto grid-area picture">
+        <img class="rounded-full border-2" alt="Picture of the young man as a young man" src="../../static/img/me.jpg#center">
       </section>
-      <section class="grid-area about">
+      <section class="grid-area about border-t-2 border-r-2 border-b-2 md:border-none md:pr-0">
         <p class="font-posttitle">Coder, writer, and artist with experience in technical writing, data analysis, webscraping, machine learnning, and webdesign. Curious, driven, and constantly inspired to learn and create.</p>
       </section>
-      <section class="grid-area latest-post border-r-2">
+      <section class="grid-area latest-post border-l-2 md:border-l-0 md:border-r-2">
         <h2 class="text-3xl font-posttitle text-justify">{{latest_post.title}}... <p class="text-lg inline">{{latest_post.description}}</p></h2>
       </section>
-      <section class="grid-area left-cats">
-          <hr>
-          <hr>
+      <section class="grid-area border-t-2 md:border-t-0 left-cats">
+        <div class="text-3xl sm:text-6xl md:text-7xl font-posttitle"> PROSE </div>
+        <div class="text-3xl sm:text-6xl md:text-7xl font-posttitle"> POEMS </div>
       </section>
-      <section class="grid-area right-cats">
-          <hr>
-          <hr>
+      <section class="grid-area right-cats border-t-0 md:border-t-2 border-l-2">
+        <div class="text-3xl sm:text-6xl md:text-7xl font-posttitle text-right"> PROGS </div>
+        <div class="text-3xl sm:text-6xl md:text-7xl font-posttitle text-right"> PHOTO </div>
       </section>
       <section class="grid-area arrow">
-          <hr>
-          <hr>
+          <div class="flex justify-center">
+            <svg width="60px" height="36px" viewBox="0 0 60 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                    <g id="Mobile" transform="translate(-132.000000, -362.000000)" stroke="#E2E8F0" stroke-width="2">
+                        <path d="M162,396 C162,374 162,363 162,363 C162,363 153,363 135,363 L162,396 L189,363 L162,363" id="Path-3"></path>
+                    </g>
+                </g>
+            </svg>
+          </div>
       </section>
   </article>
 {% endblock %}
