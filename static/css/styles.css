@@ -308,7 +308,7 @@ progress::-moz-progress-bar {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-areas:
-      "name         name    name         picture"
+      "name         name    name         name"
       "about        about   about        about"
       "latest-post  latest-post   latest-post  latest-post"
       "left-cats    left-cats     right-cats    right-cats"
@@ -322,7 +322,7 @@ progress::-moz-progress-bar {
     grid-template-rows   : auto auto auto auto;
     /* box-shadow           : 0 5px 9px 0 rgba(0, 0, 0, 0.35); */
     grid-template-areas:
-        "name           name          name          picture"
+        "name           name          name          name"
         "latest-post    latest-post   latest-post   about"
         "left-cats       left-cats      right-cats     right-cats"
         "arrow          arrow         arrow         arrow";
@@ -357,23 +357,17 @@ progress::-moz-progress-bar {
   }
 }
 
-
-.picture{
-  grid-area: picture;
-  @apply px-1;
-}
-
 .latest-post {
     grid-area: latest-post;
     hyphens: auto;
 }
 
-.latest-post::before {
-  content: "Latest Post";
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-}
+/* .latest-post::before { */
+/*   content: "Latest Post"; */
+/*   position: absolute; */
+/*   left: 50%; */
+/*   transform: translateX(-50%); */
+/* } */
 
 .left-cats{
     grid-area: left-cats;

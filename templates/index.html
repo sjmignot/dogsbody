@@ -4,12 +4,14 @@
 {% block description %} Samuel Mignot's Personal Site {% endblock %}
 {% block content %}
   <article class="landing-page px-6 md:px-0">
-      <section class="font-posttitle grid-area name border-l-2 md:border-b-2">
-        <h1 class="text-5xl sm:text-7xl">DOGSBODY. </h1>
-        <a class="text-4xl sm:text-6xl text-blue-500 hover:underline" href="/about">samuel mignot</a>
-      </section>
-      <section class="flex py-auto grid-area picture">
-        <img class="rounded-full border-2" alt="Picture of the young man as a young man" src="../../static/img/me.jpg#center">
+      <section class="flex flex-row font-posttitle grid-area name border-l-2 md:border-b-2 w-full">
+        <div class="w-3/4 flex flex-col">
+          <h1 class="text-5xl sm:text-7xl">DOGSBODY. </h1>
+          <a class="text-4xl sm:text-6xl text-blue-500 hover:underline" href="/about">samuel mignot</a>
+        </div>
+        <div class="w-1/4">
+          <img class="rounded-full border-2" alt="Picture of the young man as a young man" src="../../static/img/me.jpg#center">
+        </div>
       </section>
       <section class="grid-area about border-t-2 border-r-2 border-b-2 md:border-none md:pr-0">
         <p class="font-posttitle">Coder, writer, and artist with experience in technical writing, data analysis, webscraping, machine learnning, and webdesign. Curious, driven, and constantly inspired to learn and create.</p>
