@@ -368,6 +368,13 @@ progress::-moz-progress-bar {
     hyphens: auto;
 }
 
+.latest-post::before {
+  content: "Latest Post";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 .left-cats{
     grid-area: left-cats;
 }
