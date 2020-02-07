@@ -15,7 +15,9 @@
         <p class="font-posttitle">Coder, writer, and artist with experience in technical writing, data analysis, webscraping, machine learnning, and webdesign. Curious, driven, and constantly inspired to learn and create.</p>
       </section>
       <section class="grid-area latest-post border-l-2 md:border-l-0 md:border-r-2">
-        <h2 class="text-3xl font-posttitle text-justify">{{latest_post.title}}... <p class="text-lg inline">{{latest_post.description}}</p></h2>
+        <h2 class="text-3xl font-posttitle text-justify">
+          <a class="hover:text-green hover:underline" href="{{ url_for('blog_post', name=latest_post.path.replace('posts/','')) }}">{{ latest_post.title }}</a>... <p class="text-lg inline">{{latest_post.description}}</p>
+        </h2>
       </section>
       <section class="grid-area border-t-2 md:border-t-0 left-cats">
         <div class="text-3xl sm:text-6xl md:text-7xl font-posttitle"> PROSE </div>
