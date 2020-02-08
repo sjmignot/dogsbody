@@ -349,11 +349,11 @@ progress::-moz-progress-bar {
   .about::after {
     content: '';
     position: absolute;
-    top: 0%;
+    top: -2%;
     left: 0%;
     width: 100%;
-    height: 102%;
-    @apply border-b-8 border-gray-100;
+    height: 104%;
+    @apply border-b-8 border-t-8 border-gray-100;
   }
 }
 

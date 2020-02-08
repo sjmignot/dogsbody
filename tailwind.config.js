@@ -1,7 +1,17 @@
 module.exports = {
   theme: {
+    borderWidth: {
+      default: '1px',
+      '0': '0',
+      '1': '1px',
+      '2': '2px',
+      '3': '3px',
+      '4': '4px',
+      '6': '6px',
+      '8': '8px',
+    },
     screens: {
-      xs: '375px',
+      xs: '450px',
       sm: '640px',
       md: '768px',
       lg: '1024px',

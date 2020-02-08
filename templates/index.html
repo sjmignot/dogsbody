@@ -5,25 +5,25 @@
 {% block content %}
   <article class="landing-page px-6 md:px-0">
       <section class="font-posttitle grid-area name border-l-2 md:border-b-2 w-full flex flex-row flex-wrap">
-        <h1 class="w-full xs:w-2/3 sm:w-5/8 text-4xl xs:text-5xl sm:text-7xl"> DOGSBODY </h1>
-        <a class="w-1/2 sm:w-5/8 text-4xl sm:text-6xl text-blue-500 hover:underline" href="/about">samuel mignot</a>
-        <div class="w-24 xs:w-32 xs:-mt-16 sm:w-48 sm:-mt-24 sm:ml-auto">
+        <h1 class="w-full xs:w-2/3 sm:w-5/8 text-5xl xs:text-5xl sm:text-7xl"> DOGSBODY </h1>
+        <a class="w-1/2 sm:w-5/8 text-4xl sm:text-6xl text-blue-500 hover:underline xs:whitespace-no-wrap" href="/about">samuel mignot</a>
+        <div class="mx-auto w-24 mt-2 xs:w-32 xs:-mt-16 sm:w-48 sm:-mt-24 sm:ml-auto sm:mr-px">
           <img class="rounded-full border-2" alt="Picture of the young man as a young man" src="../../static/img/me.jpg#center">
         </div>
       </section>
       <section class="grid-area about border-t-2 border-r-2 border-b-2 md:border-none md:pr-0">
-        <p class="font-posttitle">Coder, writer, and artist with experience in technical writing, data analysis, webscraping, machine learnning, and webdesign. Curious, driven, and constantly inspired to learn and create.</p>
+        <p class="font-posttitle">Coder, writer, and artist with experience in technical writing, data analysis, web scraping, machine learning, and web design. Curious, driven, and constantly inspired to learn and create.</p>
       </section>
       <section class="grid-area latest-post border-l-2 md:border-l-0 md:border-r-2">
         <h2 class="text-3xl font-posttitle text-justify">
           <a class="hover:text-green hover:underline" href="{{ url_for('blog_post', name=latest_post.path.replace('posts/','')) }}">{{ latest_post.title }}</a>. <p class="text-lg inline">{{latest_post.preview}}</p>
         </h2>
       </section>
-      <section class="grid-area border-t-2 md:border-t-0 left-cats">
+      <section class="grid-area border-t-2 border-r-1 md:border-t-0 left-cats">
         <div class="text-3xl sm:text-6xl font-posttitle text-gray-700"> PROSE </div>
         <div class="text-3xl sm:text-6xl font-posttitle text-gray-700"> POEMS </div>
       </section>
-      <section class="grid-area right-cats border-t-0 md:border-t-2 border-l-2">
+      <section class="grid-area right-cats border-t-0 md:border-t-2 border-l-1">
         <div class="text-3xl sm:text-6xl font-posttitle text-right text-gray-700"> PROGS </div>
         <div class="text-3xl sm:text-6xl font-posttitle text-right text-gray-700"> PHOTO </div>
       </section>
