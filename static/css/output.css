@@ -805,7 +805,7 @@ h3 {
 }
 
 .bg-green {
-  background-color: #0F493F;
+  background-color: #21610B;
 }
 
 .bg-teal-100 {
@@ -1081,7 +1081,7 @@ h3 {
 }
 
 .hover\:bg-green:hover {
-  background-color: #0F493F;
+  background-color: #21610B;
 }
 
 .hover\:bg-teal-100:hover {
@@ -1357,7 +1357,7 @@ h3 {
 }
 
 .focus\:bg-green:focus {
-  background-color: #0F493F;
+  background-color: #21610B;
 }
 
 .focus\:bg-teal-100:focus {
@@ -1713,7 +1713,7 @@ h3 {
 }
 
 .border-green {
-  border-color: #0F493F;
+  border-color: #21610B;
 }
 
 .border-teal-100 {
@@ -1989,7 +1989,7 @@ h3 {
 }
 
 .hover\:border-green:hover {
-  border-color: #0F493F;
+  border-color: #21610B;
 }
 
 .hover\:border-teal-100:hover {
@@ -2265,7 +2265,7 @@ h3 {
 }
 
 .focus\:border-green:focus {
-  border-color: #0F493F;
+  border-color: #21610B;
 }
 
 .focus\:border-teal-100:focus {
@@ -6995,23 +6995,23 @@ h3 {
 }
 
 .placeholder-green::-webkit-input-placeholder {
-  color: #0F493F;
+  color: #21610B;
 }
 
 .placeholder-green::-moz-placeholder {
-  color: #0F493F;
+  color: #21610B;
 }
 
 .placeholder-green:-ms-input-placeholder {
-  color: #0F493F;
+  color: #21610B;
 }
 
 .placeholder-green::-ms-input-placeholder {
-  color: #0F493F;
+  color: #21610B;
 }
 
 .placeholder-green::placeholder {
-  color: #0F493F;
+  color: #21610B;
 }
 
 .placeholder-teal-100::-webkit-input-placeholder {
@@ -8375,23 +8375,23 @@ h3 {
 }
 
 .focus\:placeholder-green:focus::-webkit-input-placeholder {
-  color: #0F493F;
+  color: #21610B;
 }
 
 .focus\:placeholder-green:focus::-moz-placeholder {
-  color: #0F493F;
+  color: #21610B;
 }
 
 .focus\:placeholder-green:focus:-ms-input-placeholder {
-  color: #0F493F;
+  color: #21610B;
 }
 
 .focus\:placeholder-green:focus::-ms-input-placeholder {
-  color: #0F493F;
+  color: #21610B;
 }
 
 .focus\:placeholder-green:focus::placeholder {
-  color: #0F493F;
+  color: #21610B;
 }
 
 .focus\:placeholder-teal-100:focus::-webkit-input-placeholder {
@@ -9638,7 +9638,7 @@ h3 {
 }
 
 .text-green {
-  color: #0F493F;
+  color: #21610B;
 }
 
 .text-teal-100 {
@@ -9914,7 +9914,7 @@ h3 {
 }
 
 .hover\:text-green:hover {
-  color: #0F493F;
+  color: #21610B;
 }
 
 .hover\:text-teal-100:hover {
@@ -10190,7 +10190,7 @@ h3 {
 }
 
 .focus\:text-green:focus {
-  color: #0F493F;
+  color: #21610B;
 }
 
 .focus\:text-teal-100:focus {
@@ -10926,7 +10926,7 @@ body {
 @font-face {
   font-family: 'Klinic Slab';
 
-  src: url(../fonts/KlinicSlabBook.otf);
+  src: url(../fonts/KlinicSlabBook.ttf);
 }
 
 @font-face {
@@ -11491,7 +11491,7 @@ progress::-moz-progress-bar {
   }
 
   .xs\:bg-green {
-    background-color: #0F493F;
+    background-color: #21610B;
   }
 
   .xs\:bg-teal-100 {
@@ -11767,7 +11767,7 @@ progress::-moz-progress-bar {
   }
 
   .xs\:hover\:bg-green:hover {
-    background-color: #0F493F;
+    background-color: #21610B;
   }
 
   .xs\:hover\:bg-teal-100:hover {
@@ -12043,7 +12043,7 @@ progress::-moz-progress-bar {
   }
 
   .xs\:focus\:bg-green:focus {
-    background-color: #0F493F;
+    background-color: #21610B;
   }
 
   .xs\:focus\:bg-teal-100:focus {
@@ -12399,7 +12399,7 @@ progress::-moz-progress-bar {
   }
 
   .xs\:border-green {
-    border-color: #0F493F;
+    border-color: #21610B;
   }
 
   .xs\:border-teal-100 {
@@ -12675,7 +12675,7 @@ progress::-moz-progress-bar {
   }
 
   .xs\:hover\:border-green:hover {
-    border-color: #0F493F;
+    border-color: #21610B;
   }
 
   .xs\:hover\:border-teal-100:hover {
@@ -12951,7 +12951,7 @@ progress::-moz-progress-bar {
   }
 
   .xs\:focus\:border-green:focus {
-    border-color: #0F493F;
+    border-color: #21610B;
   }
 
   .xs\:focus\:border-teal-100:focus {
@@ -17681,23 +17681,23 @@ progress::-moz-progress-bar {
   }
 
   .xs\:placeholder-green::-webkit-input-placeholder {
-    color: #0F493F;
+    color: #21610B;
   }
 
   .xs\:placeholder-green::-moz-placeholder {
-    color: #0F493F;
+    color: #21610B;
   }
 
   .xs\:placeholder-green:-ms-input-placeholder {
-    color: #0F493F;
+    color: #21610B;
   }
 
   .xs\:placeholder-green::-ms-input-placeholder {
-    color: #0F493F;
+    color: #21610B;
   }
 
   .xs\:placeholder-green::placeholder {
-    color: #0F493F;
+    color: #21610B;
   }
 
   .xs\:placeholder-teal-100::-webkit-input-placeholder {
@@ -19061,23 +19061,23 @@ progress::-moz-progress-bar {
   }
 
   .xs\:focus\:placeholder-green:focus::-webkit-input-placeholder {
-    color: #0F493F;
+    color: #21610B;
   }
 
   .xs\:focus\:placeholder-green:focus::-moz-placeholder {
-    color: #0F493F;
+    color: #21610B;
   }
 
   .xs\:focus\:placeholder-green:focus:-ms-input-placeholder {
-    color: #0F493F;
+    color: #21610B;
   }
 
   .xs\:focus\:placeholder-green:focus::-ms-input-placeholder {
-    color: #0F493F;
+    color: #21610B;
   }
 
   .xs\:focus\:placeholder-green:focus::placeholder {
-    color: #0F493F;
+    color: #21610B;
   }
 
   .xs\:focus\:placeholder-teal-100:focus::-webkit-input-placeholder {
@@ -20324,7 +20324,7 @@ progress::-moz-progress-bar {
   }
 
   .xs\:text-green {
-    color: #0F493F;
+    color: #21610B;
   }
 
   .xs\:text-teal-100 {
@@ -20600,7 +20600,7 @@ progress::-moz-progress-bar {
   }
 
   .xs\:hover\:text-green:hover {
-    color: #0F493F;
+    color: #21610B;
   }
 
   .xs\:hover\:text-teal-100:hover {
@@ -20876,7 +20876,7 @@ progress::-moz-progress-bar {
   }
 
   .xs\:focus\:text-green:focus {
-    color: #0F493F;
+    color: #21610B;
   }
 
   .xs\:focus\:text-teal-100:focus {
@@ -21727,7 +21727,7 @@ progress::-moz-progress-bar {
   }
 
   .sm\:bg-green {
-    background-color: #0F493F;
+    background-color: #21610B;
   }
 
   .sm\:bg-teal-100 {
@@ -22003,7 +22003,7 @@ progress::-moz-progress-bar {
   }
 
   .sm\:hover\:bg-green:hover {
-    background-color: #0F493F;
+    background-color: #21610B;
   }
 
   .sm\:hover\:bg-teal-100:hover {
@@ -22279,7 +22279,7 @@ progress::-moz-progress-bar {
   }
 
   .sm\:focus\:bg-green:focus {
-    background-color: #0F493F;
+    background-color: #21610B;
   }
 
   .sm\:focus\:bg-teal-100:focus {
@@ -22635,7 +22635,7 @@ progress::-moz-progress-bar {
   }
 
   .sm\:border-green {
-    border-color: #0F493F;
+    border-color: #21610B;
   }
 
   .sm\:border-teal-100 {
@@ -22911,7 +22911,7 @@ progress::-moz-progress-bar {
   }
 
   .sm\:hover\:border-green:hover {
-    border-color: #0F493F;
+    border-color: #21610B;
   }
 
   .sm\:hover\:border-teal-100:hover {
@@ -23187,7 +23187,7 @@ progress::-moz-progress-bar {
   }
 
   .sm\:focus\:border-green:focus {
-    border-color: #0F493F;
+    border-color: #21610B;
   }
 
   .sm\:focus\:border-teal-100:focus {
@@ -27917,23 +27917,23 @@ progress::-moz-progress-bar {
   }
 
   .sm\:placeholder-green::-webkit-input-placeholder {
-    color: #0F493F;
+    color: #21610B;
   }
 
   .sm\:placeholder-green::-moz-placeholder {
-    color: #0F493F;
+    color: #21610B;
   }
 
   .sm\:placeholder-green:-ms-input-placeholder {
-    color: #0F493F;
+    color: #21610B;
   }
 
   .sm\:placeholder-green::-ms-input-placeholder {
-    color: #0F493F;
+    color: #21610B;
   }
 
   .sm\:placeholder-green::placeholder {
-    color: #0F493F;
+    color: #21610B;
   }
 
   .sm\:placeholder-teal-100::-webkit-input-placeholder {
@@ -29297,23 +29297,23 @@ progress::-moz-progress-bar {
   }
 
   .sm\:focus\:placeholder-green:focus::-webkit-input-placeholder {
-    color: #0F493F;
+    color: #21610B;
   }
 
   .sm\:focus\:placeholder-green:focus::-moz-placeholder {
-    color: #0F493F;
+    color: #21610B;
   }
 
   .sm\:focus\:placeholder-green:focus:-ms-input-placeholder {
-    color: #0F493F;
+    color: #21610B;
   }
 
   .sm\:focus\:placeholder-green:focus::-ms-input-placeholder {
-    color: #0F493F;
+    color: #21610B;
   }
 
   .sm\:focus\:placeholder-green:focus::placeholder {
-    color: #0F493F;
+    color: #21610B;
   }
 
   .sm\:focus\:placeholder-teal-100:focus::-webkit-input-placeholder {
@@ -30560,7 +30560,7 @@ progress::-moz-progress-bar {
   }
 
   .sm\:text-green {
-    color: #0F493F;
+    color: #21610B;
   }
 
   .sm\:text-teal-100 {
@@ -30836,7 +30836,7 @@ progress::-moz-progress-bar {
   }
 
   .sm\:hover\:text-green:hover {
-    color: #0F493F;
+    color: #21610B;
   }
 
   .sm\:hover\:text-teal-100:hover {
@@ -31112,7 +31112,7 @@ progress::-moz-progress-bar {
   }
 
   .sm\:focus\:text-green:focus {
-    color: #0F493F;
+    color: #21610B;
   }
 
   .sm\:focus\:text-teal-100:focus {
@@ -31963,7 +31963,7 @@ progress::-moz-progress-bar {
   }
 
   .md\:bg-green {
-    background-color: #0F493F;
+    background-color: #21610B;
   }
 
   .md\:bg-teal-100 {
@@ -32239,7 +32239,7 @@ progress::-moz-progress-bar {
   }
 
   .md\:hover\:bg-green:hover {
-    background-color: #0F493F;
+    background-color: #21610B;
   }
 
   .md\:hover\:bg-teal-100:hover {
@@ -32515,7 +32515,7 @@ progress::-moz-progress-bar {
   }
 
   .md\:focus\:bg-green:focus {
-    background-color: #0F493F;
+    background-color: #21610B;
   }
 
   .md\:focus\:bg-teal-100:focus {
@@ -32871,7 +32871,7 @@ progress::-moz-progress-bar {
   }
 
   .md\:border-green {
-    border-color: #0F493F;
+    border-color: #21610B;
   }
 
   .md\:border-teal-100 {
@@ -33147,7 +33147,7 @@ progress::-moz-progress-bar {
   }
 
   .md\:hover\:border-green:hover {
-    border-color: #0F493F;
+    border-color: #21610B;
   }
 
   .md\:hover\:border-teal-100:hover {
@@ -33423,7 +33423,7 @@ progress::-moz-progress-bar {
   }
 
   .md\:focus\:border-green:focus {
-    border-color: #0F493F;
+    border-color: #21610B;
   }
 
   .md\:focus\:border-teal-100:focus {
@@ -38153,23 +38153,23 @@ progress::-moz-progress-bar {
   }
 
   .md\:placeholder-green::-webkit-input-placeholder {
-    color: #0F493F;
+    color: #21610B;
   }
 
   .md\:placeholder-green::-moz-placeholder {
-    color: #0F493F;
+    color: #21610B;
   }
 
   .md\:placeholder-green:-ms-input-placeholder {
-    color: #0F493F;
+    color: #21610B;
   }
 
   .md\:placeholder-green::-ms-input-placeholder {
-    color: #0F493F;
+    color: #21610B;
   }
 
   .md\:placeholder-green::placeholder {
-    color: #0F493F;
+    color: #21610B;
   }
 
   .md\:placeholder-teal-100::-webkit-input-placeholder {
@@ -39533,23 +39533,23 @@ progress::-moz-progress-bar {
   }
 
   .md\:focus\:placeholder-green:focus::-webkit-input-placeholder {
-    color: #0F493F;
+    color: #21610B;
   }
 
   .md\:focus\:placeholder-green:focus::-moz-placeholder {
-    color: #0F493F;
+    color: #21610B;
   }
 
   .md\:focus\:placeholder-green:focus:-ms-input-placeholder {
-    color: #0F493F;
+    color: #21610B;
   }
 
   .md\:focus\:placeholder-green:focus::-ms-input-placeholder {
-    color: #0F493F;
+    color: #21610B;
   }
 
   .md\:focus\:placeholder-green:focus::placeholder {
-    color: #0F493F;
+    color: #21610B;
   }
 
   .md\:focus\:placeholder-teal-100:focus::-webkit-input-placeholder {
@@ -40796,7 +40796,7 @@ progress::-moz-progress-bar {
   }
 
   .md\:text-green {
-    color: #0F493F;
+    color: #21610B;
   }
 
   .md\:text-teal-100 {
@@ -41072,7 +41072,7 @@ progress::-moz-progress-bar {
   }
 
   .md\:hover\:text-green:hover {
-    color: #0F493F;
+    color: #21610B;
   }
 
   .md\:hover\:text-teal-100:hover {
@@ -41348,7 +41348,7 @@ progress::-moz-progress-bar {
   }
 
   .md\:focus\:text-green:focus {
-    color: #0F493F;
+    color: #21610B;
   }
 
   .md\:focus\:text-teal-100:focus {
@@ -42199,7 +42199,7 @@ progress::-moz-progress-bar {
   }
 
   .lg\:bg-green {
-    background-color: #0F493F;
+    background-color: #21610B;
   }
 
   .lg\:bg-teal-100 {
@@ -42475,7 +42475,7 @@ progress::-moz-progress-bar {
   }
 
   .lg\:hover\:bg-green:hover {
-    background-color: #0F493F;
+    background-color: #21610B;
   }
 
   .lg\:hover\:bg-teal-100:hover {
@@ -42751,7 +42751,7 @@ progress::-moz-progress-bar {
   }
 
   .lg\:focus\:bg-green:focus {
-    background-color: #0F493F;
+    background-color: #21610B;
   }
 
   .lg\:focus\:bg-teal-100:focus {
@@ -43107,7 +43107,7 @@ progress::-moz-progress-bar {
   }
 
   .lg\:border-green {
-    border-color: #0F493F;
+    border-color: #21610B;
   }
 
   .lg\:border-teal-100 {
@@ -43383,7 +43383,7 @@ progress::-moz-progress-bar {
   }
 
   .lg\:hover\:border-green:hover {
-    border-color: #0F493F;
+    border-color: #21610B;
   }
 
   .lg\:hover\:border-teal-100:hover {
@@ -43659,7 +43659,7 @@ progress::-moz-progress-bar {
   }
 
   .lg\:focus\:border-green:focus {
-    border-color: #0F493F;
+    border-color: #21610B;
   }
 
   .lg\:focus\:border-teal-100:focus {
@@ -48389,23 +48389,23 @@ progress::-moz-progress-bar {
   }
 
   .lg\:placeholder-green::-webkit-input-placeholder {
-    color: #0F493F;
+    color: #21610B;
   }
 
   .lg\:placeholder-green::-moz-placeholder {
-    color: #0F493F;
+    color: #21610B;
   }
 
   .lg\:placeholder-green:-ms-input-placeholder {
-    color: #0F493F;
+    color: #21610B;
   }
 
   .lg\:placeholder-green::-ms-input-placeholder {
-    color: #0F493F;
+    color: #21610B;
   }
 
   .lg\:placeholder-green::placeholder {
-    color: #0F493F;
+    color: #21610B;
   }
 
   .lg\:placeholder-teal-100::-webkit-input-placeholder {
@@ -49769,23 +49769,23 @@ progress::-moz-progress-bar {
   }
 
   .lg\:focus\:placeholder-green:focus::-webkit-input-placeholder {
-    color: #0F493F;
+    color: #21610B;
   }
 
   .lg\:focus\:placeholder-green:focus::-moz-placeholder {
-    color: #0F493F;
+    color: #21610B;
   }
 
   .lg\:focus\:placeholder-green:focus:-ms-input-placeholder {
-    color: #0F493F;
+    color: #21610B;
   }
 
   .lg\:focus\:placeholder-green:focus::-ms-input-placeholder {
-    color: #0F493F;
+    color: #21610B;
   }
 
   .lg\:focus\:placeholder-green:focus::placeholder {
-    color: #0F493F;
+    color: #21610B;
   }
 
   .lg\:focus\:placeholder-teal-100:focus::-webkit-input-placeholder {
@@ -51032,7 +51032,7 @@ progress::-moz-progress-bar {
   }
 
   .lg\:text-green {
-    color: #0F493F;
+    color: #21610B;
   }
 
   .lg\:text-teal-100 {
@@ -51308,7 +51308,7 @@ progress::-moz-progress-bar {
   }
 
   .lg\:hover\:text-green:hover {
-    color: #0F493F;
+    color: #21610B;
   }
 
   .lg\:hover\:text-teal-100:hover {
@@ -51584,7 +51584,7 @@ progress::-moz-progress-bar {
   }
 
   .lg\:focus\:text-green:focus {
-    color: #0F493F;
+    color: #21610B;
   }
 
   .lg\:focus\:text-teal-100:focus {
@@ -52435,7 +52435,7 @@ progress::-moz-progress-bar {
   }
 
   .xl\:bg-green {
-    background-color: #0F493F;
+    background-color: #21610B;
   }
 
   .xl\:bg-teal-100 {
@@ -52711,7 +52711,7 @@ progress::-moz-progress-bar {
   }
 
   .xl\:hover\:bg-green:hover {
-    background-color: #0F493F;
+    background-color: #21610B;
   }
 
   .xl\:hover\:bg-teal-100:hover {
@@ -52987,7 +52987,7 @@ progress::-moz-progress-bar {
   }
 
   .xl\:focus\:bg-green:focus {
-    background-color: #0F493F;
+    background-color: #21610B;
   }
 
   .xl\:focus\:bg-teal-100:focus {
@@ -53343,7 +53343,7 @@ progress::-moz-progress-bar {
   }
 
   .xl\:border-green {
-    border-color: #0F493F;
+    border-color: #21610B;
   }
 
   .xl\:border-teal-100 {
@@ -53619,7 +53619,7 @@ progress::-moz-progress-bar {
   }
 
   .xl\:hover\:border-green:hover {
-    border-color: #0F493F;
+    border-color: #21610B;
   }
 
   .xl\:hover\:border-teal-100:hover {
@@ -53895,7 +53895,7 @@ progress::-moz-progress-bar {
   }
 
   .xl\:focus\:border-green:focus {
-    border-color: #0F493F;
+    border-color: #21610B;
   }
 
   .xl\:focus\:border-teal-100:focus {
@@ -58625,23 +58625,23 @@ progress::-moz-progress-bar {
   }
 
   .xl\:placeholder-green::-webkit-input-placeholder {
-    color: #0F493F;
+    color: #21610B;
   }
 
   .xl\:placeholder-green::-moz-placeholder {
-    color: #0F493F;
+    color: #21610B;
   }
 
   .xl\:placeholder-green:-ms-input-placeholder {
-    color: #0F493F;
+    color: #21610B;
   }
 
   .xl\:placeholder-green::-ms-input-placeholder {
-    color: #0F493F;
+    color: #21610B;
   }
 
   .xl\:placeholder-green::placeholder {
-    color: #0F493F;
+    color: #21610B;
   }
 
   .xl\:placeholder-teal-100::-webkit-input-placeholder {
@@ -60005,23 +60005,23 @@ progress::-moz-progress-bar {
   }
 
   .xl\:focus\:placeholder-green:focus::-webkit-input-placeholder {
-    color: #0F493F;
+    color: #21610B;
   }
 
   .xl\:focus\:placeholder-green:focus::-moz-placeholder {
-    color: #0F493F;
+    color: #21610B;
   }
 
   .xl\:focus\:placeholder-green:focus:-ms-input-placeholder {
-    color: #0F493F;
+    color: #21610B;
   }
 
   .xl\:focus\:placeholder-green:focus::-ms-input-placeholder {
-    color: #0F493F;
+    color: #21610B;
   }
 
   .xl\:focus\:placeholder-green:focus::placeholder {
-    color: #0F493F;
+    color: #21610B;
   }
 
   .xl\:focus\:placeholder-teal-100:focus::-webkit-input-placeholder {
@@ -61268,7 +61268,7 @@ progress::-moz-progress-bar {
   }
 
   .xl\:text-green {
-    color: #0F493F;
+    color: #21610B;
   }
 
   .xl\:text-teal-100 {
@@ -61544,7 +61544,7 @@ progress::-moz-progress-bar {
   }
 
   .xl\:hover\:text-green:hover {
-    color: #0F493F;
+    color: #21610B;
   }
 
   .xl\:hover\:text-teal-100:hover {
@@ -61820,7 +61820,7 @@ progress::-moz-progress-bar {
   }
 
   .xl\:focus\:text-green:focus {
-    color: #0F493F;
+    color: #21610B;
   }
 
   .xl\:focus\:text-teal-100:focus {

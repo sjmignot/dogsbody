@@ -33,7 +33,7 @@ module.exports = {
     },
     extend: {
       colors: {
-        green: '#0F493F',
+        green: '#21610B',
         red: '#C73E1D',
         orange: '#F18F01',
       },

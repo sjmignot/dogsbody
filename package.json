@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "fontmin": "^0.9.8",
     "jquery": "^3.4.1"
   },
   "name": "dogsbody",

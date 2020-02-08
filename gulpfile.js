@@ -4,6 +4,7 @@ const imagemin = require('gulp-imagemin');
 const imageminMozjpeg = require('imagemin-mozjpeg');
 const rename = require("gulp-rename");
 const imageResize = require('gulp-image-resize');
+var Fontmin = require('fontmin');
 
 gulp.task('css', function () {
   return gulp.src('static/css/styles.css')
@@ -46,3 +47,18 @@ gulp.task('images', () => {
   });
   return stream;
 });
+
+gulp.task('font', () => {
+  var fontmin = new Fontmin()
+      .src('static/fonts/*.ttf')
+      .dest('build/static/fonts');
+
+  fontmin.run(function (err, files) {
+      if (err) {
+          throw err;
+      }
+
+      console.log(files[0]);
+      // => { contents: <Buffer 00 01 00 ...> }
+  });
+})
