@@ -40,12 +40,12 @@ body {
 
 @font-face {
     font-family: 'Klinic Slab';
-    src: url(../fonts/KlinicSlabBook.ttf);
+    src: url(../fonts/KlinicSlabBook.woff2);
 }
 
 @font-face {
   font-family: 'Josefin Slab';
-  src: url(../fonts/JosefinSlab-Regular.ttf);
+  src: url(../fonts/JosefinSlab-Regular.woff2);
 }
 
 @keyframes rolling {
