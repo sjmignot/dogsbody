@@ -11347,6 +11347,22 @@ progress::-moz-progress-bar {
   width: 100%;
 }
 
+.center-hover-underline {
+  /*   border-radius: 5px; */
+  color: black;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(black));
+  background-image: linear-gradient(black, black);
+  background-size: 0 2px, auto;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  -webkit-transition: all .2s ease-out;
+  transition: all .2s ease-out;
+}
+
+.center-hover-underline:hover {
+  background-size: 100% 2px, auto;
+}
+
 /*! purgecss end ignore */
 
 @media (min-width: 450px) {
