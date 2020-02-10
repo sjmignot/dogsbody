@@ -8,7 +8,7 @@
     <ul class="mb-4">
     {% for poem in poetry %}
         <li>
-          <a class="w-full font-postbody text-base text-blue-500 hover:underline inline" href="{{ url_for('project_page', category='poetry', name=poem.path.replace('poetry/','')) }}">{{ poem.title }}</a>, {{ poem.date }}
+          <a class="w-full font-postbody text-base text-blue-500 hover:underline inline" href="{{ url_for('project_page', category='poetry', name=poem.path.replace('poetry/','')) }}">{{ poem.title }}</a> ({{ poem.date }})
         </li>
     {% endfor %}
     </ul>
@@ -18,7 +18,7 @@
     <ul class="mb-4">
     {% for prose in fiction %}
       <li>
-        <a class="w-full font-postbody text-base text-blue-500 hover:underline" href="{{ url_for('project_page', category='fiction', name=prose.path.replace('fiction/','')) }}">{{ prose.title }}</a>, {{ prose.date }}
+        <a class="w-full font-postbody text-base text-blue-500 hover:underline" href="{{ url_for('project_page', category='fiction', name=prose.path.replace('fiction/','')) }}">{{ prose.title }}</a> ({{ prose.date }})
       </li>
     {% endfor %}
     </ul>
@@ -28,7 +28,7 @@
     <ul class="mb-4">
     {% for photo in photos %}
         <li>
-          <a class="w-full font-postbody text-base text-blue-500 hover:underline" href="{{ url_for('project_page', category='photos', name=photo.path.replace('photos/','')) }}">{{ photo.title }}</a>, {{ photo.date }}
+          <a class="w-full font-postbody text-base text-blue-500 hover:underline" href="{{ url_for('project_page', category='photos', name=photo.path.replace('photos/','')) }}">{{ photo.title }}</a> ({{ photo.date }})
         </li>
     {% endfor %}
     </ul>
@@ -38,7 +38,12 @@
     <ul class="mb-4">
     {% for project in coding %}
         <li>
-          <a class="w-full font-postbody text-base text-blue-500 hover:underline" href="{{ url_for('project_page', category='coding', name=project.path.replace('coding/','')) }}">{{ project.title }}</a>, {{ project.date }}
+          {% if project.link %}
+          <a class="w-full font-postbody text-base text-blue-500 hover:underline" href={{project.link}}>{{ project.title }}</a> ({{ project.date }})
+          {% else %}
+
+          <a class="w-full font-postbody text-base text-blue-500 hover:underline" href="{{ url_for('project_page', category='coding', name=project.path.replace('coding/','')) }}">{{ project.title }}</a> ({{ project.date }}).
+          {% endif %}
         </li>
     {% endfor %}
     </ul>
