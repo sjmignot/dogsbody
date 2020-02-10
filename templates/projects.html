@@ -1,12 +1,46 @@
 {% extends 'base.html' %}
-{% set active_page = "backblog" %}
+{% set active_page = "projects" %}
 
 {% block content %}
 <div class="px-6 font-light leading-normal md:px-0 lg:px-0 xl:px-0">
-  <h1 class="font-posttitle font-semibold text-2xl text-center">{{ projects.title.upper() }}</h1>
-  <hr class="mx-auto w-1/3 border-black border-1 mb-4"/>
-  <article class="post font-post leading-relaxed font-light">
-  {{ projects.html|safe }}
-  </article>
+    <div class="header-link-padding" id="poetry"></div>
+    <h2 class="border-t-2 border-b-2 border-black font-posttitle font-semibold text-2xl text-center mb-4"> POETRY </h2>
+    <ul class="mb-4">
+    {% for poem in poetry %}
+        <li>
+          <a class="w-full font-postbody text-base text-blue-500 hover:underline inline" href="{{ url_for('project_page', category='poetry', name=poem.path.replace('poetry/','')) }}">{{ poem.title }}</a>, {{ poem.date }}
+        </li>
+    {% endfor %}
+    </ul>
+
+    <div class="header-link-padding" id="fiction"></div>
+    <h2 class="border-t-2 border-b-2 border-black font-posttitle font-semibold text-2xl text-center mb-4"> FICTION </h2>
+    <ul class="mb-4">
+    {% for prose in fiction %}
+      <li>
+        <a class="w-full font-postbody text-base text-blue-500 hover:underline" href="{{ url_for('project_page', category='fiction', name=prose.path.replace('fiction/','')) }}">{{ prose.title }}</a>, {{ prose.date }}
+      </li>
+    {% endfor %}
+    </ul>
+
+    <div class="header-link-padding" id="photos"></div>
+    <h2 class="border-t-2 border-b-2 border-black font-posttitle font-semibold text-2xl text-center mb-4"> PHOTOS</h2>
+    <ul class="mb-4">
+    {% for photo in photos %}
+        <li>
+          <a class="w-full font-postbody text-base text-blue-500 hover:underline" href="{{ url_for('project_page', category='photos', name=photo.path.replace('photos/','')) }}">{{ photo.title }}</a>, {{ photo.date }}
+        </li>
+    {% endfor %}
+    </ul>
+
+    <div class="header-link-padding" id="coding"></div>
+    <h2 class="border-t-2 border-b-2 border-black font-posttitle font-semibold text-2xl text-center mb-4"> CODING </h2>
+    <ul class="mb-4">
+    {% for project in coding %}
+        <li>
+          <a class="w-full font-postbody text-base text-blue-500 hover:underline" href="{{ url_for('project_page', category='coding', name=project.path.replace('coding/','')) }}">{{ project.title }}</a>, {{ project.date }}
+        </li>
+    {% endfor %}
+    </ul>
 </div>
 {% endblock %}

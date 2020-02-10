@@ -13,9 +13,22 @@ DEBUG = True
 FLATPAGES_AUTO_RELOAD = DEBUG
 FLATPAGES_EXTENSION = '.md'
 MARKDOWN_EXTENSIONS = ['codehilite', 'footnotes', 'fenced_code']
+
+# FLATPAGES DIRS
 FLATPAGES_ROOT = 'content'
 POST_DIR = 'posts'
 OTHER_DIR = 'other'
+FICTION_DIR = 'fiction'
+CODING_DIR = 'coding'
+PHOTOS_DIR = 'photos'
+POETRY_DIR = 'poetry'
+
+CATEGORY_DICT= {
+    'fiction': FICTION_DIR,
+    'coding': CODING_DIR,
+    'photos': PHOTOS_DIR,
+    'poetry': POETRY_DIR
+}
 
 def prerender_jinja(text):
     prerendered_body = render_template_string(Markup(text))
@@ -63,6 +76,19 @@ def get_posts():
     else:
         return [p for p in flatpages if p.path.startswith(POST_DIR)]
 
+def get_coding_pages():
+    return [p for p in flatpages if p.path.startswith(CODING_DIR)]
+
+def get_photos_pages():
+    return [p for p in flatpages if p.path.startswith(PHOTOS_DIR)]
+
+def get_fiction_pages():
+    return [p for p in flatpages if p.path.startswith(FICTION_DIR)]
+
+def get_poetry_pages():
+    return [p for p in flatpages if p.path.startswith(POETRY_DIR)]
+
+
 def add_preview(latest_post):
     latest_post.preview = latest_post.body[:latest_post.body.find('!')].replace('\n', ' ')[:300]+"..."
     return latest_post
@@ -100,13 +126,21 @@ def about():
     post_names = json.dumps([p.path.replace('posts/','') for p in posts])
     return render_template('about.html', about=about, post_names=post_names)
 
+@app.route('/projects/<category>/<name>')
+def project_page(category, name):
+    posts = get_posts()
+    post_names = [p.path.replace('posts/', '') for p in posts]
+
+    path = '{}/{}'.format(CATEGORY_DICT[category], name)
+    project_page = flatpages.get_or_404(path)
+    date = project_page['date'].strftime("%b. %d, %Y").lower()
+    return render_template('project_page.html', project_page=project_page, date=date, post_names=post_names)
+
 @app.route("/projects/")
 def projects():
-    path = '{}/{}'.format(OTHER_DIR, 'projects')
-    projects = flatpages.get_or_404(path)
     posts = get_posts()
     post_names = json.dumps([p.path.replace('posts/','') for p in posts])
-    return render_template('projects.html', projects=projects, post_names=post_names)
+    return render_template('projects.html', fiction=get_fiction_pages(), poetry=get_poetry_pages(), photos=get_photos_pages(), coding=get_coding_pages(), post_names=post_names)
 
 @app.route("/subscribe/")
 def subscribe():

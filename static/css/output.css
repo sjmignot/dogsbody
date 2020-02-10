@@ -11076,7 +11076,7 @@ img[src*='#block'] {
   font-size: 1.5rem;
 }
 
-.post .header-link-padding {
+.header-link-padding {
   display: block;
   content: "";
   margin-top: -7rem;
@@ -11130,9 +11130,9 @@ img[src*='#block'] {
   z-index: 10;
 }
 
-.post ul {
+ul {
   list-style-type: disc;
-  text-indent: 1rem;
+  text-indent: 1.1rem;
 }
 
 .header-link {
