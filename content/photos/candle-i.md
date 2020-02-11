@@ -6,5 +6,5 @@ category: photos
 lastmod: 2020-02-20
 # --
 
-![Candle I]({{ url_for('static', filename='img/photos/candle-i.jpg')}}#photo)
+![Candle I]({{ url_for('static', filename='img/photos/candle-i.jpg')}})
 *Candle I · Samuel Mignot · 2017*

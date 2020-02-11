@@ -154,11 +154,18 @@ img[src*='#block'] {
   opacity: .4;
 }
 
-img[src*='#photo'] {
+.photo img {
   background: #fff;
   border-radius: 2px;
   display: inline-block;
   position: relative;
+  padding: 5px;
+
+}
+
+.photo img + em {
+  @apply text-base text-gray-500;
+  text-transform: lowercase;
 }
 
 .frame-wrap {

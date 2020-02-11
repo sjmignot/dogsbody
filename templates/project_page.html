@@ -12,7 +12,7 @@
     </div>
   </div>
   <hr class="mx-auto w-1/3 border-black border-1 mb-10"/>
-  <article class="{{ 'post' if project_page.category != 'poetry' else 'poem' }} font-post leading-relaxed font-light">
+  <article class="{{ 'poem' if project_page.category == 'poetry' else '' }} {{'photo' if project_page.category == 'photos' else '' }} {{'post' if project_page.category !='poetry' and project_page.category!='photos' else '' }}and font-post leading-relaxed font-light">
 {{ project_page.html|safe }}
 <div class="py-4">
 </div>

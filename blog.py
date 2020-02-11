@@ -134,7 +134,7 @@ def about():
     post_names = json.dumps([p.path.replace('posts/','') for p in posts])
     return render_template('about.html', about=about, post_names=post_names)
 
-@app.route('/projects/<category>/<name>')
+@app.route('/projects/<category>/<name>/')
 def project_page(category, name):
     posts = get_posts()
     post_names = [p.path.replace('posts/', '') for p in posts]

@@ -10899,9 +10899,10 @@ html {
 
 .epigraph cite {
   position: relative;
-  left: 5px;
+  left: 2rem;
   top: 5px;
   font-size: 12px;
+  font-style: normal;
 }
 
 body {
@@ -11085,11 +11086,18 @@ img[src*='#block'] {
   opacity: .4;
 }
 
-img[src*='#photo'] {
+.photo img {
   background: #fff;
   border-radius: 2px;
   display: inline-block;
   position: relative;
+  padding: 5px;
+}
+
+.photo img + em {
+  font-size: 1rem;
+  color: #a0aec0;
+  text-transform: lowercase;
 }
 
 .frame-wrap {
