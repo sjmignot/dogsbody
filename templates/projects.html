@@ -4,8 +4,8 @@
 {% block content %}
 <div class="px-6 font-light leading-normal md:px-0 lg:px-0 xl:px-0">
     <div class="header-link-padding" id="poetry"></div>
-    <h2 class="border-t-2 border-b-2 border-black font-posttitle font-semibold text-2xl text-center mb-4"> POETRY </h2>
-    <ul class="mb-4">
+    <h2 class="font-posttitle font-semibold text-2xl text-center mb-4"> POETRY </h2>
+    <ul class="mb-12 w-full sm:w-2/3 sm:mx-auto">
     {% for poem in poetry %}
         <li>
           <a class="w-full font-postbody text-base text-blue-500 hover:underline inline" href="{{ url_for('project_page', category='poetry', name=poem.path.replace('poetry/','')) }}">{{ poem.title }}</a> ({{ poem.date }})
@@ -14,8 +14,8 @@
     </ul>
 
     <div class="header-link-padding" id="fiction"></div>
-    <h2 class="border-t-2 border-b-2 border-black font-posttitle font-semibold text-2xl text-center mb-4"> FICTION </h2>
-    <ul class="mb-4">
+    <h2 class="font-posttitle font-semibold text-2xl text-center mb-4"> FICTION </h2>
+    <ul class="mb-12 w-full sm:w-2/3 sm:mx-auto">
     {% for prose in fiction %}
       <li>
         <a class="w-full font-postbody text-base text-blue-500 hover:underline" href="{{ url_for('project_page', category='fiction', name=prose.path.replace('fiction/','')) }}">{{ prose.title }}</a> ({{ prose.date }})
@@ -24,8 +24,8 @@
     </ul>
 
     <div class="header-link-padding" id="photos"></div>
-    <h2 class="border-t-2 border-b-2 border-black font-posttitle font-semibold text-2xl text-center mb-4"> PHOTOS</h2>
-    <ul class="mb-4">
+    <h2 class="font-posttitle font-semibold text-2xl text-center mb-4"> PHOTOS</h2>
+    <ul class="mb-12 w-full sm:w-2/3 sm:mx-auto">
     {% for photo in photos %}
         <li>
           <a class="w-full font-postbody text-base text-blue-500 hover:underline" href="{{ url_for('project_page', category='photos', name=photo.path.replace('photos/','')) }}">{{ photo.title }}</a> ({{ photo.date }})
@@ -34,8 +34,8 @@
     </ul>
 
     <div class="header-link-padding" id="coding"></div>
-    <h2 class="border-t-2 border-b-2 border-black font-posttitle font-semibold text-2xl text-center mb-4"> CODING </h2>
-    <ul class="mb-4">
+    <h2 class="font-posttitle font-semibold text-2xl text-center mb-4"> CODING </h2>
+    <ul class="mb-12 w-full sm:w-2/3 sm:mx-auto">
     {% for project in coding %}
         <li>
           {% if project.link %}
