@@ -27,7 +27,7 @@ Here are **some of the projects I am currently working on**:
 
 - [sceance](https://github.com/sjmignot/sceance): an application that creates calendar events for movie theater showtimes based on a watchlist and a set of favorite theaters.  
 - [dogsbody](/posts): an art review, hosted on this site.  
-- *punc. or the edge of the spiral*: an experimental novel.  
+- [punc. or the edge of the spiral](/projects/fiction/punc): an experimental novel.  
 
 ## Contact me
 

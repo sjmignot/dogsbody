@@ -57,7 +57,7 @@ module.exports = {
       posttitle: ['Josefin Slab', 'serif'],
       postheader: ['Klinic Slab', 'serif'],
       display: ['Work Sans', 'sans-serif'],
-      post: ['Lato', 'sans-serif']
+      post: ['IBM Plex Sans', 'sans-serif']
     },
   },
   variants: {

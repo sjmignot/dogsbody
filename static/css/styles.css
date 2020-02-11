@@ -13,6 +13,21 @@ html {
     display: flex;
 }
 
+.epigraph {
+  margin-left: 3em;
+  margin-right: 3em;
+  margin-bottom: 2em;
+  font-style: italic;
+}
+
+.epigraph cite {
+  position: relative;
+  left: 2rem;
+  top: 5px;
+  font-size: 12px;
+  font-style: normal;
+}
+
 body {
   flex: 1;
   counter-reset: figure;
@@ -46,6 +61,11 @@ body {
 @font-face {
   font-family: 'Josefin Slab';
   src: url(../fonts/JosefinSlab-Regular.woff2);
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans';
+  src: url(../fonts/IBMPlexSans-Light.woff2);
 }
 
 @keyframes rolling {
@@ -132,6 +152,13 @@ img[src*='#block'] {
   background: none;
   padding: none;
   opacity: .4;
+}
+
+img[src*='#photo'] {
+  background: #fff;
+  border-radius: 2px;
+  display: inline-block;
+  position: relative;
 }
 
 .frame-wrap {
@@ -295,15 +322,6 @@ progress::-moz-progress-bar {
   @apply text-xs;
 }
 
-.poem {
-  font-size: 1em;
-  padding: 2rem;
-  background: black;
-  color: white;
-  border-radius: 5%;
-  margin-bottom: 1rem;
-}
-
 .landing-page{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -409,5 +427,9 @@ progress::-moz-progress-bar {
 
 .center-hover-underline:hover {
   background-size: 100% 2px, auto;
+}
+
+.poem p {
+  text-indent: 1rem;
 }
 /*! purgecss end ignore */

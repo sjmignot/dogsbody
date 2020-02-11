@@ -77,16 +77,24 @@ def get_posts():
         return [p for p in flatpages if p.path.startswith(POST_DIR)]
 
 def get_coding_pages():
-    return [p for p in flatpages if p.path.startswith(CODING_DIR)]
+    coding = [p for p in flatpages if p.path.startswith(CODING_DIR)]
+    coding.sort(key=lambda x: x['date'])
+    return coding
 
 def get_photos_pages():
-    return [p for p in flatpages if p.path.startswith(PHOTOS_DIR)]
+    photos = [p for p in flatpages if p.path.startswith(PHOTOS_DIR)]
+    photos.sort(key=lambda x: x['date'])
+    return photos
 
 def get_fiction_pages():
-    return [p for p in flatpages if p.path.startswith(FICTION_DIR)]
+    fiction = [p for p in flatpages if p.path.startswith(FICTION_DIR)]
+    fiction.sort(key=lambda x: x['date'])
+    return fiction
 
 def get_poetry_pages():
-    return [p for p in flatpages if p.path.startswith(POETRY_DIR)]
+    poetry = [p for p in flatpages if p.path.startswith(POETRY_DIR)]
+    poetry.sort(key=lambda x: x['date'])
+    return poetry
 
 
 def add_preview(latest_post):

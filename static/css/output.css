@@ -3167,7 +3167,7 @@ h3 {
 }
 
 .font-post {
-  font-family: Lato, sans-serif;
+  font-family: IBM Plex Sans, sans-serif;
 }
 
 .font-hairline {
@@ -10890,6 +10890,20 @@ html {
   display: flex;
 }
 
+.epigraph {
+  margin-left: 3em;
+  margin-right: 3em;
+  margin-bottom: 2em;
+  font-style: italic;
+}
+
+.epigraph cite {
+  position: relative;
+  left: 5px;
+  top: 5px;
+  font-size: 12px;
+}
+
 body {
   -webkit-box-flex: 1;
           flex: 1;
@@ -10933,6 +10947,12 @@ body {
   font-family: 'Josefin Slab';
 
   src: url(../fonts/JosefinSlab-Regular.woff2);
+}
+
+@font-face {
+  font-family: 'IBM Plex Sans';
+
+  src: url(../fonts/IBMPlexSans-Light.woff2);
 }
 
 @-webkit-keyframes rolling {
@@ -11063,6 +11083,13 @@ img[src*='#block'] {
   background: none;
   padding: none;
   opacity: .4;
+}
+
+img[src*='#photo'] {
+  background: #fff;
+  border-radius: 2px;
+  display: inline-block;
+  position: relative;
 }
 
 .frame-wrap {
@@ -11231,15 +11258,6 @@ progress::-moz-progress-bar {
   font-size: .75rem;
 }
 
-.poem {
-  font-size: 1em;
-  padding: 2rem;
-  background: black;
-  color: white;
-  border-radius: 5%;
-  margin-bottom: 1rem;
-}
-
 .landing-page{
   display:grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -11361,6 +11379,10 @@ progress::-moz-progress-bar {
 
 .center-hover-underline:hover {
   background-size: 100% 2px, auto;
+}
+
+.poem p {
+  text-indent: 1rem;
 }
 
 /*! purgecss end ignore */
@@ -13885,7 +13907,7 @@ progress::-moz-progress-bar {
   }
 
   .xs\:font-post {
-    font-family: Lato, sans-serif;
+    font-family: IBM Plex Sans, sans-serif;
   }
 
   .xs\:font-hairline {
@@ -24121,7 +24143,7 @@ progress::-moz-progress-bar {
   }
 
   .sm\:font-post {
-    font-family: Lato, sans-serif;
+    font-family: IBM Plex Sans, sans-serif;
   }
 
   .sm\:font-hairline {
@@ -34357,7 +34379,7 @@ progress::-moz-progress-bar {
   }
 
   .md\:font-post {
-    font-family: Lato, sans-serif;
+    font-family: IBM Plex Sans, sans-serif;
   }
 
   .md\:font-hairline {
@@ -44593,7 +44615,7 @@ progress::-moz-progress-bar {
   }
 
   .lg\:font-post {
-    font-family: Lato, sans-serif;
+    font-family: IBM Plex Sans, sans-serif;
   }
 
   .lg\:font-hairline {
@@ -54829,7 +54851,7 @@ progress::-moz-progress-bar {
   }
 
   .xl\:font-post {
-    font-family: Lato, sans-serif;
+    font-family: IBM Plex Sans, sans-serif;
   }
 
   .xl\:font-hairline {

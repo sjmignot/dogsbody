@@ -39,7 +39,7 @@ The winter of my content.
 
 But, ignore me, forgive me. I’m using poetry to lie again.
 
-...
+<p align="center">/</p>
 
 What this will all come down to, is a simple misunderstanding of fault. We'll be able to laugh about it, years from now, when it's all over. You'll finally understand that what should be important is not culpability, but rather fault conditioned on agency; and I'll tell you *that's what I've trying to tell you* and you'll laugh again, knowing, that somewhere in all this is the mangled truth you dragged behind you your whole life (now too disfigured to serve as anything but a warning).
 
@@ -47,7 +47,7 @@ What this will all come down to, is a simple misunderstanding of fault. We'll be
 
 And when I tell you what is to come, you'll realize I have behaved well, so well, given my limits.
 
-...
+<p align="center">/</p>
 
 As though to prove my trials, once more they assail me. I can’t breathe. They have torn the air out of the room in a violent rush. Slurped all the oxygen. Amidst their grotesque inhales, I barely have time to rattle off the necessary words:
 
@@ -55,17 +55,18 @@ moon. oogamous. aloof. noon. moor. goof. dubloon. broom. ooze. groom. bloop. shr
 
 The words stay suspended at eye level. Then, they atomize, unhinging letters like god damn molecular transformers, and I see the shiny blue sheen of oxygen light the room and I gasp it in.
 
-...
+<p align="center">/</p>
+
 
 I rub the thick sweat that has formed on my forehead into my hair.
 
-...
+<p align="center">/</p>
 
 Yes...Their typewriters have started again. Early this morning. A slow metallic crescendo coming from all sides. Countless tiny hammers slamming in A4 forges.
 
 They batter their immortal fingers.
 
-...
+<p align="center">/</p>
 
 Closing my eyes, I see their abstracted hands crawling down the hallway, crawling towards me. Each wild finger pulls forward, each thumb skews the path with a diagonal flail.
 
@@ -75,7 +76,7 @@ They begin to throw themselves against my door.
 
 “I am not here,” I yelp, which is not necessarily false because I am there now: bounding across the room each time I announce myself. Annihilating myself with principle uncertainty.
 
-...
+<p align="center">/</p>
 
 Impressed by my cunning, they leap about and clap their bodies.
 
@@ -86,21 +87,21 @@ I Pagliaccio. I la commedia della tristezza.
 I sit at my desk, my legs trembling, still.
 and let my head to my hands.
 
-...
+<p align="center">/</p>
 
 This union of endpoints yields.
 
 As the three approach, they recognize each other. I flip them onto their backs. My fingers:
 
-          1aqz 2wsx 3edc 4rfv5tgvb 6yhn7ujm 8ik,( 9ol. 0p;)/-'
+<p align="center"><b>aqz   12wsx   3edc   4rfv5tgvb   6yhn7ujm   8ik,(90ol.   0pl;'/-</b></p>
 
-...
+<p align="center">/</p>
 
 Each part must always believe itself a whole.
 
 As they write me, so must I them.
 
-...
+<p align="center">/</p>
 
 And This dissolved locust of control deflowers the wheat of my mind.
 
@@ -108,15 +109,15 @@ Reaps me, eats me, provincially garnishes its mouth with my decapita.
 
 Dissects the factorable cicada of my soul!..
 
-...
+<p align="center">/</p>
 
 The tragic truth is that we must exist, day to day. today’s days. or maybe tomorrow's. inside the velvety maw of intangible time.
 
-...
+<p align="center">/</p>
 
 The true truth is that everything is really just about circles: how they have a way of causing pain like no other shape can (forget the banal eroticism of triangles, or the prescribed anality of squares).
 
-...
+<p align="center">/</p>
 
 Instead, listen to the cycles of crickets:
 
@@ -124,14 +125,16 @@ same sitch. same sitch. same sitch. same sitch. same sitch. same sitch. same sit
 
 listen to them drown you in sound. Waterlogging your flesh so it pulls off the bone easy as cotton candy.
 
-...
+<p align="center">/</p>
 
 While you are outwriten. Written out. You must work when they sleep: it is the only way to know each word inscribed is uncorrupted. To know you remain...To know they are not involved inside you.
 
-...
+<p align="center">/</p>
 
 The stars have started striking my window like lovestruck pebbles, and the wind is trying to find a way into my room, and my depressed array of plants are suiciding down the dark side of the window sill.
 
 Among spent lights. With my Hermes 3000 aquamarine typewriter wreated in reams.
 
 I need to be them.
+
+<p align="center">/</p>

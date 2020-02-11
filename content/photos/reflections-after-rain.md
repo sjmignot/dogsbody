@@ -6,5 +6,5 @@ category: photos
 lastmod: 2020-02-20
 # --
 
-![Reflections After Rain](#)
+![Reflections After Rain]({{ url_for('static', filename='img/photos/reflections_after_rain.jpg')}}#photo)
 *Reflections After Rain · Samuel Mignot · 2020*

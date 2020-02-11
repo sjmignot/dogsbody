@@ -39,7 +39,7 @@
     {% for project in coding %}
         <li>
           {% if project.link %}
-          <a class="w-full font-postbody text-base text-blue-500 hover:underline" href={{project.link}}>{{ project.title }}</a> ({{ project.date }})
+          <a class="w-full font-postbody text-base text-blue-500 hover:underline" href={{project.link}} target="_blank">{{ project.title }}</a> ({{ project.date }})
           {% else %}
 
           <a class="w-full font-postbody text-base text-blue-500 hover:underline" href="{{ url_for('project_page', category='coding', name=project.path.replace('coding/','')) }}">{{ project.title }}</a> ({{ project.date }}).
