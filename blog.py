@@ -76,10 +76,9 @@ def format_prose(page):
 def format_poetry(page):
     '''formats poetry posts so text is indented; and linebreaks, leading spaces, and tabs aren't ignored'''
     leading_whitespace = r'^ *'
-    print(re.findall(leading_whitespace, page, flags=re.MULTILINE))
-
-    page = re.sub(leading_whitespace, lambda x: len(x[0])*'&nbsp;', page, flags=re.MULTILINE)
-    print(page)
+    page = re.sub(leading_whitespace, lambda x: 2*len(x[0])*'&nbsp;', page, flags=re.MULTILINE)
+    page = re.sub('\n\n', "\n<br>\n\n  ", page, flags=re.MULTILINE)
+    page = re.sub('  \n', "  \n\n", page, flags=re.MULTILINE)
     return page
 
 def writing_markdown_preprocess(page):
