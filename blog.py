@@ -30,23 +30,8 @@ CATEGORY_DICT= {
     'poetry': POETRY_DIR
 }
 
-def prerender_jinja(text):
-    prerendered_body = render_template_string(Markup(text))
-    pygmented = markdown.markdown(prerendered_body, extensions = app.config['MARKDOWN_EXTENSIONS'])
-    if len(sys.argv) > 1 and sys.argv[1] == "build":
-        return header_markdown_preprocess(img_markdown_preprocess(pygmented))
-    else:
-        return header_markdown_preprocess(pygmented)
-
-FLATPAGES_HTML_RENDERER = prerender_jinja
-
-app = Flask(__name__)
-flatpages = FlatPages(app)
-freezer = Freezer(app)
-
-app.config.from_object(__name__)
-
-def img_markdown_preprocess(page):
+# MARKDOWN POSTPROCESS FUNCTIONS FOR RESPONSIVE IMAGES AND HEADERS WITH ANCHOR TAGS
+def img_markdown_postprocess(page):
     '''adds a srcset attribute to all images to allow responsive image serving. Requires name of all images file to be the same. '''
     image_sizes = {'sm':'480w', 'md':'640w', 'lg': '1024w'}
     img_pattern = r"<img alt=\".*\" src=\"(/static/img/.*)\" />"
@@ -60,7 +45,7 @@ def img_markdown_preprocess(page):
         page = re.sub(re.compile(src_replace_pattern.format(img_src=img_match)), src_replace_value, page)
     return page
 
-def header_markdown_preprocess(page):
+def header_markdown_postprocess(page):
     '''adds a srcset attribute to all images to allow responsive image serving. Requires name of all images file to be the same. '''
     header_pattern = r"<h2>(.*)</h2>"
     header_matches = re.findall(header_pattern, page)
@@ -69,6 +54,69 @@ def header_markdown_preprocess(page):
         header_pattern = re.compile(f"<h2>{re.escape(match)}</h2>")
         page = re.sub(header_pattern, header_replace, page)
     return page
+
+MARKDOWN_POSTPROCESS = [
+    (header_markdown_postprocess, False),
+    (img_markdown_postprocess, True),
+]
+
+def markdown_postprocess(pygmented, build):
+    '''runs every markdown postprocess function on pygmented html generated from markdown files'''
+    for process_function, build_only in MARKDOWN_POSTPROCESS:
+        if not build_only or build:
+            pygmented = process_function(pygmented)
+    return pygmented
+
+# MARKDOWN PREPROCESS FUNCTIONS FOR FORMATTING FICTION AND POETRY PAGES
+
+def format_prose(page):
+    '''formats prose posts so that line breaks are respected, paragraphs are indented'''
+    return page
+
+def format_poetry(page):
+    '''formats poetry posts so text is indented; and linebreaks, leading spaces, and tabs aren't ignored'''
+    leading_whitespace = r'^ *'
+    print(re.findall(leading_whitespace, page, flags=re.MULTILINE))
+
+    page = re.sub(leading_whitespace, lambda x: len(x[0])*'&nbsp;', page, flags=re.MULTILINE)
+    print(page)
+    return page
+
+def writing_markdown_preprocess(page):
+    split_page = page.splitlines()
+    if(split_page[0]=='fiction_post'):
+        return format_prose('\n'.join(split_page[1:]))
+    elif(split_page[0]=='poetry_post'):
+        return format_poetry('\n'.join(split_page[1:]))
+    return page
+
+MARKDOWN_PREPROCESS = [
+    (writing_markdown_preprocess, False)
+]
+
+def markdown_preprocess(pygmented):
+    '''runs markdown preprocess function on markdown text extracted from markdown files'''
+    for process_function, build_only in MARKDOWN_PREPROCESS:
+        if not build_only or build:
+            pygmented = process_function(pygmented)
+    return pygmented
+
+def prerender_jinja(text):
+    text = markdown_preprocess(text)
+    prerendered_body = render_template_string(Markup(text))
+    pygmented = markdown.markdown(prerendered_body, extensions = app.config['MARKDOWN_EXTENSIONS'])
+    if len(sys.argv) > 1 and sys.argv[1] == "build":
+        return markdown_postprocess(pygmented, True)
+    else:
+        return markdown_postprocess(pygmented, False)
+
+FLATPAGES_HTML_RENDERER = prerender_jinja
+
+app = Flask(__name__)
+flatpages = FlatPages(app)
+freezer = Freezer(app)
+
+app.config.from_object(__name__)
 
 def get_posts():
     if len(sys.argv) > 1 and sys.argv[1] == "build":
@@ -95,7 +143,6 @@ def get_poetry_pages():
     poetry = [p for p in flatpages if p.path.startswith(POETRY_DIR)]
     poetry.sort(key=lambda x: x['date'])
     return poetry
-
 
 def add_preview(latest_post):
     latest_post.preview = latest_post.body[:latest_post.body.find('!')].replace('\n', ' ')[:300]+"..."

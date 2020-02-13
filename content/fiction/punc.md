@@ -7,6 +7,8 @@ genre: fiction
 lastmod: 2020-02-20
 # --
 
+fiction_post
+
 They write me.  
 <br />
 I feel their thick hands through my skull--fingers sliding the creases of my brain.  
