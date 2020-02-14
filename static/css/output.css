@@ -10911,14 +10911,6 @@ body {
   counter-reset: figure;
 }
 
-::-moz-selection {
-  background: #00800066;
-}
-
-::selection {
-  background: #00800066;
-}
-
 #dice {
   font-size: 30px;
   font-weight: 100;
