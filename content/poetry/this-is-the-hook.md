@@ -46,7 +46,7 @@ are not necessary
        with you,  
 
 You do not sprinkle  
-fishfood, as for my  
+fish food, as for my  
 soul: trying to lure brightness  
 instead of letting me ride out the sadness.  
 
