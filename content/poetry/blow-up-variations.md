@@ -24,7 +24,7 @@ leaves and bark seeing how far they can get, new angles at the sun.
 And a woman smokes a cigarette and I see, as she drags,  
 the cigarette breathing her in and the smoke that leaves her  
 is a part of her body--some exhausted piece of lung--she knows  
-she will never get back. And I have always wanted to be someone  
+she can never get back. And I have always wanted to be someone  
 who smoked. The beauty of holding in what you will have  
 to give back. Being Belmondo or Bogart for all the time it takes  
 the smoke to clear, the world you can’t see marked in the way  

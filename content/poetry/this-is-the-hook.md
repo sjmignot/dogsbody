@@ -24,7 +24,6 @@ poetry_post
 <p>And this is the hook</p>
 <cite>--Leonard Cohen</cite>
 </blockquote>
-
 falling into beds we made.  
 Making the falls, weighed  
 by the pull,  
