@@ -59,7 +59,7 @@ that the window fumbles.
 
 Lying on the ground, we hear  
 the sound of all things  
-which otheriwise sink and drift  
+which otherwise sink and drift  
 by our feet.  
 
 So the fish must be sad,  
