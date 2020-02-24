@@ -28,8 +28,8 @@ Just as we are, a vapid congealing of molecules: generously,
 
 Just as we are vague, passable interpretations of a reified beyond, dissected and personally cultivated  
       in private gardens. So, I can, for example, tell you,  
-      The Magnolia's are pushy this time of year, and you can respond:  
-        a) Magnolia's... Magnolia's... Good lord those are Hyrdrangeas,  
+      The Magnolias are pushy this time of year, and you can respond:  
+        a) Magnolias... Magnolias... Good lord those are Hydrangeas,  
         or, better yet, b) pretend that you see them too...  
 
 Emptiness is that which takes:  
