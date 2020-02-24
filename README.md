@@ -1,5 +1,5 @@
 # dogsbody
 
-My personal blog and content site.
+My personal site and art review. Containing only original content by Samuel Mignot.
 
-Designed with a Flask Tailwind stack.
+Designed with a Flask Tailwind stack. Using Flask-Flatpages as a static site generator, markdown, gulp, and postcss.

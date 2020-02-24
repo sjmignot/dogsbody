@@ -32,15 +32,15 @@ making the summer
 red as the sun through  
 our eyelids.  
 
-Though sometimes the  
-brightness folds, scatters:  
+Though sometimes  
+the brightness folds, scatters:  
 fish darting below  
 the murk-line,  
 keeping their fiery scales.  
 
       all I can,  
-  all I know: is  
-the singular beauty that they  
+  all I know: 
+  is the singular beauty that they  
 are not necessary  
        with you,  
 
@@ -66,13 +66,11 @@ must be happy, must wait
 
 for the hook.  
     sharp  
-  but it will drag us  
-into the light.  
+  but it will drag us into the light.  
 
 the darkness peeling  
 as we pass through layers of water.  
 
 like eyelids getting thinner and thinner  
-burning up through the  
-  atmosphere of waves  
+burning up through the atmosphere of waves  
         burning up into light.  

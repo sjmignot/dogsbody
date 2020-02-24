@@ -11062,6 +11062,9 @@ img[src*='#float-round'] {
   shape-outside: inset(1% round 50%);
   margin: 10px;
   border-radius: 9999px;
+  border-width: 2px;
+  padding: 0;
+  background: none;
 }
 
 img[src*='#center'] {
