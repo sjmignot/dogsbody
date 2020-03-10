@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind screens;
+
+html {
+    min-height: 100%;
+    display: flex;
+}
+
+body {
+  flex: 1;
+  counter-reset: figure;
+}
+
+ul {
+ @apply list-disc;
+}
+
+.dot {
+  height: 8px;
+  width: 8px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.unchecked {
+  color: white;
+}
+
+.grid-area {
+    @apply p-4;
+    /* border : 1px black solid; */
+}
+
+
+.accounts {
+  grid-area: accounts;
+  @apply pt-0 pb-0;
+}
+
+.resume {
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 5px;
+    grid-template-areas:
+      "name name"
+      "accounts accounts"
+      "about about"
+      "education education"
+      "work work"
+      "projects projects"
+      "skills skills";
+}
+
+@screen sm {
+  .resume {
+      display:grid;
+      grid-template-columns: 2fr 1fr;
+      grid-gap: 5px;
+      grid-template-areas:
+        "name accounts"
+        "about about"
+        "education education"
+        "work work"
+        "projects projects"
+        "skills skills";
+  }
+  .accounts {
+    grid-area: accounts;
+    @apply px-4;
+  }
+}
+
+@screen md {
+  .resume {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows   : auto auto auto auto auto;
+      /* box-shadow           : 0 5px 9px 0 rgba(0, 0, 0, 0.35); */
+      grid-template-areas:
+          "name           name       accounts"
+          "work           work       about"
+          "work           work       education"
+          "projects       projects   projects"
+          "skills         skills     skills";
+      grid-gap: 5px;
+  }
+}
+
+.name {
+    grid-area: name;
+}
+
+.about {
+    grid-area: about;
+}
+
+
+.references {
+    grid-area: references;
+}
+
+.work {
+    grid-area: work;
+}
+
+.skills {
+    grid-area: skills;
+}
+
+.education {
+    grid-area: education;
+}
+
+.projects {
+    grid-area: projects;
+}

@@ -7,11 +7,8 @@ const imageResize = require('gulp-image-resize');
 var Fontmin = require('fontmin');
 
 gulp.task('css', function () {
-  return gulp.src('static/css/styles.css')
+  return gulp.src('static/css/*.css')
   .pipe(postcss())
-  .pipe(rename((path) => {
-    path.basename = 'output'
-  }))
   .pipe(gulp.dest('build/static/css/'));
 });
 
