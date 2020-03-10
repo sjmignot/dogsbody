@@ -25,7 +25,7 @@
                    data-name="sjmignot"
                    data-domain="gmail"
                    data-tld="com"
-                   onclick="window.location.href = 'mailto:' + this.dataset.name + '@' + this.dataset.domain + '.' + this.dataset.tld; return false;"><img class="h-6 inline -mt-1" src="{{url_for('static', filename='img/resume_email.png')}}"</img></a>
+                   onclick="window.location.href = 'mailto:' + this.dataset.name + '@' + this.dataset.domain + '.' + this.dataset.tld; return false;"><img class="h-5 sm:h-6 inline -mt-1" src="{{url_for('static', filename='img/resume_email.png')}}"</img></a>
               </p>
             </div>
           </div>
@@ -195,11 +195,4 @@
             </div>
       </section>
     </article>
-  <script>
-    var user = 'sjmignot',
-    domain = 'gmail',
-    element = document.getElementById('email');
-
-    element.innerHTML = "(<span class="text-red">email</span>)" + user + '@' + domain + ".com";
-  </script>
 </body>
