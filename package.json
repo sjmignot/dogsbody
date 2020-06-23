@@ -8,8 +8,8 @@
   "main": "index.js",
   "scripts": {
     "build:css": "npx tailwind build static/css/main.css -o static/css/output.css && npx tailwind build static/css/resume.css -o static/css/resume-output.css",
-    "test": "python3 blog.py",
-    "build": "python3 blog.py build",
+    "test": "python3 app.py",
+    "build": "python3 app.py build",
     "postbuild": "gulp css images && cp -r build/* ../hosted-site"
   },
   "license": "MIT",
