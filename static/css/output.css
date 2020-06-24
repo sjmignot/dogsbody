@@ -10990,10 +10990,23 @@ h3 {
 
 /*! purgecss start ignore */
 
+/* Global */
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+}
+
 html {
   min-height: 100%;
   display: -webkit-box;
   display: flex;
+}
+
+body {
+  -webkit-box-flex: 1;
+          flex: 1;
+  counter-reset: figure;
 }
 
 .epigraph {
@@ -11009,12 +11022,6 @@ html {
   top: 5px;
   font-size: 12px;
   font-style: normal;
-}
-
-body {
-  -webkit-box-flex: 1;
-          flex: 1;
-  counter-reset: figure;
 }
 
 #dice {
@@ -11494,7 +11501,90 @@ progress::-moz-progress-bar {
   text-indent: 1rem;
 }
 
-/*! purgecss end ignore */
+/* CONTACT PAGE */
+
+.profile-banner__image {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;
+}
+
+.page-wrapper{
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  margin-top: 2em;
+  -webkit-box-align: center;
+          align-items: center;
+  position: relative;
+}
+
+form {
+  width: 45%;
+  padding: 1em;
+}
+
+label {
+  font-family: var(--ff-base);
+  text-transform: lowercase;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  margin: 0 1rem 1rem 1rem;
+  letter-spacing: 1.4px;
+  color: var(--sc-clr);
+}
+
+input, textarea {
+  color: var(--sc-clr);
+  border: 1.5px solid var(--sc-clr);
+  margin-top: .5rem;
+  padding: .3rem;
+  font-family: var(--ff-base);
+}
+
+.form__name-wrapper {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+}
+
+.form-label__name{
+  width: 40%;
+}
+
+.contact-page__image-wrapper {
+  width: 55%;
+}
+
+.contact-pge__image {
+  width: 100%;
+  opacity: .8
+}
+
+.form__submit-button {
+  color: var(--sc-clr);
+  background-color: white;
+  text-transform: lowercase;
+  text-align: center;
+  letter-spacing: 1.4px;
+  width: 5rem;
+  height: 2rem;
+  margin: 0 1rem 1rem 1rem;
+  font-size: 1rem;
+  -webkit-transition: color 500ms ease-in-out, background-color 500ms ease-in-out;
+  transition: color 500ms ease-in-out, background-color 500ms ease-in-out;
+}
+
+.form__submit-button:hover {
+  color: white;
+  background-color: var(--sc-clr);
+}
 
 @media (min-width: 450px) {
   .xs\:sr-only {

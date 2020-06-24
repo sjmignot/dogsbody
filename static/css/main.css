@@ -8,11 +8,102 @@
 
 /*! purgecss start ignore */
 
+/* Fonts */
+@font-face {
+  font-family: "JosefinSlab";
+  src: url("../font/JosefinSlab-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "IBMPlexSans";
+  src: url("../font/IBMPlexSans-LightItalic.woff2") format("woff2");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "IBMPlexSans";
+  src: url("../font/IBMPlexSans-LightItalic.woff2") format("woff2");
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+	font-family: "KlinicSlab";
+	src: url("../font/KlinicSlab.woff2") format("woff2");
+}
+
+/* Global */
+*, *::before, *::after {
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+    --clr-prim: #21610B,
+	--clr-prim-shade: #0F493F;
+    --clr-sec: #C73E1D,
+    --clr-sec-shade: #F18F01,
+	--clr-bg: #f7fafc;
+	--clr-black: rgba(0,0,0,.8);
+	--ff-prim: "KlinicSlab";
+	--ff-sec: "IBMPlexMono";
+	--ff-thrd: "JosefinSlab";
+}
+
+
 html {
     min-height: 100%;
     display: flex;
 }
 
+body {
+  flex: 1;
+  counter-reset: figure;
+  background-color: var(--clr-bg);
+}
+
+header {
+	width: min(100%, 1000px);
+	margin: 0 auto;
+	pointer-events: none;
+	position: sticky;
+	top: 0;
+	z-index: 40;
+}
+
+
+/* HEADER */
+
+.nav {
+	top: 0;
+	width: 100%;
+	margin-left: auto;
+	pointer-events: auto;
+	background-color: var(--bg-clr);
+	display: flex; 
+	flex-direction: flex-row; 
+	font: var(--ff-prim);
+	position: relative;
+}
+
+.nav__item {
+	margin: auto 0;
+	font-size: larger;
+}
+
+.nav__logo {
+	order: 3;
+}
+
+.nav::after {
+	left: 0;
+	right: 0;
+	top: 0;
+	border: black;
+	width: 2px;
+}
+
+/* FOOTER */
 .epigraph {
   margin-left: 3em;
   margin-right: 3em;
@@ -28,10 +119,6 @@ html {
   font-style: normal;
 }
 
-body {
-  flex: 1;
-  counter-reset: figure;
-}
 
 #dice {
   font-size: 30px;
@@ -233,60 +320,6 @@ ul {
   left: -20px;
 }
 
-progress {
-  /* Positioning */
-  position: fixed;
-  left: 0;
-  top: 0;
-
-  /* Dimensions */
-  width: 100%;
-  height: 5px;
-
-  /* Reset the appearance */
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-
-  /* Get rid of the default border in Firefox/Opera. */
-  border: none;
-
-  /* Progress bar container for Firefox/IE10+ */
-  background-color: transparent;
-
-  /* Progress bar value for IE10+ */
-  color: #0F493F;
-}
-
-progress::-webkit-progress-bar {
-  background-color: transparent;
-}
-
-progress::-webkit-progress-value {
-  background-color: #0F493F;
-}
-
-progress::-moz-progress-bar {
-  background-color: #0F493F;
-}
-
-.progress-container {
-  width: 100%;
-  background-color: transparent;
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 5px;
-  display: block;
-}
-
-.progress-bar {
-  background-color: #0F493F;
-  width: 0%;
-  display: block;
-  height: inherit;
-}
-
 .date-indicator {
   left: 90%;
   font-size: x-large;
@@ -436,4 +469,136 @@ progress::-moz-progress-bar {
 .poem p {
   text-indent: 1rem;
 }
-/*! purgecss end ignore */
+
+/* CONTACT PAGE */
+
+.profile-banner__image {
+	width: 100%;
+	height: 100%;
+	display: block;
+	position: relative;
+}
+
+.page-wrapper{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 2em;
+	align-items: center;
+	position: relative;
+}
+
+form {
+	width: 45%;
+	padding: 1em;
+}
+
+
+label {
+	font-family: var(--ff-base);
+	text-transform: lowercase;
+	display: flex;
+	flex-direction: column;
+	margin: 0 1rem 1rem 1rem;
+	letter-spacing: 1.4px;
+	color: var(--sc-clr);
+}
+
+input, textarea {
+	color: var(--sc-clr);
+	border: 1.5px solid var(--sc-clr); 
+	margin-top: .5rem;
+	padding: .3rem;
+	font-family: var(--ff-base);
+}
+
+.form__name-wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.form-label__name{
+	width: 40%;
+}
+
+.contact-page__image-wrapper {
+	width: 55%;
+}
+
+.contact-pge__image {
+	width: 100%;
+	opacity: .8
+}
+
+.form__submit-button {
+	color: var(--sc-clr);
+	background-color: white;
+	text-transform: lowercase;
+	text-align: center;
+	letter-spacing: 1.4px;
+	width: 5rem;
+	height: 2rem;
+	margin: 0 1rem 1rem 1rem;
+	font-size: 1rem;
+	transition: color 500ms ease-in-out, background-color 500ms ease-in-out;
+}
+
+
+.form__submit-button:hover {
+	color: white;
+	background-color: var(--sc-clr);
+}
+
+/* PROGRESS BAR */
+progress {
+  /* Positioning */
+  position: fixed;
+  left: 0;
+  top: 0;
+
+  /* Dimensions */
+  width: 100%;
+  height: 5px;
+
+  /* Reset the appearance */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  /* Get rid of the default border in Firefox/Opera. */
+  border: none;
+
+  /* Progress bar container for Firefox/IE10+ */
+  background-color: transparent;
+
+  /* Progress bar value for IE10+ */
+  color: #0F493F;
+}
+
+progress::-webkit-progress-bar {
+  background-color: transparent;
+}
+
+progress::-webkit-progress-value {
+  background-color: #0F493F;
+}
+
+progress::-moz-progress-bar {
+  background-color: #0F493F;
+}
+
+.progress-container {
+  width: 100%;
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 5px;
+  display: block;
+}
+
+.progress-bar {
+  background-color: #0F493F;
+  width: 0%;
+  display: block;
+  height: inherit;
+}

@@ -9,34 +9,35 @@
   <meta name="google-site-verification" content="lQcj_VfrLnJc8g0N-Lz1sgBByIm2-6nkMy2_CsWRk0Q" />
   <meta name="description" content="{% block description %}{% endblock %}">
 </head>
-<body class="bg-gray-100">
-
+<body>
   <progress class="z-50" value="0">
     <div class="progress-container">
       <span class="progress-bar"></span>
     </div>
   </progress>
-  <header class="w-full mx-auto md:w-214 pointer-events-none header sticky top-0 z-40">
+  <header>
     <!-- navbar -->
-    <nav class="top-0 w-full ml-auto">
-      <div class="pointer-events-auto bg-gray-100 sm:bg-transparent flex flex-row font-postheader">
-        <div class="w-24 h-16 flex mx-auto bg-gray-100 sm:order-none sm:w-32 sm:h-24">
+    <nav class="nav">
+		<ul class="nav__list">
+        <!-- <div class="w-24 h-16 flex mx-auto bg-gray-100 sm:order-none sm:w-32 sm:h-24"> -->
+		<li class="nav__item nav__logo">
           <a href="/">
             <img class="w-full" src="{{ url_for('static', filename='img/logo.svg') }}" alt="Dogsbody logo" />
           </a>
-        </div>
-
-        <div class="flex py-auto flex-row md:pr-12 sm:pr-2 bg-gray-100 nav-content pl-6 justify-between order-first sm:flex-col flex-1 sm:mx-0 md:flex-row md:pl-0">
-          <a class="my-auto sm:mr-auto text-2xl flex-0 sm:text-3xl center-hover-underline{{ ' active' if active_page == 'blog' else '' }}" href="/posts">posts</a>
-          <a class="my-auto hidden sm:flex sm:mr-auto sm:mx-0 text-2xl sm:text-3xl md:mr-0 center-hover-underline {{ 'active' if active_page == 'subscribe' else '' }}" href="/subscribe">subscribe</a>
-        </div>
-
-        <div class="md:pl-12 sm:pl-2 bg-gray-100 nav-content sm:mx-0 pr-6 flex flex-row sm:flex-col flex-1 justify-between md:flex-row md:pr-0">
-            <a class="my-auto hidden sm:block sm:ml-auto md:ml-0 text-right text-2xl sm:text-3xl center-hover-underline{{ 'active' if active_page == 'about' else '' }}" href="/projects">projects</a>
-            <a class="my-auto ml-auto text-right flex-0 text-2xl sm:text-3xl center-hover-underline" href="/about">about</a>
-        </div>
-    </div>
-    <hr class="z-50 mx-6 border-black border-2 md:mx-0"/>
+		</li>
+		<li class="nav__item {{ ' active' if active_page == 'blog' else '' }}">
+          <a class="center-hover-underline" href="/posts">posts</a>
+		</li>
+		<li class="nav__item {{ 'active' if active_page == 'contact' else '' }}">
+          <a class="center-hover-underline" href="/contact">contact</a>
+        </li> 
+		<li class="nav__item {{ 'active' if active_page == 'contact' else '' }}">
+            <a class="center-hover-underline" href="/projects">projects</a>
+		</li>
+		<li class="nav__item {{ 'active' if active_page == 'contact' else '' }}">
+            <a class="center-hover-underline" href="/about">about</a>
+		</li>
+    </ul>
     <div class="pl-6 flex flex-no-wrap pr-6 md:pr-0 pt-2">
       <div class="padding-div flex-1"></div>
       <a class="pointer-events-auto flex-grow-0 px-1" href="">
@@ -56,7 +57,6 @@
           <circle cx="4" cy="4" r="2"/>
         </svg>
       </a>
-    </div>
     </nav>
   </header>
   <div class="m-auto w-full md:w-214 flex flex-col {{ 'h-full' if active_page != 'landing' }}">
