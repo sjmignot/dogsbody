@@ -1,39 +1,34 @@
 {% extends 'base.html' %}
-{% set active_page = "subscribe" %}
+{% set active_page = "contact" %}
 
 {% block content %}
-<div class="px-6 font-light leading-normal md:px-0 lg:px-0 xl:px-0">
-  <h1 class="font-posttitle font-semibold text-2xl text-center"> CONTACT </h1>
-  <hr class="mx-auto w-1/3 border-black border-1 mb-4"/>
-  <article class="post font-post leading-relaxed font-light">
-		<div class="page-wrapper">
-		<form
+  <h1 class="page__title"> CONTACT </h1>
+  <div class="page__wrapper">
+      <form
+		  class="contact__form"
 		  action="https://formspree.io/mrgyagyo"
 		  method="POST"
 		>
 		  <div class="form__name-wrapper">
-			  <label class="form-label__name form-label__name--first">
-				FIRST NAME 
-				<input class="form-input__name form-input__name--last " type="text" name="first-name">
+			  <label class="form-label__name form-label__name--first"> FIRST NAME <input class="form-input__name form-input__name--last " type="text" name="first-name" onkeypress="birdSings()">
 			  </label>
 
-			  <label class="form-label__name form-label__name--last">
-				LAST NAME
-				<input class="form-input__name form-input__name--last" type="text" name="last-name">
+			  <label class="form-label__name form-label__name--last"> LAST NAME <input class="form-input__name form-input__name--last" type="text" name="last-name" onkeypress="birdSings()">
 			  </label>
 		  </div>
-		  <label class="form-label__email">
-			EMAIL
-			<input class="form-input__email" type="email" name="_replyto" required>
+		  <label class="form-label__email"> EMAIL <input class="form-input__email" type="email" name="_replyto" required onkeypress="birdSings()">
 		  </label>
-		  <label class="form-label__message">
-			MESSAGE 
-			<textarea class="form-input__message" rows="8" name="message" required minlength="40"></textarea>
+		  <label class="form-label__message"> MESSAGE <textarea class="form-input__message" rows="8" name="message" required minlength="40" onkeypress="birdSings()"></textarea>
 		  </label>
 		  <input type="text" name="_gotcha" style="display:none" />
-		  <input class="form__submit-button"type="submit" value="submit">
+		  <input class="form__submit-button"type="submit" value="submit" onkeypress="birdSings()"/>
 		</form>
+		<div class="contact-page__image-wrapper">
+			<img class="contact-page__image" src="{{url_for('static', filename='img/birb.svg')}}"></img>
 		</div>
-  </article>
-</div>
+	</div>
+{% endblock %}
+
+{% block scripts %}
+	<script src="{{ url_for('static', filename='js/birdSong.js') }}"></script>
 {% endblock %}

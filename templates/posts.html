@@ -2,18 +2,18 @@
 {% set active_page = "blog" %}
 {% block description %} Reflections on music, film, literature, and philosophy by Samuel Mignot {% endblock %}
 {% block content %}
-<div class="px-12 md:px-0 lg:px-0 xl:px-0">
+<div class="post-list__wrapper">
   {% for post, date in posts %}
-     <div class="flex-col w-full pb-8 y-{{ date[-4:] }}">
+     <div class="post-wrapper y-{{ date[-4:] }}">
         {% if loop.previtem is not defined or loop.previtem[1][-4:] != date[-4:] %}
-          <div class="text-gray-500 hidden lg:block absolute date-indicator scroll-fade">{{date[-4:]}}</div>
+          <div class="date-indicator scroll-fade">{{date[-4:]}}</div>
         {% endif %}
 
-        <a class="w-full font-posttitle text-2xl hover:text-green hover:underline post-link" href="{{ url_for('blog_post', name=post.path.replace('posts/','')) }}"> {{ post.title }} </a>
-        <div class="flex font-post text-sm font-light">
-          <div class="flex-0">{{ date }}</div>
-          <div class="text-red flex-0 px-4"> · </div>
-          <div class="flex-0"> {{ post.genre }}</div>
+        <a class="post-link" href="{{ url_for('blog_post', name=post.path.replace('posts/','')) }}"> {{ post.title }} </a>
+		<div class="post-link__details">
+          <div class="post-link-details__date">{{ date }}</div>
+          <div class="post-link-details__divider"> · </div>
+          <div class="post-link-details__genre"> {{ post.genre }}</div>
         </div>
      </div>
   {% endfor %}

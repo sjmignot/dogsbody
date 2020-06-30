@@ -3,48 +3,39 @@
 {% set active_page = "landing" %}
 {% block description %} Samuel Mignot's Personal Site {% endblock %}
 {% block content %}
-  <article class="landing-page px-6 md:px-0">
-      <section class="font-posttitle grid-area name border-l-2 md:border-b-2 w-full flex flex-row flex-wrap">
-        <h1 class="w-full xs:w-2/3 sm:w-5/8 text-5xl xs:text-5xl sm:text-7xl"> DOGSBODY </h1>
-        <a class="w-1/2 sm:w-5/8 text-4xl sm:text-6xl text-blue-500 hover:underline xs:whitespace-no-wrap" href="/about">samuel mignot</a>
-        <div class="mx-auto w-24 mt-2 xs:w-32 xs:-mt-16 sm:w-48 sm:-mt-24 sm:ml-auto sm:mr-px">
-          <img class="rounded-full border-2" alt="Picture of the young man as a young man" src="../../static/img/me.jpg#center">
+  <article class="landing-page">
+      <section class="landing-page__section name">
+        <h1 class="name-section__name"> DOGSBODY </h1>
+		<div class="author__wrapper">
+			<a class="name-section__author fade-underline" href="/about">samuel mignot</a>
+		</div>
+        <div class="name-section__image-wrapper">
+          <img class="name-section__image" alt="Picture of the young man as a young man" src="../../static/img/me.jpg">
         </div>
       </section>
-      <section class="grid-area about border-t-2 border-r-2 border-b-2 md:border-none md:pr-0">
-        <p class="font-posttitle">Coder, writer, and artist with experience in technical writing, data analysis, web scraping, machine learning, and web design. Curious, driven, and constantly inspired to learn and create.</p>
+      <section class="landing-page__section about">
+        <p class="about__description">Coder, writer, and artist with experience in technical writing, data analysis, web scraping, machine learning, and web design. Curious, driven, and constantly inspired to learn and create.</p>
       </section>
-      <section class="grid-area latest-post border-l-2 md:border-l-0 md:border-r-2">
-        <h2 class="text-3xl font-posttitle text-justify">
-          <a class="hover:text-green hover:underline" href="{{ url_for('blog_post', name=latest_post.path.replace('posts/','')) }}">{{ latest_post.title }}</a>. <p class="text-lg inline">{{latest_post.preview}}</p>
+      <section class="landing-page__section latest-post">
+          <a class="latest-post__title" href="{{ url_for('blog_post', name=latest_post.path.replace('posts/','')) }}">{{ latest_post.title }}...</a><p class="latest-post__preview">{{latest_post.preview}}</p>
         </h2>
       </section>
-      <section class="grid-area border-t-2 border-r-1 md:border-t-0 left-cats">
-        <div class="text-3xl sm:text-6xl font-posttitle text-gray-700">
-          <a class="relative animated-hover" href="/projects#poetry"> POETRY </a>
-        </div>
-        <div class="text-3xl sm:text-6xl font-posttitle text-gray-700">
-          <a class="relative animated-hover" href="/projects#fiction"> FICTION </a>
-        </div>
+      <section class="landing-page__section cats left-cats">
+          <a class="animated-hover" href="/projects#poetry"> POETRY </a>
+          <a class="animated-hover" href="/projects#fiction"> FICTION </a>
       </section>
-      <section class="grid-area right-cats border-t-0 md:border-t-2 border-l-1">
-        <div class="text-3xl sm:text-6xl font-posttitle text-right text-gray-700">
-          <a class="relative animated-hover" href="/projects#coding"> CODING </a>
-        </div>
-        <div class="text-3xl sm:text-6xl font-posttitle text-right text-gray-700">
-          <a class="relative animated-hover" href="/projects#photos"> PHOTOS </a>
-        </div>
+      <section class="landing-page__section cats right-cats">
+    	<a class="animated-hover" href="/projects#coding"> CODING </a>
+          <a class="animated-hover" href="/projects#photos"> PHOTOS </a>
       </section>
-      <section class="grid-area arrow">
-          <div class="flex justify-center">
-            <svg width="60px" height="36px" viewBox="0 0 60 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                    <g id="Mobile" transform="translate(-132.000000, -362.000000)" stroke="#E2E8F0" stroke-width="2">
-                        <path d="M162,396 C162,374 162,363 162,363 C162,363 153,363 135,363 L162,396 L189,363 L162,363" id="Path-3"></path>
-                    </g>
-                </g>
-            </svg>
-          </div>
+      <section class="landing-page__section arrow">
+		<svg width="60px" height="36px" viewBox="0 0 60 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+			<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+				<g id="Mobile" transform="translate(-132.000000, -362.000000)" stroke="#E2E8F0" stroke-width="2">
+					<path d="M162,396 C162,374 162,363 162,363 C162,363 153,363 135,363 L162,396 L189,363 L162,363" id="Path-3"></path>
+				</g>
+			</g>
+		</svg>
       </section>
   </article>
 {% endblock %}

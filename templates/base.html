@@ -15,70 +15,53 @@
       <span class="progress-bar"></span>
     </div>
   </progress>
-  <header>
+  <header class="header">
     <!-- navbar -->
     <nav class="nav">
-		<ul class="nav__list">
-        <!-- <div class="w-24 h-16 flex mx-auto bg-gray-100 sm:order-none sm:w-32 sm:h-24"> -->
-		<li class="nav__item nav__logo">
-          <a href="/">
-            <img class="w-full" src="{{ url_for('static', filename='img/logo.svg') }}" alt="Dogsbody logo" />
-          </a>
-		</li>
-		<li class="nav__item {{ ' active' if active_page == 'blog' else '' }}">
-          <a class="center-hover-underline" href="/posts">posts</a>
-		</li>
-		<li class="nav__item {{ 'active' if active_page == 'contact' else '' }}">
-          <a class="center-hover-underline" href="/contact">contact</a>
-        </li> 
-		<li class="nav__item {{ 'active' if active_page == 'contact' else '' }}">
-            <a class="center-hover-underline" href="/projects">projects</a>
-		</li>
-		<li class="nav__item {{ 'active' if active_page == 'contact' else '' }}">
-            <a class="center-hover-underline" href="/about">about</a>
-		</li>
-    </ul>
-    <div class="pl-6 flex flex-no-wrap pr-6 md:pr-0 pt-2">
-      <div class="padding-div flex-1"></div>
-      <a class="pointer-events-auto flex-grow-0 px-1" href="">
-        <div id="dice" class="-mt-3 -mr-3 hover:text-green"></div>
-      </a>
-      <div class="px-1 flex-grow-0 text-lg font-header">|</div>
-      <a target="_blank" rel="noopener" class="pointer-events-auto flex-grow-0 px-1" href="https://github.com/sjmignot">
-        <svg class="text-green hover:stroke-current" role="img" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <title>Github icon</title>
-          <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
-        </svg>
-      </a>
-      <a target="_blank" rel="noopener" class="pointer-events-auto flex-grow-0 px-1" href="https://www.linkedin.com/in/sjmignot">
-        <svg class="text-green hover:stroke-current" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-          <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
-          <rect x="2" y="9" width="4" height="12"/>
-          <circle cx="4" cy="4" r="2"/>
-        </svg>
-      </a>
+		<div class="nav__list">
+			<div class="nav-item__wrapper nav-item__wrapper--logo">
+			  <a class="nav__logo" href="/">
+				<img src="{{ url_for('static', filename='img/logo.svg') }}" alt="Dogsbody logo" />
+			  </a>
+			</div>
+			<div class="nav-item__wrapper">
+			  <a class="center-hover-underline nav-item {{ ' active' if active_page == 'blog' else '' }}" href="/posts">posts</a>
+			  <a class="center-hover-underline nav-item {{ ' active' if active_page =='contact' else '' }}" href="/contact">contact</a>
+			</div> 
+			<div class="nav-item__wrapper">
+				<a class="center-hover-underline nav-item {{ 'active' if active_page == 'contact' else '' }}" href="/projects">projects</a>
+				<a class="center-hover-underline nav-item {{ 'active' if active_page == 'about' else '' }}" href="/about">about</a>
+			</div>
+		</div>
+		<div class="icon-menu">
+			<a target="_blank" rel="noopener" class="pointer-events-auto px-1" href="https://github.com/sjmignot">
+				<svg class="text-green hover:stroke-current" role="img" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+				  <title>Github icon</title>
+				  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+				</svg>
+			  </a>
+			  <a target="_blank" rel="noopener" class="pointer-events-auto px-1" href="https://www.linkedin.com/in/sjmignot">
+				<svg class="text-green hover:stroke-current" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+				  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+				  <rect x="2" y="9" width="4" height="12"/>
+				  <circle cx="4" cy="4" r="2"/>
+				</svg>
+			  </a>
+			</ul>
+		</div>
     </nav>
   </header>
-  <div class="m-auto w-full md:w-214 flex flex-col {{ 'h-full' if active_page != 'landing' }}">
-    <!-- content -->
-    <section class="z-0 content flex-1">
-      {% block content %}{% endblock %}
-    </section>
-  </div>
-  <footer class="w-full bg-gray-900 text-white border-t-1 border-green pin-b">
-    <div class="flex w-1/2 sm:w-1/3 mx-auto border-l-2 text-xs border-r-2 border-b-2 border-white">
-      <p class="font-posttitle text-center py-2">"They are lodged in the room of the infinite possibilities they have ousted" —Joyce</p>
+  <!-- content -->
+  <section class="section__wrapper">
+    {% block content %}{% endblock %}
+  </section>
+  <footer class="footer">
+    <div class="footer__quote-wrapper">
+      <p class="footer__quote">"They are lodged in the room of the infinite possibilities they have ousted" —Joyce</p>
     </div>
     </div>
     <p class="font-posttitle py-2 text-center">dogsbody · a samuel mignot production · blogging for bipeds</p>
   </footer>
   {% block scripts %}{% endblock %}
-  <script>
-    var post_names = {{ post_names|safe }}
-    var post_name = post_names[Math.floor(Math.random()*post_names.length)];
-    window.onload = function() {
-      document.getElementById("dice").parentElement.href=`/posts/${post_name}`;
-    }
-  </script>
  </body>
 </html>
