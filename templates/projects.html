@@ -7,30 +7,22 @@
 	<ul class="category__list">
     {% for poem in poetry %}
         <li>
-          <a class="category__item " href="{{ url_for('project_page', category='poetry', name=poem.path.replace('poetry/','')) }}">{{ poem.title }}</a> ({{ poem.date }})
+			<a class="category__item " href="{{ url_for('project_page', category='poetry', name=poem.path.replace('poetry/','')) }}">{{ poem.title }}</a> <span class="category-item__date">({{ poem.date }})</span>
         </li>
     {% endfor %}
     </ul>
+	<hr class="category-divider" />
 
     <div class="header-link-padding" id="fiction"></div>
     <h2 class="category__header"> FICTION </h2>
     <ul class="category__list">
     {% for prose in fiction %}
       <li>
-        <a class="category__item" href="{{ url_for('project_page', category='fiction', name=prose.path.replace('fiction/','')) }}">{{ prose.title }}</a> ({{ prose.date }})
+		  <a class="category__item" href="{{ url_for('project_page', category='fiction', name=prose.path.replace('fiction/','')) }}">{{ prose.title }}</a> <span class="category-item__date"> ({{ prose.date }}) </span>
       </li>
     {% endfor %}
     </ul>
-
-    <div class="header-link-padding" id="photos"></div>
-    <h2 class="category__header"> PHOTOS</h2>
-    <ul class="category__list">
-    {% for photo in photos %}
-        <li>
-          <a class="category__item" href="{{ url_for('project_page', category='photos', name=photo.path.replace('photos/','')) }}">{{ photo.title }}</a> ({{ photo.date }})
-        </li>
-    {% endfor %}
-    </ul>
+	<hr class="category-divider" />
 
     <div class="header-link-padding" id="coding"></div>
     <h2 class="category__header"> CODING </h2>
@@ -38,7 +30,7 @@
 		<ul class="category__list">
 		{% for project in coding_projects %}
 			<li>
-			  <a class="category__item" href="{{project.link}}" target="_blank">{{ project.title }}</a> ({{ project.date }})
+				<a class="category__item" href="{{project.link}}" target="_blank">{{ project.title }}</a> <span class="category-item__date"> ({{ project.date }})</span>
 			</li>
 		{% endfor %}
 		</ul>
@@ -46,9 +38,19 @@
 		<ul class="category__list">
 		{% for notebook in notebooks %}
 			<li>
-			  <a class="category__item" href="{{ url_for('notebook_page', name=notebook.path.replace('coding/notebooks', ''))}}">{{ notebook.title }}</a> ({{ notebook.date }})
+				<a class="category__item" href="{{ url_for('notebook_page', name=notebook.path.replace('coding/notebooks', ''))}}">{{ notebook.title }}</a> <span class="category-item__date"> ({{ notebook.date }}) </span>
 			</li>
 		{% endfor %}
 		</ul>
-</div>
+	<hr class="category-divider" />
+
+    <div class="header-link-padding" id="photos"></div>
+    <h2 class="category__header"> PHOTOS</h2>
+    <ul class="category__list">
+    {% for photo in photos %}
+        <li>
+			<a class="category__item" href="{{ url_for('project_page', category='photos', name=photo.path.replace('photos/','')) }}">{{ photo.title }}</a> <span class="category-item__date"> ({{ photo.date }}) </span>
+        </li>
+    {% endfor %}
+    </ul>
 {% endblock %}

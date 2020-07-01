@@ -104,11 +104,6 @@ lastmod: 2020-05-15
     <div class="prompt"></div>
 
 
-<div class="output_subarea output_stream output_stderr output_text">
-<pre>/Users/samuelmignot/.pyenv/versions/3.8.0/lib/python3.8/site-packages/mlxtend/plotting/decision_regions.py:249: MatplotlibDeprecationWarning: Passing unsupported keyword arguments to axis() will raise a TypeError in 3.3.
-  ax.axis(xmin=xx.min(), xmax=xx.max(), y_min=yy.min(), y_max=yy.max())
-</pre>
-</div>
 </div>
 
 <div class="output_area">

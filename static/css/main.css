@@ -1647,17 +1647,23 @@ input, textarea {
 
 .category__subheader {
 	font-family: var(--ff-sec);
-	width: min(600px, 100%);
+	width: min(500px, 100%);
+	text-decoration: underline;
 	margin: 0 auto;
 	font-style: italic;
-	filter: opacity(.6)
+	filter: opacity(.6);
+	padding-bottom: .5rem;
 }
 
 .category__list {
-	margin: 0 auto 3rem auto;
-	width: min(600px, 100%);
+	margin: 0 auto 2rem auto;
+	width: min(500px, 100%);
 	list-style: disc;
 	text-indent: 1rem;
+}
+
+.category-divider {
+	margin-bottom: 2rem;
 }
 
 .category__item {
@@ -1671,6 +1677,10 @@ input, textarea {
 
 .category__item:hover, .category__item:focus {
 	text-decoration-color: var(--clr-acc-sec);
+}
+
+.category-item__date {
+	filter: opacity(.5);
 }
 
 /* ---------------------- */
