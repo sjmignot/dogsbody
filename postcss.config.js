@@ -3,11 +3,13 @@ const purgecss = require('@fullhuman/postcss-purgecss')({
   content: [
     './templates/*.html',
     './content/posts/*.md',
-    'blog.py'
+    'blog.py',
+	'./static/js/*.js',
+	'./content/coding/notebooks/*.md'
   ],
   whitelistPatterns: [
     /^\.post/,
-    /\.post/
+    /\.post/,
   ],
   // Include any special characters you're using in this regular expression
   defaultExtractor: content => content.match(/[\w-/:]+(?<!:)/g) || []
@@ -15,7 +17,6 @@ const purgecss = require('@fullhuman/postcss-purgecss')({
 
 module.exports = {
   plugins: [
-    require('tailwindcss'),
     require('autoprefixer'),
     require('cssnano')({
       preset: 'default',

@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block style %}
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/notebook.css') }}">
+
+{% endblock %}
+{% block description %} jupyter notebook{% endblock %}
+{% block content %}
+  <div class=title__wrapper>
+    <h1 class="post__title">{{ notebook_page.title.upper() }}</h1>
+    <div class="post__details">
+      <div class="post-details__detail">{{ date }}</div>
+      <div class="post-details__divider"> · </div>
+      <div class="post-details__detail"> samuel mignot </div>
+    </div>
+  </div>
+  <article class="embeded-notebook">
+	{{ notebook_page.html|safe }}
+  </article>
+{% endblock %}

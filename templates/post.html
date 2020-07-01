@@ -2,28 +2,21 @@
 
 {% block description %}{{post.description}}{% endblock %}
 {% block content %}
-<div class="px-6 font-light leading-normal md:px-0 lg:px-0 xl:px-0">
-  <div class=mb-4>
-    <h1 class="font-posttitle tracking-widest text-2xl text-gray-900 font-semibold text-center mt-8">{{ post.title.upper() }}</h1>
-    <div class="italic flex font-post justify-center font-light">
-      <div class="flex-0 text-gray-900">{{ date }}</div>
-      <div class="text-red flex-0 px-4"> · </div>
-      <div class="flex-0 text-gray-900"> samuel mignot </div>
-      <div class="text-red flex-0 px-4"> · </div>
-      <div class="flex-0 text-gray-900"> {{ post.genre }}</div>
+  <div class=title__wrapper>
+    <h1 class="post__title">{{ post.title.upper() }}</h1>
+    <div class="post__details">
+      <div class="post-details__detail">{{ date }}</div>
+      <div class="post-details__divider"> · </div>
+      <div class="post-details__detail"> samuel mignot </div>
+      <div class="post-details__divider"> · </div>
+      <div class="post-details__detail"> {{ post.genre }}</div>
     </div>
   </div>
-  <hr class="mx-auto w-1/3 border-gray-900 border-1 mb-10"/>
-<article class="post font-post leading-relaxed font-light">
+<article class="post">
 {{ post.html|safe }}
-<div class="py-4">
-  {% for tag in post.tags.split(",") %}
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#{{tag}}</span>
-  {% endfor %}
-</div>
 </article>
-</div>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-<script src="{{ url_for('static', filename='js/progress.js') }}"></script>
+{% endblock %}
 
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/progress.js') }}"></script>
 {% endblock %}

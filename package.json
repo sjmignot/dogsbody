@@ -7,7 +7,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build:css": "npx tailwind build static/css/main.css -o static/css/output.css && npx tailwind build static/css/resume.css -o static/css/resume-output.css",
+    "build:css": "npx tailwind build static/css/main.css -o static/css/output.css && npx tailwind build static/css/resume.css -o static/css/resume-output.css && npx tailwind build static/css/notebook.css -o static/css/notebook-output.css",
     "test": "python3 app.py",
     "build": "python3 app.py build",
     "postbuild": "gulp css images && cp -r build/* ../hosted-site"

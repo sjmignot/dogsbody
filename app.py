@@ -58,13 +58,18 @@ def img_markdown_postprocess(page):
 
 def header_markdown_postprocess(page):
     '''
-    Adds a srcset attribute to all images to allow responsive image serving.
+    Adds link to all post headers.
     Requires name of all images file to be the same.
     '''
     header_pattern = r"<h2>(.*)</h2>"
     header_matches = re.findall(header_pattern, page)
     for match in header_matches:
-        header_replace = f"<div class=\"header-link-padding\" id=\"{slugify(match)}\"></div><h2 class=\"group relative z-0\"><a class=\"header-link absolute opacity-0 group-hover:opacity-100 pin-l pin-t transition-ease\" href=\"#{slugify(match)}\">#</a>{match}</h2>"
+        header_replace = (
+            f'<div class=\"post-header__padding\" id=\"{slugify(match)}\"></div>'
+            f'<h2 class=\"post__header\">'
+            f'<a class=\"header-link\" href=\"#{slugify(match)}\">#</a>'
+            f'{match}'
+            f'</h2>')
         header_pattern = re.compile(f"<h2>{re.escape(match)}</h2>")
         page = re.sub(header_pattern, header_replace, page)
     return page
@@ -160,8 +165,19 @@ def get_posts():
         return [p for p in flatpages if p.path.startswith(POST_DIR)]
 
 
-def get_coding_pages():
-    coding = [p for p in flatpages if p.path.startswith(CODING_DIR)]
+def get_coding_projects():
+    coding = [
+        p for p in flatpages if p.path.startswith(f'{CODING_DIR}/projects')
+    ]
+    coding.sort(key=lambda x: x['date'])
+    return coding
+
+
+def get_coding_notebooks():
+    coding = [
+        p for p in flatpages if p.path.startswith(f'{CODING_DIR}/notebooks')
+    ]
+    print([c['date'] for c in coding])
     coding.sort(key=lambda x: x['date'])
     return coding
 
@@ -195,11 +211,8 @@ def add_preview(latest_post):
 def home():
     posts = get_posts()
     posts.sort(key=lambda item: item['date'], reverse=True)
-    post_names = json.dumps([p.path.replace('posts/', '') for p in posts])
     latest_post = posts[0]
-    return render_template('index.html',
-                           post_names=post_names,
-                           latest_post=add_preview(latest_post))
+    return render_template('index.html', latest_post=add_preview(latest_post))
 
 
 @app.route("/posts/")
@@ -207,32 +220,22 @@ def blog():
     posts = get_posts()
     posts.sort(key=lambda item: item['date'], reverse=True)
     dates = [post['date'].strftime("%b. %d, %Y").lower() for post in posts]
-    post_names = [p.path.replace('posts/', '') for p in posts]
-    return render_template('posts.html',
-                           posts=zip(posts, dates),
-                           post_names=post_names)
+    return render_template('posts.html', posts=zip(posts, dates))
 
 
 @app.route('/posts/<name>/')
 def blog_post(name):
-    path = '{}/{}'.format(POST_DIR, name)
-    posts = get_posts()
+    path = f'{POST_DIR}/{name}'
     post = flatpages.get_or_404(path)
     date = post['date'].strftime("%b. %d, %Y").lower()
-    post_names = [p.path.replace('posts/', '') for p in posts]
-    return render_template('post.html',
-                           post=post,
-                           date=date,
-                           post_names=post_names)
+    return render_template('post.html', post=post, date=date)
 
 
 @app.route("/about/")
 def about():
     path = '{}/{}'.format(OTHER_DIR, 'about')
     about = flatpages.get_or_404(path)
-    posts = get_posts()
-    post_names = json.dumps([p.path.replace('posts/', '') for p in posts])
-    return render_template('about.html', about=about, post_names=post_names)
+    return render_template('about.html', about=about)
 
 
 @app.route("/about/resume/")
@@ -242,37 +245,39 @@ def resume():
 
 @app.route('/projects/<category>/<name>/')
 def project_page(category, name):
-    posts = get_posts()
-    post_names = [p.path.replace('posts/', '') for p in posts]
-
-    path = '{}/{}'.format(CATEGORY_DICT[category], name)
+    path = f'{CATEGORY_DICT[category]}/{name}'
     project_page = flatpages.get_or_404(path)
     date = project_page['date'].strftime("%b. %d, %Y").lower()
-    return render_template('project_page.html',
-                           project_page=project_page,
-                           date=date,
-                           post_names=post_names)
+    return render_template(
+        'project_page.html',
+        project_page=project_page,
+        date=date,
+    )
 
 
 @app.route("/projects/")
 def projects():
-    posts = get_posts()
-    post_names = json.dumps([p.path.replace('posts/', '') for p in posts])
     return render_template('projects.html',
                            fiction=get_fiction_pages(),
                            poetry=get_poetry_pages(),
                            photos=get_photos_pages(),
-                           coding=get_coding_pages(),
-                           post_names=post_names)
+                           coding_projects=get_coding_projects(),
+                           notebooks=get_coding_notebooks())
+
+
+@app.route('/projects/notebooks/<name>/')
+def notebook_page(name):
+    path = f'coding/notebooks/{name}'
+    notebook_page = flatpages.get_or_404(path)
+    date = notebook_page['date'].strftime("%b. %d, %Y").lower()
+    return render_template('jupyter_notebook.html',
+                           notebook_page=notebook_page,
+                           date=date)
 
 
 @app.route("/contact/")
 def contact():
-    posts = get_posts()
-    post_names = json.dumps([p.path.replace('posts/', '') for p in posts])
-    return render_template('contact.html',
-                           contact=contact,
-                           post_names=post_names)
+    return render_template('contact.html')
 
 
 @app.route('/sitemap.xml')
