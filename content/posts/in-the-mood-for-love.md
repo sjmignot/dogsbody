@@ -12,7 +12,7 @@ Wong Kar-Wai’s film *In the Mood for Love*, on first reflection, seems destine
 
 It tells the story of two neighbors who develop a relationship as they begin to suspect their respective partners of affairs. They grow close but are committed to not make the same mistakes.
 
-![Male protagonist smoking]({{ url_for('static', filename='img/post-images/in-the-mood-for-love/in-the-mood-for-love-1.jpg')}})
+![Male protagonist smoking]({{ url_for('static', filename='img/post-images/in-the-mood-for-love/in-the-mood-for-love-1.jpg')}}#img-1)
 *Frame from In the Mood for Love: Tony Leung's character smoking*
 
 The story is beautiful, but the medium of film seems antagonistic to the intimacy and contained humanity that Wong’s characters need. The movie must work against a number of difficult dynamics: primarily, how to present the private intimacy of the characters against the incidentally cold/observational and voyeuristic nature of filmmaking and framing.
@@ -25,7 +25,7 @@ I mean to propose, more than anything, that we as viewers should not feel entitl
 
 In some scenes Wong Kar-Wai provides us with a pretty direct view of his characters where we see their faces, but still his compositions are layered. The frame below comes from a shot that opens with the bottom fourth cut off. There are plants in the foreground and a partially opened window that creates an additional frame inside the shot. The room is further blocked off by the outer walls of the building.
 
-![Female protagonist drinking water in window]({{ url_for('static', filename='img/post-images/in-the-mood-for-love/in-the-mood-for-love-2.jpg')}})
+![Female protagonist drinking water in window]({{ url_for('static', filename='img/post-images/in-the-mood-for-love/in-the-mood-for-love-2.jpg')}}#img-2)
 *Frame from In the Mood for Love: Maggie Cheung's character drinking water by the window*
 
 We are given access to the room through the window but are not allowed into it—the camera (and consequently us, the viewer) is not allowed in the room. Nonetheless, the open window implies that we are not looking into the scene uninvited; we have permission to look into the room, but it is a permission that we are given not one that we are entitled to.

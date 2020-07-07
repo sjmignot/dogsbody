@@ -21,7 +21,7 @@ I don't want to pretend that my reviews and thoughts are directly about the topi
 
 ## Concrete
 
-I am a writer and a programmer. After graduating from Stanford in 2019 with degrees in Computer Science and English, I moved to Paris. I'm fascinating by all things art and cautiously intrigued by most things tech.
+I am a writer and a programmer. After graduating from Stanford in 2019 with degrees in Computer Science and English, I moved to Paris. I'm fascinated by all things art and cautiously intrigued by most things tech.
 
 Here are **some of the projects I am currently working on**:
 

@@ -4,6 +4,7 @@ import markdown
 from flask_frozen import Freezer
 
 from slugify import slugify
+import os
 import sys
 import re
 import datetime
@@ -228,7 +229,13 @@ def blog_post(name):
     path = f'{POST_DIR}/{name}'
     post = flatpages.get_or_404(path)
     date = post['date'].strftime("%b. %d, %Y").lower()
-    return render_template('post.html', post=post, date=date)
+    img_path = f'static/img/post-images/{name}/colors.svg'
+    if os.path.isfile(img_path):
+        with open(img_path, 'r') as f:
+            svg = Markup(f.read())
+    else:
+        svg = False
+    return render_template('post.html', post=post, date=date, svg=svg)
 
 
 @app.route("/about/")

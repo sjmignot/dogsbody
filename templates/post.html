@@ -1,6 +1,8 @@
 {% extends 'base.html' %}
 
 {% block description %}{{post.description}}{% endblock %}
+{% block style %}
+{% endblock %}
 {% block content %}
   <div class=title__wrapper>
     <h1 class="post__title">{{ post.title.upper() }}</h1>
@@ -13,10 +15,16 @@
     </div>
   </div>
 <article class="post">
+{% if svg %}
+<div class="svg__container">
+{{svg}}
+</div>
+{% endif %}
 {{ post.html|safe }}
 </article>
 {% endblock %}
 
 {% block scripts %}
 <script src="{{ url_for('static', filename='js/progress.js') }}"></script>
+<script src="{{ url_for('static', filename='js/imgGraphConnectors.js') }}"></script>
 {% endblock %}
