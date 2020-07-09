@@ -10,7 +10,7 @@ lastmod: 2019-12-27
 
 It is hard to unpack a Tarkovsky film. You take any thread, start pulling and it turns out to be the entire tapestry. Which is not to say that his movies are simple. Rather that everything is linked. The length of the thread is time and time ducks into itself.
 
-![andrei-rublev](/static/img/post-images/andrei-rublev/andrei-rublev-1.jpg)
+![andrei-rublev](/static/img/post-images/andrei-rublev/andrei-rublev-1.jpg#img-1)
 *frame from andrei rublev: the raising of the bell*
 
 After watching a film you leave with moments folded into each other: a composite. What you watched existed in time, but your reflections are necessarily condensed: a kind of emotional singularity.
@@ -31,7 +31,7 @@ It isn't the kind of scene that causes hearts to leap or armchairs to be knuckle
 
 Hitchcock famously connected suspense and dramatic irony: the audience "knowing more" than the film's characters. However, with Tarkovsky, we don't **know more** than characters, we only think we do. This is an important and powerful distinction that is essential to the unique brand of suspense that Tarkovsky create.
 
-![andrei-rublev](/static/img/post-images/andrei-rublev/andrei-rublev-2.jpg)
+![andrei-rublev](/static/img/post-images/andrei-rublev/andrei-rublev-2.jpg#img-2)
 *frame from andrei rublev: the ringing of the bell*
 
 Th final chapter of Tarkovsky's epic Andrei Rublev shows the medieval process for creating a church bell. A young boy, Boriska, is commisioned to make the bell. Tarkovsky foreshadows conflict and hints with Hollywood style suspense tropes:
@@ -67,6 +67,7 @@ But I think it remains essential to recognize that every film exists in "the cin
 
 After witnessing the horrors of a barbarian invasion, Rublev takes a vow of silence. At the end of the film, the vow is broken which as accompanied with a different but equally significant unmuting. The film, up to that point entirely in black and white, switches to color.
 
+![](#img-3)
 <p>
 <video controls>
     <source src="{{ url_for('static', filename='vid/post-videos/andrei-rublev/andrei-rublev.mp4')}}"
