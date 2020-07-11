@@ -3,6 +3,9 @@ const purgecss = require("@fullhuman/postcss-purgecss")({
   content: [
     "./templates/*.html",
     "./content/posts/*.md",
+    "./content/poetry/*.md",
+    "./content/fiction/*.md",
+    "./content/other/*.md",
     "blog.py",
     "./static/js/*.js",
     "./content/coding/notebooks/*.md",
