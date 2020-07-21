@@ -896,6 +896,10 @@ body {
 	padding: 0 .25rem;
 }
 
+.icon-menu__svg:hover {
+	stroke: var(--clr-acc);
+}
+
 @media (max-width: 600px) {
 	.nav-item__wrapper {
 		flex-direction: column;
@@ -1430,6 +1434,10 @@ img[src*='#block'] {
   font-size: var(--fs-l);
 }
 
+.post ul {
+	text-indent: 1.2rem;
+    list-style: disc;
+}
 
 .post .footnote-ref:before {
     display: block;

@@ -18,8 +18,13 @@ const drawImageLinks = (offset, removeElementsByClass) => {
   removeElementsByClass("connector");
 
   imgs = document.querySelectorAll('img[src*="img-"]');
-  console.log(imgs);
-  [...imgs].map((img, i) => {
+  let imgArray = [...imgs].sort(
+    (a, b) =>
+      a.src.split("#").pop().split("-").pop() -
+      b.src.split("#").pop().split("-").pop()
+  );
+  console.log(imgArray);
+  imgArray.map((img, i) => {
     let imgCircle = document.querySelector(`#img-${i + 1}`);
     let imgCircleWidth = imgCircle.getBoundingClientRect().width;
 

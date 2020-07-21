@@ -12,7 +12,7 @@ The film is 4 hours long. I watched it at the Brady Theater. When it was over, e
 
 I knew the general direction I needed to travel to get home, but Paris is full of sickle shaped streets: it took me an hour longer than it should have. All the while, I was stuck thinking about redemptive beauty.
 
-![an elephant sitting still]({{ url_for('static', filename='img/post-images/an-elephant-sitting-still/an-elephant-sitting-still.jpg')}})
+![an elephant sitting still](/static/img/post-images/an-elephant-sitting-still/an-elephant-sitting-still.jpg#img-1)
 *frame from an elephant sitting still: city through a rain-dampened windshield*
 
 ## Redemptive Beauty
@@ -35,7 +35,7 @@ Humor is also muted. The closest we get to a joke is when Huang Ling retroactive
 
 And characters don't rage against their circumstances, they simply persist. This is especially frustrating because the film piles on explosive, sudden events, what Justin Chang perfectly describes in his LA Times review as "a soap opera season’s worth of romantic indiscretions, sudden deaths, unfortunate accidents, provoked and unprovoked attacks"[^1].
 
-![an elephant sitting still]({{ url_for('static', filename='img/post-images/an-elephant-sitting-still/an-elephant-sitting-still-2.jpg')}})
+![an elephant sitting still](/static/img/post-images/an-elephant-sitting-still/an-elephant-sitting-still-2.jpg#img-3)
 *frame from an elephant sitting still: waiting for the bus to Manzhouli*
 
 These events lack their natural function: in the soap opera tradition they exist to incite strong emotional reactions, adding modulation to characters who otherwise would appear excedingly flat.
@@ -62,7 +62,7 @@ Blame is another aspect of *An Elephant Sitting Still* that fascinates me.
 
 Characters ceaselessly blame each other. Yu Cheng blames both his girlfriend and his ex for the death of his friend; and his parents blame him for the death of his brother.
 
-![an elephant sitting still]({{ url_for('static', filename='img/post-images/an-elephant-sitting-still/an-elephant-sitting-still-3.jpg')}})
+![an elephant sitting still](/static/img/post-images/an-elephant-sitting-still/an-elephant-sitting-still-3.jpg#img-2)
 *frame from an elephant sitting still: Yu Cheng blaming his ex*
 
 Wei Bu blames his friend for revealing his location to his parents, and a bully blames that same friend for the theft of a cellphone.
@@ -102,6 +102,6 @@ This dependence hurts music and film, but is also indicative of a greater relian
 ///Footnotes Go Here///
 [^1]: 1\. Justin Chang, *Review: ‘An Elephant Sitting Still,’ Hu Bo’s first and last feature, is a haunting dispatch from northern China*, LA Times.
 [^2]: 2\. I say this, but Wang Yuwen breaks this prescribed passivity by attacking her professor with a baseball bat.
-[^2]: 2\. Shakespeare, *Macbeth*, V.2.25-28.
+[^3]: 2\. Shakespeare, *Macbeth*, V.2.25-28.
 
 <hr />

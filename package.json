@@ -4,7 +4,7 @@
     "jquery": "^3.4.1"
   },
   "name": "dogsbody",
-  "version": "1.0.0",
+ "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "python3 app.py",
