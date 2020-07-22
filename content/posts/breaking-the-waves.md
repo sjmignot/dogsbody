@@ -11,14 +11,16 @@ draft: true
 
 What does a film leave you with? When the credits roll. When the screen goes black. When you have to find the remote, turn off the television, or get out of your seat and push through the large double door of the screening room. When you turn on the light or when the light goes on in the room.
 
-Do you want to go back? Do you wish that the film was still playing. Do you just sit, wherever you were sitting, and let it weigh on you. Do you look at whoever watched it with you? Look into their eyes and try to see whether they saw what you saw. 
+Do you want to go back? Do you wish that the film was still playing. Do you just sit, wherever you were sitting, and let it weigh on you. Do you look at whoever watched it with you, throwing in a funny quip? 
 
 Do you get back on with your life or do you feel like something irrevocable has happened, and if something has changed, are you still, waiting for it to sink in?
 
 ![frame from breaking the waves](/static/img/post-images/breaking-the-waves/1.jpg#img-1)
 *frame from breaking the waves*
 
-Breaking the Waves struck me. The film finished and I was still. I watched the credits, which had weird character highlights for each actor (the way some films from the 90's do). I was watching with my mom and godmother, so I couldn't just sit there staring at a blank screen. 
+Breaking the Waves struck me. The film finished and I was still. I watched the credits, which had weird character highlights for each actor (the way some films from the 90's do). 
+
+I was watching with my mom and godmother, so I couldn't just sit there staring at a blank screen. I got up and carried the tray with our teacups and teapot to the kitchen.
 
 Lars Von Trier has an uncompromising vision. When he has passion for his characters, his films are stunning. When he loses this, they are unbearable. 
 
@@ -26,22 +28,20 @@ Lars Von Trier has an uncompromising vision. When he has passion for his charact
 >
 > <cite>-- Lars von Trier[^1]</cite>
 
-Each of Trier's film is a balancing act between misanthropy and faith.
+Each of Trier's films is a balancing act between misanthropy and faith.
 
 ## Misanthropy 
 
-When Trier loses empathy, his films—despite stunning cinematography, technical prowess, impressive acting—fall flat. 
+When Trier loses empathy, his films—despite stunning cinematography, technical prowess, impressive acting—fall flat. This is what happens, and fails, in Antichrist and Dogville. The latter of which still managed to impress me, while the former I found too disturbing.
 
-A movie can be [immensely dark but still deeply and profoundly empathic](posts/an-elephant-sitting-still): this empathy can be a redeeming force. Trier's film Breaking the Waves falls into this category. 
+A movie can be [immensely dark but still deeply and profoundly empathic](posts/an-elephant-sitting-still): this empathy can be a redeeming force. Trier's film Breaking the Waves falls manages this balancing act. 
 
-And characters don't rage against their circumstances, they simply persist. This is especially frustrating because the film piles on explosive, sudden events, what Justin Chang perfectly describes in his LA Times review as "a soap opera season’s worth of romantic indiscretions, sudden deaths, unfortunate accidents, provoked and unprovoked attacks"[^1].
+Though, I think a majority of the empathy in the film results form Emily Watson's absolutely stunning performance[^1].
 
 ![frame from breaking the waves](/static/img/post-images/breaking-the-waves/2.jpg#img-2)
 *frame from breaking the waves*
 
-These events lack their natural function: in the soap opera tradition they exist to incite strong emotional reactions, adding modulation to characters who otherwise would appear excedingly flat.
 
-Instead, as disasters befall them, Bo's characters become more entrenched in who they are. Not inspired to act, but rather convinced that acting is meaningless[^2]. The persistence and transformation in *An Elephant Sitting Still* reminds me of *Macbeth*, specifically the "Tomorrow and Tomorrow and Tomorrow" soliloquy.
 
 > Life's but a walking shadow, a poor player,  
 > That struts and frets his hour upon the stage,  
@@ -64,7 +64,11 @@ It would be easy to misread Breaking the Waves as a blistering attack on faith. 
 ![frame from breaking the waves](/static/img/post-images/breaking-the-waves/3.jpg#img-3)
 *frame from breaking the waves*
 
-## Sound and music
+## Omniscient Documentary
+
+The cinematography in Breaking the Waves is deceitful. So why does it remain so damn effective. 
+
+Maybe the camera is another form of empathy in the film. Hoping to impact what is happening, but contrained to watching. 
 
 Although Bo's film is long, it is masterfully paced. Bo develops the same form of [slow suspense that Tarkovsky uses in Andrei Rublev](/post/andrei-rublev).
 
@@ -91,8 +95,8 @@ The film was made in 1940, but the writing is impeccable, the acting killer. Wit
 Yet, the most viewed version of the speech on Youtube is overlayed with Hans Zimmer's Time...
 
 This dependence hurts music and film, but is also indicative of a greater reliance on sound: silence is becomming less and less of an option. Silence is
-
+'b
 ///Footnotes Go Here///
-[^1]: 1\. Bell, Emma (21 October 2005). "Lars von Trier: Anti-American? Me?". The Independent. Retrieved 22 December 2018.
+[^1]: 1\. Literally one of the best performances I've ever seen. 
 [^2]: 2\. I say this, but Wang Yuwen breaks this prescribed passivity by attacking her professor with a baseball bat.
 <hr />
