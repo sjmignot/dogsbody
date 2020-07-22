@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "fontmin": "^0.9.8",
-    "jquery": "^3.4.1"
+    "jquery": "^3.5.0"
   },
   "name": "dogsbody",
  "version": "1.0.0",
