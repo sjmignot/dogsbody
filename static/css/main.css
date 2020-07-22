@@ -1334,6 +1334,7 @@ body {
 .filmgraph:not(:root) {
     width:100%;
     height: auto;
+	position: relative;
 }
 
 .post p {
