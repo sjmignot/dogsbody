@@ -102,6 +102,6 @@ This dependence hurts music and film, but is also indicative of a greater relian
 ///Footnotes Go Here///
 [^1]: 1\. Justin Chang, *Review: ‘An Elephant Sitting Still,’ Hu Bo’s first and last feature, is a haunting dispatch from northern China*, LA Times.
 [^2]: 2\. I say this, but Wang Yuwen breaks this prescribed passivity by attacking her professor with a baseball bat.
-[^3]: 2\. Shakespeare, *Macbeth*, V.2.25-28.
+[^3]: 3\. Shakespeare, *Macbeth*, V.2.25-28.
 
 <hr />
