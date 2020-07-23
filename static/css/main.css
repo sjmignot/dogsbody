@@ -728,6 +728,12 @@ h3 {
 }
 
 @font-face {
+  font-family: "IBMPlexMono";
+  src: url("../fonts/IBMPlexMono-Light.otf") format("opentype");
+  font-weight: 200;
+}
+
+@font-face {
 	font-family: "KlinicSlab";
 	src: url("../fonts/KlinicSlabBook.woff2") format("woff2");
 }
