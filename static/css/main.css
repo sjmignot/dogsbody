@@ -1030,7 +1030,7 @@ body {
 	margin: 0 auto;
 	z-index: -1;
 	position: absolute;
-	right: 0;
+	left: calc(100% - 14rem);
 	height: 100%;
 	top: 0;
 	bottom: 0;
