@@ -1,92 +1,80 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-@tailwind screens;
+/* GLOBAL SETTINGS*/
+
+* {
+	margin: 0;
+	color: black;
+	text-decoration: none;
+}
 
 html {
     min-height: 100%;
     display: flex;
+	font-family: "Lato"
 }
 
 body {
   flex: 1;
   counter-reset: figure;
+  background: #f7fafc;
+  padding-bottom: 2.5rem;
+  padding-top: 2.5rem;
 }
 
 ul {
- @apply list-disc;
+ list-style: disc;
+ margin: 0;
+ list-style-position: outside;
+ padding-left: 1.2rem;
 }
 
-.dot {
-  height: 8px;
-  width: 8px;
-  background-color: #fff;
-  border-radius: 50%;
-  display: inline-block;
+h1, h2, h3{
+	font-family: "Fira Sans";
+	font-weight: 100;
 }
 
-.unchecked {
-  color: white;
+h1 {
+	font-size: min(calc(7.3vw + .6rem), 100px);
+}
+
+h2 {
+	border-bottom: #cbd5e0 solid 2px;
+	margin-bottom: 1rem;
+	letter-spacing: 3px;
+}
+
+h3 {
+	margin-bottom: .25rem;
+	font-weight: 300;
+	color: #4a5568;
+}
+
+/* INSTANTIATE GRID */
+
+.resume {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows   : auto auto auto auto auto;
+  grid-template-areas:
+	  "name           name       accounts"
+	  "work           work       about"
+	  "work           work       education"
+	  "projects       projects   projects"
+	  "skills         skills     skills";
+  grid-gap: 5px;
+  width: min(1200px, 100%);
+  margin: 0 auto;
+
 }
 
 .grid-area {
-    @apply p-4;
-    /* border : 1px black solid; */
+	padding: 1rem;
 }
-
 
 .accounts {
   grid-area: accounts;
-  @apply pt-0 pb-0;
-}
-
-.resume {
-    display:grid;
-    grid-template-columns: 2fr 1fr;
-    grid-gap: 5px;
-    grid-template-areas:
-      "name name"
-      "accounts accounts"
-      "about about"
-      "education education"
-      "work work"
-      "projects projects"
-      "skills skills";
-}
-
-@screen sm {
-  .resume {
-      display:grid;
-      grid-template-columns: 2fr 1fr;
-      grid-gap: 5px;
-      grid-template-areas:
-        "name accounts"
-        "about about"
-        "education education"
-        "work work"
-        "projects projects"
-        "skills skills";
-  }
-  .accounts {
-    grid-area: accounts;
-    @apply px-4;
-  }
-}
-
-@screen md {
-  .resume {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      grid-template-rows   : auto auto auto auto auto;
-      /* box-shadow           : 0 5px 9px 0 rgba(0, 0, 0, 0.35); */
-      grid-template-areas:
-          "name           name       accounts"
-          "work           work       about"
-          "work           work       education"
-          "projects       projects   projects"
-          "skills         skills     skills";
-      grid-gap: 5px;
-  }
+  padding-top: 0;
+  padding-bottom: 0;
+  margin: auto 0 auto;
 }
 
 .name {
@@ -117,3 +105,215 @@ ul {
 .projects {
     grid-area: projects;
 }
+
+/* contacts */
+
+.contacts {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-right: 1rem;
+}
+
+.contact__label {
+	color: darkred;
+}
+
+.email-image {
+	margin-bottom: -6px;
+	height: 1.6rem;
+	opacity: 1;
+	transition: opacity 200ms ease-out;
+}
+
+.site-link__wrapper {
+	margin-top:  4px;
+}
+
+.site-link {
+	opacity: 1;
+	transition: opacity 200ms ease-out;
+}
+
+.email-image:hover, .site-link:hover{
+	opacity: .6
+}
+
+
+/* icons */
+
+.icons {
+	display: flex;
+	flex-direction: column;
+	vertical-align: center;
+}
+
+.icon {
+	padding-right: .5rem;
+}
+
+.icon__link {
+	display: flex;
+	align-items: center;
+	margin: .5rem;
+}
+
+/* jobs */
+
+.jobs, .projects {
+	display: flex;
+	flex-direction: column;
+}
+
+.job, .project {
+	display: flex;
+	flex-direction: row;
+	padding-bottom: 1rem;
+}
+
+.job-date, .project-date{
+	font-style: italic;
+	font-size: small;
+	margin-left: auto;
+}
+
+.project-focus {
+	font-style: italic;
+	font-size: small;
+	margin-left: auto;
+	font-family: "IBMPlexMono";
+	padding-right: 5px;
+}
+
+.project-link-wrapper {
+	display: inline;
+}
+
+.project-icon {
+	padding: 3px;
+	font-size:12px !important;
+	color: darkred;
+}
+
+.preview-icon {
+	padding: 0 10px;
+	color: darkred;
+}
+
+.fa {
+	opacity: 1;
+	transition: opacity 200ms ease-out;
+}
+
+.fa:hover {
+	opacity: .6;
+}
+
+/* skills */
+
+.skills-wrapper {
+	display: flex;
+}
+
+.skills-list__coding {
+	column-count: 2;
+	list-style: disc;
+}
+
+.coding-skills {
+	width: 66%;
+	margin-bottom: 1rem;
+}
+
+.coding-skill {
+	display: flex;
+}
+
+.skill-score {
+	width: 50%;
+	margin-left: auto;
+}
+
+/* media use */
+
+@media (min-width: 650px) and (max-width: 750px) {
+  h1 {
+    font-size: calc(6.6vw + .5rem)
+  }
+
+  .resume {
+      display:grid;
+      grid-template-columns: 2fr 1fr;
+      grid-gap: 5px;
+      grid-template-areas:
+        "name accounts"
+        "about about"
+        "education education"
+        "work work"
+        "projects projects"
+        "skills skills";
+  }
+  .accounts {
+    grid-area: accounts;
+	padding-left: 1rem;
+	padding-right: 1rem;
+  }
+  .container {
+    max-width: 640px;
+  }
+
+  .skills-list__coding {
+	column-count: 1;
+  }
+
+
+	.coding-skills {
+		width: 50%;
+	}
+}
+
+@media (max-width: 650px) {
+  h1 {
+    font-size: 12vw;
+	text-align: center;
+  }
+
+
+    .icons {
+	  flex-direction: row;
+	  justify-content: space-around;
+    }
+	.resume {
+		display:grid;
+		grid-template-columns: 2fr 1fr;
+		grid-gap: 5px;
+		grid-template-areas:
+		  "name name"
+		  "accounts accounts"
+		  "about about"
+		  "education education"
+		  "work work"
+		  "projects projects"
+		  "skills skills";
+	}
+
+    .skills-list__coding {
+      column-count: 1;
+    }
+
+	.skills-wrapper {
+		flex-direction: column;
+	}
+
+	.coding-skills {
+		width: 100%;
+	}
+}
+
+@media print
+{    
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}.

@@ -2,192 +2,150 @@
 <html lang="en-US">
 <head>
   <title>Samuel Mignot Resume</title>
-  <link rel="stylesheet" href="{{ url_for('static', filename='css/resume-output.css')}}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/resume.css')}}">
   <link href="https://fonts.googleapis.com/css?family=Fira+Sans:200,500&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" / >
   <meta name="description" content="Samuel Mignot Resume" />
   <meta name="robots" content="noindex" />
+  <script src="https://use.fontawesome.com/433440fc95.js"></script>
 </head>
-<body class="bg-gray-100 pt-10 pb-10">
-    <article class="pr-1 resume md:w-202 sm:px-8 md:mx-auto md:px-0">
-        <section class="grid-area name flex flex-row">
-          <div class="flex-1 flex-row sm:pr-2">
-            <div>
-              <h1 class="text-4xl text-center xs:text-6xl font-resumetitle font font-hairline whitespace-no-wrap">SAMUEL MIGNOT</h1>
-            </div>
-            <div class="mx-auto sm:mx-0 flex flex-row flex-wrap font-resumebody text-sm justify-around xl:justify-between">
-              <p class="text-right text-xs sm:text-sm"> (<span class="text-red">site</span>) <a href="/">samuelmignot.com</a></p>
-              <p class="sm:pr-3 text-xs sm:text-sm">
-                (<span class="text-red">email</span>)
-                <a href="#" class="cryptedmail"
-                   data-name="sjmignot"
-                   data-domain="gmail"
-                   data-tld="com"
-                   onclick="window.location.href = 'mailto:' + this.dataset.name + '@' + this.dataset.domain + '.' + this.dataset.tld; return false;"><img class="h-5 sm:h-6 inline -mt-1" src="{{url_for('static', filename='img/resume_email.png')}}"</img></a>
-              </p>
-            </div>
-          </div>
+<body> 
+    <article class="resume">
+
+      <section class="grid-area name">
+        <div>
+          <h1>SAMUEL MIGNOT</h1>
+        </div>
+        <div class="contacts">
+          <p class="site-link__wrapper"> (<span class="contact__label">site</span>) <a class="site-link" href="https://samuelmignot.com">samuelmignot.com</a></p>
+          <p class="email-link">
+            (<span class="contact__label">email</span>)
+            <a href="#" 
+			   class="cryptedmail"
+               data-name="sjmignot"
+               data-domain="gmail"
+               data-tld="com"
+               onclick="window.location.href = 'mailto:' + this.dataset.name + '@' + this.dataset.domain + '.' + this.dataset.tld; return false;">
+			<img class="email-image" src="{{url_for('static', filename='img/resume_email.png')}}"</img></a>
+         </p>
+        </div>
         </section>
+
         <section class="grid-area accounts">
-          <div class="sm:mx-0 icons flex-initial sm:w-1/6 flex-wrap xs:flex-no-wrap flex-row sm:flex-col flex justify-between sm:justify-center sm:pt-12 font-resumebody">
-            <div class="flex flex-row pb-2">
-              <a target="_blank" rel="noopener" class="flex" href="https://github.com/sjmignot">
-                <svg width="22" height="22" viewBox="0 0 33 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                  <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                  <path d="M0,16.29 C0,23.487 4.667,29.592 11.14,31.746 C11.955,31.896 12.252,31.393 12.252,30.961 C12.252,30.575 12.238,29.55 12.23,28.191 C7.699,29.175 6.743,26.007 6.743,26.007 C6.002,24.125 4.934,23.624 4.934,23.624 C3.455,22.614 5.046,22.634 5.046,22.634 C6.681,22.749 7.541,24.313 7.541,24.313 C8.994,26.802 11.354,26.083 12.282,25.666 C12.43,24.614 12.851,23.896 13.316,23.489 C9.699,23.078 5.896,21.68 5.896,15.438 C5.896,13.66 6.531,12.205 7.573,11.067 C7.405,10.655 6.846,8.998 7.733,6.756 C7.733,6.756 9.1,6.318 12.212,8.426 C13.511,8.064 14.905,7.884 16.29,7.877 C17.674,7.884 19.067,8.064 20.368,8.426 C23.478,6.318 24.843,6.756 24.843,6.756 C25.732,8.998 25.173,10.655 25.006,11.067 C26.05,12.205 26.68,13.66 26.68,15.438 C26.68,21.696 22.871,23.073 19.243,23.476 C19.827,23.979 20.348,24.973 20.348,26.493 C20.348,28.67 20.328,30.427 20.328,30.961 C20.328,31.397 20.622,31.904 21.448,31.745 C24.4543367,30.7414934 27.0707202,28.886355 29.0101618,26.4655696 C31.2433427,23.6781427 32.579,20.1407526 32.579,16.29 C32.579,7.293 25.285,0 16.288,0 C7.294,0 0,7.293 0,16.29 Z" id="Fill-4" fill="#161514"></path>
-                  </g>
-                </svg>
-              <p class="pl-1 text-xs my-auto"> github.com/sjmignot </p>
+          <div class="icons">
+              <a target="_blank" rel="noopener" class="icon__link" href="https://github.com/sjmignot">
+				  <i class="icon fa fa-lg fa-github" aria-hidden="true"></i>
+				  <p class="pl-1 text-xs my-auto"> github.com/sjmignot </p>
               </a>
-            </div>
-            <div class="flex flex-row pb-2">
-              <a target="_blank" rel="noopener" class="flex" href="https://www.linkedin.com/in/sjmignot">
-                <svg height="22" width="22" version="1.1" viewBox="0 0 50 50" width="50px" xmlns="http://www.w3.org/2000/svg" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" xmlns:xlink="http://www.w3.org/1999/xlink"><title/><defs/><g fill="none" fill-rule="evenodd" id="Page-1" stroke="none" stroke-width="1"><g fill="#000000" id="LinkedIn"><path d="M25,50 C38.8071194,50 50,38.8071194 50,25 C50,11.1928806 38.8071194,0 25,0 C11.1928806,0 0,11.1928806 0,25 C0,38.8071194 11.1928806,50 25,50 Z M25,47 C37.1502651,47 47,37.1502651 47,25 C47,12.8497349 37.1502651,3 25,3 C12.8497349,3 3,12.8497349 3,25 C3,37.1502651 12.8497349,47 25,47 Z M14,20.1180479 L14,34.6581834 L18.7100851,34.6581834 L18.7100851,20.1180479 L14,20.1180479 Z M16.6646962,13 C15.0534058,13 14,14.0858611 14,15.5115122 C14,16.9076331 15.0222711,18.0247614 16.6035556,18.0247614 L16.6336556,18.0247614 C18.2759867,18.0247614 19.2988222,16.9076331 19.2988222,15.5115122 C19.2682519,14.0858611 18.2759867,13 16.6646962,13 Z M30.5769213,20.1180479 C28.076176,20.1180479 26.9565501,21.5293199 26.3314108,22.5193527 L26.3314108,20.4598644 L21.6207614,20.4598644 C21.6828427,21.8242356 21.6207614,35 21.6207614,35 L26.3314108,35 L26.3314108,26.8795887 C26.3314108,26.445032 26.3619812,26.0115368 26.4865199,25.7004084 C26.826932,24.83226 27.6020069,23.9334233 28.9032674,23.9334233 C30.6083381,23.9334233 31.2899149,25.2667202 31.2899149,27.2206333 L31.2899149,34.999614 L35.9998119,34.999614 L36,26.6627446 C36,22.1966439 33.6763743,20.1180479 30.5769213,20.1180479 Z M30.5769213,20.1180479" id="Oval-1"/></g></g></svg>
-              <p class="pl-1 text-xs my-auto"> linkedin.com/in/sjmignot </p>
+              <a target="_blank" rel="noopener" class="icon__link" href="https://www.linkedin.com/in/sjmignot">
+				<i class="icon fa fa-lg fa-linkedin-square" aria-hidden="true"></i>
+				<p class="pl-1 text-xs my-auto"> linkedin.com/in/sjmignot </p>
               </a>
-            </div>
           </div>
         </section>
+
         <section class="grid-area about">
             <h2 class="border-gray-400 border-b-2 font-resumetitle text-sm mb-4"> ABOUT </h2>
-            <p class="font-resumebody text-xs"> Coder, writer, and artist with experience in technical writing, data analysis, web scraping, machine learning, and web design. Curious, driven, and constantly inspired to learn and create.</p>
+			<p class="font-resumebody text-xs"> {{resume.about}}</p>
         </section>
+
         <section class="grid-area work">
             <h2 class="border-gray-400 border-b-2 font-resumetitle text-sm mb-4"> WORK EXPERIENCE </h2>
-            <div class="flex flex-col jobs">
-              <div class="job flex flex-row pb-4">
-                <div class="flex-1 job-name-description w-5/6 pr-2">
-                  <h3 class="job-name font-resumetitle text-sm text-gray-700"> Technical Writer at Algolia </h3>
-                  <div class="job-description font-resumebody">
-                    <ul class="list-disc list-inside text-xs">
-                      <li> Migrated and rewrote documentation for Algolia's Shopify extension and Web Crawler.</li>
-                      <li> Edited and tested a new section for Algolia's documentation containing Solutions leveraging Algolia InstantSearch widgets.</li>
-                      <li> Contributed to Algolia's style writing guidelines, including the normalization of webheaders for clarity and SEO.</li>
-                      <li> Developed a test-driven approach to documentation that involved implementing Algolia features.</li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="job-date flex-0 w-1/6 font-resumebody italic text-xs">
-                  <p> 04.2019 - 04.2020</p>
-                </div>
-              </div>
-
-              <div class="job flex flex-row pb-0">
-                <div class="flex-1 job-name-description w-5/6 pr-2">
-                  <h3 class="job-name font-resumetitle text-sm text-gray-700">Research Intern at Stanford’s Center for Spatial and Textual Analysis</h3>
-                  <div class="job-description font-resumebody">
-                    <ul class="list-disc list-inside text-xs">
-                      <li> Worked on digital humanities projects with Stanford Faculty Members.</li>
-                      <li> Created a relational database for 18th Century Artists.</li>
-                      <li> Migrated data from an obsolete website to a new one.</li>
-                      <li> Scraped a digitized set of letters for geographic and temporal data and presented the data on a diachronic, digital map.</li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="job-date flex-0 w-1/6 font-resumebody italic text-xs">
-                  <p> 06.2016 - 09.2016 </p>
-                </div>
-              </div>
+            <div class="jobs">
+				{% for job in resume.jobs %}
+				  <div class="job">
+					<div class="job-name-description">
+						<h3 class="job-name"> {{job.title}}</h3>
+					  <div class="job-description">
+						<ul class="job-points">
+							{% for point in job.work %}
+								<li> {{point}} </li>
+							{% endfor %}
+						</ul>
+					  </div>
+					</div>
+					<div class="job-date">
+						<p> {{job.start_date}} - {{job.end_date}} </p>
+					</div>
+				  </div>
+              	</div>
+			{% endfor %}
             </div>
         </section>
+
         <section class="grid-area education">
-            <h2 class="border-gray-400 border-b-2 font-resumetitle text-sm mb-4"> EDUCATION </h2>
-            <h3 class="font-resumetitle text-sm text-gray-700"> Stanford University | Dec. 2018 </h3>
-            <p class="font-resumebody text-xs"> Bachelors of Science, Computer Science </p>
-            <p class="font-resumebody text-xs"> Bachelors of Arts, English, with Honors </p>
+            <h2> EDUCATION </h2>
+			{% for school in resume.education %}
+			<div class="school">
+				<h3>{{school.school}} | {{school.date}}</h3>
+				{% for degree in school.degrees%}
+				<p> {{degree}}</p>
+				{% endfor %}
+			</div>
+			{% endfor %}
         </section>
-        <section class="grid-area projects">
-            <h2 class="border-gray-400 border-b-2 font-resumetitle text-sm mb-4"> PROJECTS </h2>
-            <div class="projects flex flex-col">
-              <div class="project flex flex-row pb-4">
-                <div class="flex-1 job-name-description w-5/6 pr-2">
-                  <h3 class="project-name font-resumetitle text-sm text-gray-700"> Sceance: Movie showtime automation <small class="italic font-base">(webscraping, selenium, python)</small></h3>
-                  <div class="job-description font-resumebody">
-                    <ul class="list-disc list-inside text-xs">
-                      <li> Created a python CLI program that takes a set of favorite movie theaters and suggests movie showtimes. </li>
-                      <li> Used selenium and the requests library to scrape movie showtime information from the web. </li>
-                      <li> Interfaced with the Google Calendar API to add showtime events directly to a google calendar.</li>
-                      <li> Packaged the project with documentation, licensing and requirements, making it directly available on pypi.com.
-                    </ul>
-                  </div>
-                </div>
-                <div class="job-date flex-0 w-1/6 font-resumebody italic text-xs">
-                  <p> 10.2019 - present</p>
-                </div>
-              </div>
 
-              <div class="project flex flex-row pb-4">
-                <div class="flex-1 job-name-description w-5/6 pr-2">
-                  <h3 class="project-name font-resumetitle text-sm text-gray-700"> Dogsbody: An online art review <small class="italic font-base">(webdesign, writing)</small></h3>
-                  <div class="job-description font-resumebody">
-                    <ul class="list-disc list-inside text-xs">
-                      <li> Prototyped the site using Sketch and principles of design thinking. Used a Flask and Tailwind stack (and hosted the site on Github Pages). </li>
-                      <li> Optimized site performance with Flask-Flatpages, gulp, and postcss.</li>
-                      <li> Added custom markdown parsing for responsive images and heading anchors. </li>
-                      <li> Wrote original content on film, painting, literature, and music. </li>
+        <section class="grid-area projects">
+            <h2> PROJECTS </h2>
+            <div class="projects">
+			  {% for project in resume.projects %}
+              <div class="project">
+                <div class="project-name-description">
+					<h3 class="project-name"> {{project.title}} <small class="project-focus">({{project.focus}})</small> 
+					<div class="project-link-wrapper">
+					{% if project.site %}
+					<a target="_blank" rel="noopener" href={{project.site}} <i class="no-print fa fa-link project-icon" aria-hidden="true"></i></a>
+					{% endif %}
+					{% if project.code%}
+					<a target="_blank" rel="noopener" href={{project.code}}><i class="no-print fa fa-code project-icon" aria-hidden="true"></i></a>
+					{% endif %}
+					</div>
+					</h3>
+                  <div class="project-description">
+                    <ul>
+						{% for point in project.work %}
+							<li> {{point.text}}
+							{% if point.preview %}
+								<a target="_blank" rel="noopener" href={{point.preview}}>
+									<i class="no-print preview-icon fa fa-eye" aria-hidden="true"></i>
+								</a>
+							</li>
+							{% endif %}
+						{% endfor %}
                     </ul>
                   </div>
                 </div>
-                <div class="job-date flex-0 w-1/6 font-resumebody italic text-xs">
-                  <p> 06.2018 - present</p>
+                <div class="project-date">
+					<p> {{project.start_date}} - {{project.end_date}}</p>
                 </div>
               </div>
-            </div>
-              <div class="project flex flex-row pb-0">
-                <div class="flex-1 job-name-description w-5/6 pr-2">
-                  <h3 class="project-name font-resumetitle text-sm text-gray-700"> Poetry feature identification with Convolutional-LSTMs <small class="italic font-base">(machine learning, academic writing, natural language processing)</small></h3>
-                  <div class="job-description font-resumebody">
-                    <ul class="list-disc list-inside text-xs">
-                      <li> Collected a diverse, balanced, and annotated poem dataset with python webscraping scripts. </li>
-                      <li> Created feature prediction models for perceived gender identity and time period with scikit and Tensorflow.
-                      <li> Complexity of models ranged from Naïve Bayes to a Convolutional-LSTM. </li>
-                      <li> Created a poster for the project and presented the results at a poster fair. </li>
-                      <li> Improved prediction accuracy with phonetic preprocessing. </li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="job-date flex-0 w-1/6 font-resumebody italic text-xs">
-                  <p> 04.2017 – 07.2017</p>
-                </div>
-              </div>
+			  {% endfor %}
             </div>
         </section>
+
         <section class="grid-area skills">
-            <h2 class="border-gray-400 border-b-2 font-resumetitle text-sm mb-4"> SKILLS </h2>
-            <div class="flex flex-row flex-wrap">
-              <div class="coding-skills w-full sm:w-1/3 mb-4">
-                <h3 class="job-name font-resumetitle text-sm text-gray-700">Coding</h3>
-                  <ul class="list-disc list-inside text-xs font-resumebody">
-                    <div class="skill flex mb-1"><li class="w-1/2"> Python </li><span>o o o o</span></div>
-                    <div class="skill flex mb-1"><li class="w-1/2"> C/C++ </li><span>o o</span></div>
-                    <div class="skill flex mb-1"><li class="w-1/2"> SQL/SQLAlchemy</li><span>o o o</span></div>
-                    <div class="skill flex mb-1"><li class="w-1/2"> sklearn/Tensorflow </li><span>o o o</span></div>
-                    <div class="skill flex mb-1"><li class="w-1/2"> JavaScript </li><span>o o o</span></div>
-                    <div class="skill flex mb-1"><li class="w-1/2"> CSS </li><span>o o o</span></div>
-                    <div class="skill flex mb-1"><li class="w-1/2"> React </li><span>o o</span></div>
-                  </ul>
-                </div>
-              <div class="framework-skills w-full sm:w-1/3 mb-4">
-                <h3 class="job-name font-resumetitle text-sm text-gray-700 pb-6"> </h3>
-                  <ul class="list-disc list-inside text-xs font-resumebody">
-                    <div class="skill flex mb-1"><li class="w-1/2"> Flask </li><span>o o o o</span></div>
-                    <div class="skill flex mb-1"><li class="w-1/2"> Django </li><span>o o o</span></div>
-                    <div class="skill flex mb-1"><li class="w-1/2"> Selenium </li><span>o o o</span></div>
-                    <div class="skill flex mb-1"><li class="w-1/2"> Github </li><span>o o o o</span></div>
-                    <div class="skill flex mb-1"><li class="w-1/2"> D3 </li><span>o o</span></div>
-                    <div class="skill flex mb-1"><li class="w-1/2"> Tailwind.css </li><span>o o o</span></div>
-                  </ul>
-                </div>
-              <div class="other-skills w-full sm:w-1/3 mb-4">
-                <h3 class="job-name font-resumetitle text-sm text-gray-700"> Language and Writing</h3>
-                  <ul class="text-xs list-inside font-resumebody">
-                    <li class="mb-1"> Techincal writing </li>
-                    <li class="mb-1"> API documentation </li>
-                    <li class="mb-1"> Art review and analysis </li>
-                    <li class="mb-1"> French (spoken and written)</li>
-                    <li class="mb-1"> Copy editing </li>
+            <h2> SKILLS </h2>
+            <div class="skills-wrapper">
+              <div class="coding-skills">
+                <h3>Coding</h3>
+                <ul class="skills-list skills-list__coding">
+				  {% for skill in resume.skills.coding %}
+				  <div class="coding-skill">
+					  <li class="skill"> {{skill.skill}} </li>
+					  <span class="skill-score">{{skill.score*"\u25A1 "}}
+					  </span>
+				  </div>
+				  {% endfor %}
+                </ul>
+              </div>
+			  <div class="other-skills"> 
+                <h3> Language and Writing</h3>
+                  <ul class="skills-list">
+					  {% for skill in resume.skills.other %}
+					    <li> {{skill.skill}}</li>
+					  {% endfor %}
                   </ul>
                 </div>
               </div>

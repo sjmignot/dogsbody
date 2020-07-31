@@ -9,16 +9,16 @@ director: Lars Von Trier
 draft: true
 # --
 
-What does a film leave you with? When the credits roll. When the screen goes black. When you have to find the remote, turn off the television, or get out of your seat and push through the large double door of the screening room. When you turn on the light or when the light goes on in the room.
+What does a film leave you with? When the credits roll. When the screen goes black. When you have to find the remote, turn off the television, get out of your seat and push through the large double door of the screening room. When you turn on the light or when the light goes on in the room.
 
-Do you want to go back? Do you wish that the film was still playing. Do you just sit, wherever you were sitting, and let it weigh on you. Do you look at whoever watched it with you, throwing in a funny quip? 
+Do you want to go back? Do you wish that the film was still playing. Do you just sit, wherever you were sitting, and let it weigh on you. Do you look at whoever watched it with you, and toss a funny quip? 
 
 Do you get back on with your life or do you feel like something irrevocable has happened, and if something has changed, are you still, waiting for it to sink in?
 
 ![frame from breaking the waves](/static/img/post-images/breaking-the-waves/1.jpg#img-1)
 *frame from breaking the waves*
 
-Breaking the Waves struck me. The film finished and I was still. I watched the credits, which had weird character highlights for each actor (the way some films from the 90's do). 
+Breaking the Waves struck me. The film finished. I watched the credits, which, at least at the beginning, had weird character highlights for each actor (the way some films from the 90's do). 
 
 I was watching with my mom and godmother, so I couldn't just sit there staring at a blank screen. I got up and carried the tray with our teacups and teapot to the kitchen.
 
@@ -40,8 +40,6 @@ Though, I think a majority of the empathy in the film results form Emily Watson'
 
 ![frame from breaking the waves](/static/img/post-images/breaking-the-waves/2.jpg#img-2)
 *frame from breaking the waves*
-
-
 
 > Life's but a walking shadow, a poor player,  
 > That struts and frets his hour upon the stage,  

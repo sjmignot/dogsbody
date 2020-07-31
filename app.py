@@ -247,7 +247,10 @@ def about():
 
 @app.route("/about/resume/")
 def resume():
-    return render_template('resume.html')
+    path = '{}/{}'.format(OTHER_DIR, 'resume')
+    resume = flatpages.get_or_404(path)
+
+    return render_template('resume.html', resume=resume)
 
 
 @app.route('/projects/<category>/<name>/')
