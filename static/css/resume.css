@@ -156,6 +156,12 @@ h3 {
 	display: flex;
 	align-items: center;
 	margin: .5rem;
+	opacity: 1;
+	transition: opacity 200ms ease-out;
+}
+
+.icon__link:hover {
+	opacity: .6;
 }
 
 /* jobs */

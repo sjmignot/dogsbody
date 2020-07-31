@@ -32,7 +32,6 @@ projects:
       focus: data analytics, pandas 
       site: https://bluebonnetdata.com
       work: 
-        - text: Selected as a Bluebonnet fellow.
         - text: Using python and data anlytics to empower downballot democratic campaigns. 
     - title: "Artist site for Servane Briand"
       start_date: "05.2020"
