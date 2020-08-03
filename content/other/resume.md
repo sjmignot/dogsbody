@@ -102,9 +102,12 @@ skills:
        score: 2
      - skill: D3
        score: 3
+     - skill: Pandas/Geopandas
+       score: 4
     other: 
      - skill: Techincal writing
      - skill: API documentation
+     - skill: GIS
      - skill: Content Writing
      - skill: French (Spoken and written)
      - skill: Copy Editing

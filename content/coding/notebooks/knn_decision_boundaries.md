@@ -1,7 +1,7 @@
-title: "Plotting Decision Boundaries with mlxtend"
-details: "Using mlxtend to plot decision boundaries for a knn classifier."
-date: 2020-05-15
-lastmod: 2020-05-15
+title: "Plotting KNN decision regions"
+details: "Using sklearn and mlxtend to plot decision regions"
+date: 2020-02-25
+lastmod: 2020-02-25
 
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
@@ -104,6 +104,11 @@ lastmod: 2020-05-15
     <div class="prompt"></div>
 
 
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>/Users/samuelmignot/.pyenv/versions/3.8.0/lib/python3.8/site-packages/mlxtend/plotting/decision_regions.py:249: MatplotlibDeprecationWarning: Passing unsupported keyword arguments to axis() will raise a TypeError in 3.3.
+  ax.axis(xmin=xx.min(), xmax=xx.max(), y_min=yy.min(), y_max=yy.max())
+</pre>
+</div>
 </div>
 
 <div class="output_area">
@@ -3852,3 +3857,18 @@ z
 </div>
 
 </div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+</div>
+ 
+
